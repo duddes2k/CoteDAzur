@@ -106,17 +106,9 @@
                     <div class="col-lg-8 d-none d-xl-block">
                         <nav class="mainmenu alignright">
                             <ul>
-                                <li class="active"><a href="/">Home</a></li>
-                                <li><a href="#about-area">About</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="#">Cars</a>
-                                    <ul>
-                                        <li><a href="car-left-sidebar.html">Car Left Sidebar</a></li>
-                                        <li><a href="car-right-sidebar.html">Car Right Sidebar</a></li>
-                                        <li><a href="car-without-sidebar.html">Car Without Sidebar</a></li>
-                                        <li><a href="car-details.html">Car Details</a></li>
-                                    </ul>
-                                </li>
+                                <li class="active sliding-link"><a href="/">Home</a></li>
+                                <li><a class="sliding-link" href="#about-area">About</a></li>
+                                <li><a class="sliding-link" href="#service-area">services</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>

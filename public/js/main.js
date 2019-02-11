@@ -143,6 +143,13 @@
             );
         }); //Scroll TOP End
 
+        // Click anchor link
+        $(".sliding-link").click(function(e) {
+            e.preventDefault();
+            var aid = $(this).attr("href");
+            $("html,body").animate({ scrollTop: $(aid).offset().top }, "slow");
+        });
+
         // SlickNav or Mobile Menu
         $(".mainmenu").slicknav({
             label: "",

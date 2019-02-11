@@ -675,7 +675,7 @@ a.slicknav_btn {
 /*== Fun Fact Area CSS Start ==*/
 
 #funfact-area {
-	background-image: url(assets/img/funfact-bg.jpg);
+	background-image: url(/img/funfact-bg.jpg);
 	background-size: cover;
 	background-position: center center;
 	color: #fff;
@@ -1015,7 +1015,7 @@ a.slicknav_btn {
 /*== Pricing Area CSS Start ==*/
 
 #pricing-area {
-	background-image: url(assets/img/pricing-bg.jpg);
+	background-image: url(/img/pricing-bg.jpg);
 	background-size: cover;
 	background-position: center center;
 }
@@ -1140,7 +1140,7 @@ a.slicknav_btn {
 }
 
 #mobile-app-area::after {
-	background-image: url("assets/img/mobile-app.png");
+	background-image: url("/img/mobile-app.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1663,7 +1663,7 @@ body,
 }
 
 .book-ur-car select.custom-select {
-	background-image: url("assets/img/caret-cion.png");
+	background-image: url("/img/caret-cion.png");
 	background-position: right 12px center;
 	background-size: 12px auto;
 }
@@ -1888,15 +1888,15 @@ body,
 /*== Slider Area CSS ==*/
 
 .slider-bg-1 {
-	background-image: url("assets/img/slider-img/slider-img-4.jpg");
+	background-image: url("/img/slider-img/slider-img-4.jpg");
 }
 
 .slider-bg-2 {
-	background-image: url("assets/img/slider-img/slider-img-2.jpg");
+	background-image: url("/img/slider-img/slider-img-2.jpg");
 }
 
 .slider-bg-3 {
-	background-image: url("assets/img/slider-img/slider-img-3.jpg");
+	background-image: url("/img/slider-img/slider-img-3.jpg");
 }
 
 .home-slider-item {
