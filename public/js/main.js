@@ -167,16 +167,16 @@
             animationDuration: 20000,
             slides: [
                 {
-                    src: "/img/slider-img/slider-img-1.jpg"
+                    src: "/img/slider-img/slider-img-9.jpg"
                 },
                 {
-                    src: "/img/slider-img/slider-img-2.jpg"
+                    src: "/img/slider-img/slider-img-5.png"
                 },
                 {
-                    src: "/img/slider-img/slider-img-3.jpg"
+                    src: "/img/slider-img/slider-img-7.jpg"
                 },
                 {
-                    src: "/img/slider-img/slider-img-4.jpg"
+                    src: "/img/slider-img/slider-img-8.jpg"
                 }
             ]
         }); //Home Page Two Slideshow

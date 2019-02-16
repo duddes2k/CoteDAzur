@@ -59,29 +59,26 @@
                 <div class="row">
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-left">
-                        <i class="fa fa-map-marker"></i> 802/2, Mirpur, Dhaka
+                        <i class="fa fa-map-marker"></i> Cannes, France
                     </div>
                     <!--== Single HeaderTop End ==-->
 
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-center">
-                        <i class="fa fa-mobile"></i> +1 800 345 678
+                        <i class="fa fa-mobile"></i> +63-917-522-9797
                     </div>
                     <!--== Single HeaderTop End ==-->
 
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-center">
-                        <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00
+                        <i class="fa fa-clock-o"></i> Mon-Sat 09.00 - 17.00
                     </div>
                     <!--== Single HeaderTop End ==-->
 
                     <!--== Social Icons Start ==-->
                     <div class="col-lg-3 text-right">
                         <div class="header-social-icons">
-                            <a href="#"><i class="fa fa-behance"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            
                         </div>
                     </div>
                     <!--== Social Icons End ==-->
@@ -97,7 +94,8 @@
                     <!--== Logo Start ==-->
                     <div class="col-lg-4">
                         <a href="/" class="logo">
-                            <img src="{{ asset('/img/logo.png') }}" alt="JSOFT">
+                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
+                            <h5 class="bizname">Cannes Luxury Rental</h5>
                         </a>
                     </div>
                     <!--== Logo End ==-->
@@ -109,7 +107,7 @@
                                 <li class="active sliding-link"><a href="/">Home</a></li>
                                 <li><a class="sliding-link" href="#about-area">About</a></li>
                                 <li><a class="sliding-link" href="#service-area">services</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -134,15 +132,17 @@
                         <div class="single-footer-widget">
                             <h2>About Us</h2>
                             <div class="widget-body">
-                                <img src="{{ asset('/img/logo.png') }}" alt="JSOFT">
-                                <p>Lorem ipsum dolored is a sit ameted consectetur adipisicing elit. Nobis magni assumenda distinctio debitis, eum fuga fugiat error reiciendis.</p>
+                                <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
+                                <h5 class="bizname">Cannes Luxury Rental</h5>
+                                
+                                <p>We offer Super Luxury Yacht to discover the beautiful French Riviera beach of Cannes or drive our luxurious Rolls Royce around the city or enjoying the sea breeze of French Riviera while sailing around whith our beautiful Vandutch Speedboat.</p>
 
-                                <div class="newsletter-area">
+                                <!-- <div class="newsletter-area">
                                     <form action="index.html">
                                         <input type="email" placeholder="Subscribe Our Newsletter">
                                         <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>
                                     </form>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
@@ -152,35 +152,36 @@
                     <!-- Single Footer Widget Start -->
                     <div class="col-lg-4 col-md-6">
                         <div class="single-footer-widget">
-                            <h2>Recent Posts</h2>
+                            <h2>SEND US YOUR INQUERY</h2>
                             <div class="widget-body">
-                                <ul class="recent-post">
-                                    <li>
-                                        <a href="#">
-                                           Hello Bangladesh! 
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                          Lorem ipsum dolor sit amet
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           Hello Bangladesh! 
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            consectetur adipisicing elit?
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                </ul>
+                                <form action="index.html">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="name-input">
+                                                <input type="text" placeholder="Full Name">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="email-input">
+                                                <input type="email" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="message-input">
+                                                <textarea name="review" cols="42" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <div class="input-submit">
+                                        <button type="submit">Submit Message</button>
+                                    </div>
+                                </form>
                             </div>
+
                         </div>
                     </div>
                     <!-- Single Footer Widget End -->
@@ -190,12 +191,12 @@
                         <div class="single-footer-widget">
                             <h2>get touch</h2>
                             <div class="widget-body">
-                                <p>Lorem ipsum doloer sited amet, consectetur adipisicing elit. nibh auguea, scelerisque sed</p>
+                                <p>We're looking forward to hearing from you!</p>
 
                                 <ul class="get-touch">
-                                    <li><i class="fa fa-map-marker"></i> 800/8, Kazipara, Dhaka</li>
-                                    <li><i class="fa fa-mobile"></i> +880 01 86 25 72 43</li>
-                                    <li><i class="fa fa-envelope"></i> kazukamdu83@gmail.com</li>
+                                    <li><i class="fa fa-map-marker"></i> Cannes, France</li>
+                                    <li><i class="fa fa-mobile"></i> +63-917-522-9797</li>
+                                    <li><i class="fa fa-envelope"></i> aernout@pldtdsl.net</li>
                                 </ul>
                                 <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Show Location</a>
                             </div>
@@ -213,7 +214,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 </p>
                     </div>
                 </div>
