@@ -45,7 +45,6 @@ class SendMailable extends Mailable
         $subject = 'Rental Inquiry';
 
         return $this->view('email.inquiry')
-                    ->from($address, $name)
                     ->replyTo($address, $name)
                     ->subject($subject);
     }
