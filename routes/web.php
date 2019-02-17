@@ -32,8 +32,12 @@ Route::get('/aboutus', function () {
     return view('about');
 });
 
+Route::get('/thankyou', function () {
+    return view('thankyou');
+});
+
 //Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/reservation', 'ReservationController@index')->name('reservation');
-Route::post('/reservation/send', 'ReservationController@sendMail')->name('reservation.sendmail');
+Route::post('/reservation/send', 'ReservationController@mailInquery')->name('reservation.sendmail');

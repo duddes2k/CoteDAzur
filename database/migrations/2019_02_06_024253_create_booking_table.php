@@ -17,7 +17,9 @@ class CreateBookingTable extends Migration
             $table->increments('id');
 
             $table->unsignedInteger('service_id');
-            $table->foreign('service_id')->references('id')->on('bookings');
+            $table->foreign('service_id')
+                    ->references('id')
+                    ->on('bookings');
 
             $table->date('departure_date');
             $table->string('departure_time', 25);

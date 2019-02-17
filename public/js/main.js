@@ -213,6 +213,7 @@
             today: ""
         });
 
+        // Home: submit request a quote form
         $("#submit-request").on("click", function(e) {
             e.preventDefault();
 
@@ -230,6 +231,54 @@
                 alert("Please complete the form before submitting.");
             } else {
                 $("#request_quote").submit();
+            }
+        });
+
+        // Reservation: submit reservation request
+        $("#submitReservation").on("click", function(e) {
+            e.preventDefault();
+
+            var error = 0;
+
+            var pickdate = $("#pickdate").val();
+            var returndate = $("#returndate").val();
+            var rental = $("#rental").val();
+            var duration = $("#duration").val();
+            var total = $("#total").val();
+
+            var firstname = $("#firstname").val();
+            var lastname = $("#lastname").val();
+            var email = $("#email").val();
+            var phone = $("#phone").val();
+            var info = $("#info").val();
+
+            if (pickdate == "") error++;
+            if (returndate == "") error++;
+            if (rental == "") error++;
+            if (duration == "") error++;
+            if (total == "") error++;
+
+            if (firstname == "") error++;
+            if (lastname == "") error++;
+            if (email == "") error++;
+            if (phone == "") error++;
+
+            console.log(pickdate);
+            console.log(returndate);
+            console.log(rental);
+            console.log(duration);
+            console.log(total);
+
+            console.log(firstname);
+            console.log(lastname);
+            console.log(email);
+            console.log(phone);
+
+            console.log(error);
+            if (error > 0) {
+                alert("Please complete the form before submitting.");
+            } else {
+                $("#client_info").submit();
             }
         });
 

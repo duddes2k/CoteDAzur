@@ -48,7 +48,7 @@
     <div class="preloader">
         <div class="preloader-spinner">
             <div class="loader-content">
-                <img src="{{ asset('/img/preloader.gif') }}" alt="JSOFT">
+                <img src="{{ asset('/img/preloader2.gif') }}" alt="JSOFT">
             </div>
         </div>
     </div>
@@ -70,7 +70,7 @@
                                 <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
                                 <h5 class="bizname">Cannes Luxury Rental</h5>
                                 
-                                <p>We offer Super Luxury Yacht to discover the beautiful French Riviera beach of Cannes or drive our luxurious Rolls Royce around the city or enjoying the sea breeze of French Riviera while sailing around whith our beautiful Vandutch Speedboat.</p>
+                                <p>We offer Luxurious SuperYacht to discover the beautiful French Riviera beach of Cannes or drive our luxurious Rolls Royce around the city or enjoying the sea breeze of French Riviera while sailing around whith our beautiful Vandutch Speedboat.</p>
 
                                 <!-- <div class="newsletter-area">
                                     <form action="index.html">

@@ -88,22 +88,28 @@
                         <div class="review-area">
                                 
                                 <div class="review-form">
-                                    <form action="{{ route('reservation.sendmail') }}" method="POST">
+                                    <form action="{{ route('reservation.sendmail') }}" method="POST" id="client_info">
                                         @csrf
-                                        
+
+                                        <input type="hidden" id="rental" name="rental" value="{{ strtoupper($rental) }}"/>
+                                        <input type="hidden" id="pickdate" name="pickdate" value="{{ $pickdate }}"/>
+                                        <input type="hidden" id="returndate" name="returndate" value="{{ $returndate  }}"/>
+                                        <input type="hidden" id="duration" name="duration" value="{{ $duration }}"/>
+                                        <input type="hidden" id="total" name="total" value="{{ $total }}"/>
+
                                         <div class="mt-4 mb-4"><h3>Your Information</h3></div>
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="name-input">
                                                     <label>First Name</label>
-                                                    <input type="text" name="firstname">
+                                                    <input type="text" id="firstname" name="firstname" class="required">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="email-input">
                                                     <label>Last Name</label>
-                                                    <input type="email" name="lastname">
+                                                    <input type="email" id="lastname" name="lastname" class="required">
                                                 </div>
                                             </div>
                                         </div>
@@ -111,25 +117,25 @@
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="name-input">
                                                     <label>Email Address</label>
-                                                    <input type="text" name="email">
+                                                    <input type="text" id="email" name="email" class="required">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="email-input">
                                                     <label>Phone</label>
-                                                    <input type="email" name="phone">
+                                                    <input type="email" id="phone" name="phone" class="required">
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="message-input">
                                             <label>Additional Information</label>
-                                            <textarea name="review" cols="30" rows="5" name="additional_info"></textarea>
+                                            <textarea name="review" cols="30" rows="5" name="info" id="info"></textarea>
                                         </div>
 
                                         <div class="input-submit">
-                                            <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                                            <button type="submit" class="btn btn-lg btn-primary" id="submitReservation">Submit</button>
                                         </div>
                                     </form>
                                 </div>
@@ -163,10 +169,10 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Duration</th>
-                                                    <td>{{ $days }} Days</td>
+                                                    <td>{{ $duration }} Day(s)</td>
                                                 </tr>
                                             </table>
-                                            <h3>Total: $3,500</h3>
+                                            <h3>Total: ${{ number_format($total,2) }}</h3>
                                         </div>
                                     </div>
                                 </div>
