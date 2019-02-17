@@ -170,13 +170,16 @@
                     src: "/img/slider-img/slider-img-9.jpg"
                 },
                 {
-                    src: "/img/slider-img/slider-img-5.png"
+                    src:
+                        "https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=1233&height=868&cropmode=none"
                 },
                 {
-                    src: "/img/slider-img/slider-img-7.jpg"
+                    src:
+                        "https://upn3pw.ch.files.1drv.com/y4mZs5ZDPrZvBAo5LFREH7Z6BpzGeooBGCdK29rbr9E9miZoqgnjjv7JdLnIfbVjQXjtcpDTpAp5efgvazmifq-HpX_RgmPP-8OGsTNEEfiMw412yMm9TI_hquxNPR7akG12MMi_LgmUlG2rj-_7kgaxQ1W8I3NbvThnlzbX7qfl_NN7pFNM4_w9GzAiWmabruTQirlBEOOc7jo3cjLcA1zRQ?width=4608&height=3072&cropmode=none"
                 },
                 {
-                    src: "/img/slider-img/slider-img-8.jpg"
+                    src:
+                        "https://7l2mkq.ch.files.1drv.com/y4mDieMO4lgaXU_FJLLzj3OWwa-q_0cvybEDpGO-xJ0jmlrcfUjSnxbHbojYNVhMJiC-wc8Nq-pun_pQdP6tqvuwnv41D7T6HYnF3SIqzfW0Yce7jMA1Xbgqtx5JUiGqKIkDUdR48bbu_qR6PmqN3LNTBu0DkRyJtgdcFpOfiRlKnmZ6Z-ASitH5xP3xx4jNIFNXXJ1Up-epWCf6AW3YkH97w?width=2000&height=1500&cropmode=none"
                 }
             ]
         }); //Home Page Two Slideshow
@@ -263,18 +266,6 @@
             if (email == "") error++;
             if (phone == "") error++;
 
-            console.log(pickdate);
-            console.log(returndate);
-            console.log(rental);
-            console.log(duration);
-            console.log(total);
-
-            console.log(firstname);
-            console.log(lastname);
-            console.log(email);
-            console.log(phone);
-
-            console.log(error);
             if (error > 0) {
                 alert("Please complete the form before submitting.");
             } else {
