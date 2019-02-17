@@ -15,6 +15,25 @@ Route::get('/', function () {
     return view('home');
 });
 
-Auth::routes();
+Route::get('/rental/yacht', function () {
+    return view('yacht');
+});
+
+Route::get('/rental/car', function () {
+    return view('car');
+});
+
+Route::get('/rental/speedboat', function () {
+    return view('boat');
+});
+
+
+Route::get('/aboutus', function () {
+    return view('about');
+});
+
+//Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/reservation', 'ReservationController@index')->name('reservation');
+Route::post('/reservation/send', 'ReservationController@sendMail')->name('reservation.sendmail');

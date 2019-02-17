@@ -16,8 +16,8 @@ class CreateClientTable extends Migration
         Schema::create('clients', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->unsignedInteger('bookings_id');
-            $table->foreign('bookings_id')->references('id')->on('bookings');
+            $table->unsignedInteger('booking_id');
+            $table->foreign('booking_id')->references('id')->on('bookings');
 
             $table->string('first_name', 50);
             $table->string('last_name', 50);

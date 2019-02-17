@@ -31,6 +31,9 @@
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
     <!--=== Responsive CSS ===-->
     <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
+    <!--=== PickADate ===-->
+    <link href="{{ asset('/js/plugins/pickadate/themes/default.date.css') }}" rel="stylesheet">
+    <link href="{{ asset('/js/plugins/pickadate/themes/default.css') }}" rel="stylesheet">
 
 
     <!--[if lt IE 9]>
@@ -51,74 +54,6 @@
     </div>
     <!--== Preloader Area End ==-->
 
-    <!--== Header Area Start ==-->
-    <header id="header-area" class="fixed-top">
-        <!--== Header Top Start ==-->
-        <div id="header-top" class="d-none d-xl-block">
-            <div class="container">
-                <div class="row">
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-left">
-                        <i class="fa fa-map-marker"></i> Cannes, France
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-center">
-                        <i class="fa fa-mobile"></i> +63-917-522-9797
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-center">
-                        <i class="fa fa-clock-o"></i> Mon-Sat 09.00 - 17.00
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Social Icons Start ==-->
-                    <div class="col-lg-3 text-right">
-                        <div class="header-social-icons">
-                            
-                        </div>
-                    </div>
-                    <!--== Social Icons End ==-->
-                </div>
-            </div>
-        </div>
-        <!--== Header Top End ==-->
-
-        <!--== Header Bottom Start ==-->
-        <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">Cannes Luxury Rental</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li class="active sliding-link"><a href="/">Home</a></li>
-                                <li><a class="sliding-link" href="#about-area">About</a></li>
-                                <li><a class="sliding-link" href="#service-area">services</a></li>
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
-        </div>
-        <!--== Header Bottom End ==-->
-    </header>
-    <!--== Header Area End ==-->
-    
     @yield('content')
 
     <!--== Footer Area Start ==-->
@@ -189,7 +124,7 @@
                     <!-- Single Footer Widget Start -->
                     <div class="col-lg-4 col-md-6">
                         <div class="single-footer-widget">
-                            <h2>get touch</h2>
+                            <h2>contact us</h2>
                             <div class="widget-body">
                                 <p>We're looking forward to hearing from you!</p>
 
@@ -198,7 +133,7 @@
                                     <li><i class="fa fa-mobile"></i> +63-917-522-9797</li>
                                     <li><i class="fa fa-envelope"></i> aernout@pldtdsl.net</li>
                                 </ul>
-                                <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Show Location</a>
+                                <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="map-show" target="_blank">Show Location</a>
                             </div>
                         </div>
                     </div>
@@ -257,6 +192,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="{{ asset('/js/plugins/magnific-popup.min.js') }}"></script>
     <!--=== Slicknav Min Js ===-->
     <script src="{{ asset('/js/plugins/slicknav.min.js') }}"></script>
+    <!--=== PickADate ===-->
+    <script src="{{ asset('/js/plugins/pickadate/picker.js') }}"></script>
+    <script src="{{ asset('/js/plugins/pickadate/picker.date.js') }}"></script>
+    <script src="{{ asset('/js/plugins/pickadate/legacy.js') }}"></script>
 
     <!--=== Mian Js ===-->
     <script src="{{ asset('/js/main.js') }}"></script>

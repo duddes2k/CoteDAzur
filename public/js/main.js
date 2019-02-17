@@ -183,20 +183,53 @@
 
         // Home Page Two Date Picker JS
 
-        $("#startDate2").datepicker({
-            uiLibrary: "bootstrap4",
-            iconsLibrary: "fontawesome",
-            minDate: today,
-            maxDate: function() {
-                return $("#endDate2").val();
-            }
+        // $("#startDate2").datepicker({
+        //     uiLibrary: "bootstrap4",
+        //     iconsLibrary: "fontawesome",
+        //     minDate: today,
+        //     maxDate: function() {
+        //         return $("#endDate2").val();
+        //     }
+        // });
+
+        // $("#endDate2").datepicker({
+        //     uiLibrary: "bootstrap4",
+        //     iconsLibrary: "fontawesome",
+        //     minDate: today,
+        //     minDate: function() {
+        //         return $("#startDate2").val();
+        //     }
+        // });
+
+        $("#startDate2").pickadate({
+            min: 1,
+            max: false,
+            today: ""
         });
 
-        $("#endDate2").datepicker({
-            uiLibrary: "bootstrap4",
-            iconsLibrary: "fontawesome",
-            minDate: function() {
-                return $("#startDate2").val();
+        $("#endDate2").pickadate({
+            min: 1,
+            max: false,
+            today: ""
+        });
+
+        $("#submit-request").on("click", function(e) {
+            e.preventDefault();
+
+            var loc = $("#loc").val();
+            var pickdate = $("#startDate2").val();
+            var returndate = $("#endDate2").val();
+            var rental = $("#rental").val();
+            var error = 0;
+
+            if (pickdate == "") error++;
+            if (returndate == "") error++;
+            if (rental == "Choose Rental") error++;
+
+            if (error > 0) {
+                alert("Please complete the form before submitting.");
+            } else {
+                $("#request_quote").submit();
             }
         });
 

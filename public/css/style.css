@@ -1616,7 +1616,7 @@ body,
     border: none;
     border-radius: 0;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     padding: 10px;
     text-align: center;
@@ -3260,5 +3260,30 @@ body,
 }
 
 .bizname {
-    color: #FBD033 !important;
+    color: #fbd033 !important;
+}
+
+.circular-landscape {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular-landscape img {
+    width: auto;
+    height: 100%;
+}
+
+.service_rental img{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.picker__input {
+    padding: 6px 6px !important;
 }
