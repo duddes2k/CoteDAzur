@@ -189,12 +189,12 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 							<!-- <i class="fa fa-car"></i> -->
-                            <div class="service_rental">
+                            <div class="service_rental mb-3">
                                 <img src="https://upn3pw.ch.files.1drv.com/y4mZs5ZDPrZvBAo5LFREH7Z6BpzGeooBGCdK29rbr9E9miZoqgnjjv7JdLnIfbVjQXjtcpDTpAp5efgvazmifq-HpX_RgmPP-8OGsTNEEfiMw412yMm9TI_hquxNPR7akG12MMi_LgmUlG2rj-_7kgaxQ1W8I3NbvThnlzbX7qfl_NN7pFNM4_w9GzAiWmabruTQirlBEOOc7jo3cjLcA1zRQ?width=256&height=171&cropmode=none"/>
                             </div>
-							<h3>ROLLS-ROYCE PHANTOM DROPHEAD</h3>
+							<h5>ROLLS-ROYCE PHANTOM DROPHEAD</h5>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
-                            <div class="about-btn">
+                            <div class="about-btn mt-3">
                                 <a href="/rental/car">View Details</a>
                             </div>
                         </div>
@@ -203,12 +203,12 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 							<!-- <i class="fa fa-ship"></i> -->
-                            <div class="service_rental">
+                            <div class="service_rental mb-3">
                                 <img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=256&height=180&cropmode=none"/>
                             </div>
-							<h3>31-METERS LONG LUXURY SUPERYACHT</h3>
+							<h5>31-METERS LONG LUXURY SUPERYACHT</h5>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
-                            <div class="about-btn">
+                            <div class="about-btn mt-3">
                                 <a href="/rental/yacht">View Details</a>
                             </div>
                         </div>
@@ -217,12 +217,12 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 							<!-- <i class="fa fa-ship"></i> -->
-                            <div class="service_rental">
+                            <div class="service_rental mb-3">
                                 <img src="https://7l2mkq.ch.files.1drv.com/y4mDieMO4lgaXU_FJLLzj3OWwa-q_0cvybEDpGO-xJ0jmlrcfUjSnxbHbojYNVhMJiC-wc8Nq-pun_pQdP6tqvuwnv41D7T6HYnF3SIqzfW0Yce7jMA1Xbgqtx5JUiGqKIkDUdR48bbu_qR6PmqN3LNTBu0DkRyJtgdcFpOfiRlKnmZ6Z-ASitH5xP3xx4jNIFNXXJ1Up-epWCf6AW3YkH97w?width=256&height=192&cropmode=none"/>
                             </div>
-							<h3>VANDUTCH 40 SUPERFAST LUXURY SPEEDBOAT</h3>
+							<h5>VANDUTCH 40 SUPERFAST LUXURY SPEEDBOAT</h5>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
-                            <div class="about-btn">
+                            <div class="about-btn mt-3">
                                 <a href="/rental/speedboat">View Details</a>
                             </div>
                         </div>
