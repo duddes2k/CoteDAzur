@@ -6,35 +6,7 @@
     <header id="header-area" class="fixed-top">
         <!--== Header Top Start ==-->
         <div id="header-top" class="d-none d-xl-block">
-            <div class="container">
-                <div class="row">
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-left">
-                        <i class="fa fa-map-marker"></i> Cannes, France
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-center">
-                        <i class="fa fa-mobile"></i> +63-917-522-9797
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-center">
-                        <i class="fa fa-clock-o"></i> Mon-Sat 09.00 - 17.00
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Social Icons Start ==-->
-                    <div class="col-lg-3 text-right">
-                        <div class="header-social-icons">
-                            
-                        </div>
-                    </div>
-                    <!--== Social Icons End ==-->
-                </div>
-            </div>
+            @include('shared.tophome')
         </div>
         <!--== Header Top End ==-->
 
@@ -79,15 +51,15 @@
                         <div class="display-table">
                             <div class="display-table-cell">
                                 <h1>BOOK NOW!</h1>
-                                <p>LOOKING FOR A LUXURY EXPERIENCE IN CANNES?<br> WE HAVE THE BEST LUXURY RENTAL THAT FITS TO YOUR NEED.</p>
+                                <p>LOOKING FOR A LUXURY EXPERIENCE IN THE FRENCH RIVIERA?<br> WE HAVE THE BEST LUXURY RENTAL THAT FITS TO YOUR NEED.</p>
 
                                 <div class="book-ur-car">
                                     <form action="{{ route('reservation') }}" method="POST" id="request_quote">
                                         @csrf
                                         <div class="pick-location bookinput-item">
                                             <select class="custom-select" name="location" id="loc">
-                                              <option selected>Pick Location</option>
-                                              <option value="1">Cannes, France</option>
+                                              <option>Pick Location</option>
+                                              <option value="1" selected>Cannes, France</option>
                                             </select>
                                         </div>
 
@@ -102,9 +74,9 @@
                                         <div class="car-choose bookinput-item">
                                             <select class="custom-select" name="rental" id="rental">
                                               <option selected>Choose Rental</option>
-                                              <option value="1">Humming Bird SuperYacht</option>
+                                              <option value="1">31-meters Long Luxury SuperYacht</option>
                                               <option value="2">Rolls-Royce Phantom Drophead</option>
-                                              <option value="3">VanDutch 40 Luxury Boat</option>
+                                              <option value="3">VanDutch 40 Superfast Luxury Boat</option>
                                             </select>
                                         </div>
 
@@ -145,7 +117,13 @@
                         <div class="display-table-cell">
                             <div class="about-content">
                         
-                                <p>We offer Super Luxury Yacht to discover the beautiful French Riviera beach of Cannes or drive our luxurious Rolls Royce around the city or enjoying the sea breeze of French Riviera while sailing around whith our beautiful Vandutch Speedboat.</p>
+                                <p>We offer: 
+                                    <ul class="ml-4">
+                                        <li><i class="fa fa-angle-double-right"></i> A Spectacular Super Yacht, 31-meters long, to explore the beautiful French Riviera, Italy, Spain, Corsica, etc.</li>
+                                        <li><i class="fa fa-angle-double-right"></i> A beautiful Rolls-Royce Phantom Drophead to drive around the city and breathtaking coastline of the French Riviera.</li>
+                                        <li><i class="fa fa-angle-double-right"></i> A super-fast and luxurious VanDutch 40 Speedboat to enjoy the seabreeze and amazing beaches of the French Riviera.</li>
+                                    </ul>
+                                </p>
 
                                 <p>Cannes has a small airport but you may prefer to fly into Nice Airport, rent our luxury rolls royce car and drive into Cannes with the top down.</p>
                                 <div class="about-btn">
@@ -217,7 +195,7 @@
 							<h3>ROLLS-ROYCE PHANTOM DROPHEAD</h3>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
                             <div class="about-btn">
-                                <a href="/rental/car">Details</a>
+                                <a href="/rental/car">View Details</a>
                             </div>
                         </div>
 						<!-- Single Service End -->
@@ -228,10 +206,10 @@
                             <div class="service_rental">
                                 <img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=256&height=180&cropmode=none"/>
                             </div>
-							<h3>HUMMING BIRD SUPERYACHT</h3>
+							<h3>31-METERS LONG LUXURY SUPERYACHT</h3>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
                             <div class="about-btn">
-                                <a href="/rental/yacht">Details</a>
+                                <a href="/rental/yacht">View Details</a>
                             </div>
                         </div>
 						<!-- Single Service End -->
@@ -242,10 +220,10 @@
                             <div class="service_rental">
                                 <img src="https://7l2mkq.ch.files.1drv.com/y4mDieMO4lgaXU_FJLLzj3OWwa-q_0cvybEDpGO-xJ0jmlrcfUjSnxbHbojYNVhMJiC-wc8Nq-pun_pQdP6tqvuwnv41D7T6HYnF3SIqzfW0Yce7jMA1Xbgqtx5JUiGqKIkDUdR48bbu_qR6PmqN3LNTBu0DkRyJtgdcFpOfiRlKnmZ6Z-ASitH5xP3xx4jNIFNXXJ1Up-epWCf6AW3YkH97w?width=256&height=192&cropmode=none"/>
                             </div>
-							<h3>VANDUTCH 40 LUXURY BOAT</h3>
+							<h3>VANDUTCH 40 SUPERFAST LUXURY SPEEDBOAT</h3>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
                             <div class="about-btn">
-                                <a href="/rental/speedboat">Details</a>
+                                <a href="/rental/speedboat">View Details</a>
                             </div>
                         </div>
 						<!-- Single Service End -->

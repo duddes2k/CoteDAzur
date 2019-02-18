@@ -70,7 +70,7 @@
                                 <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
                                 <h5 class="bizname">Cannes Luxury Rental</h5>
                                 
-                                <p>We offer Luxurious SuperYacht to discover the beautiful French Riviera beach of Cannes or drive our luxurious Rolls Royce around the city or enjoying the sea breeze of French Riviera while sailing around whith our beautiful Vandutch Speedboat.</p>
+                                <p>We are located in Cannes, France, the ultimate glamorous destination in The French Riviera with its Luxury Villas, Cars and Yachts and known for the famous Cannes Film Festival.</p>
 
                                 <!-- <div class="newsletter-area">
                                     <form action="index.html">
