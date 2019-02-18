@@ -12,38 +12,7 @@
 
         <!--== Header Bottom Start ==-->
         <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">Cannes Luxury Rental</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li class="active"><a href="/">Rentals</a>
-                                    <ul>
-                                        <li><a href="/rental/yacht">Humming Bird SuperYacht</a></li>
-                                        <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
-                                        <li><a href="/rental/speedboat">Vandutch 40 Luxury Boat</a></li>
-                                    </ul>
-
-                                </li>
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
+            @include('shared.bottom')
         </div>
         <!--== Header Bottom End ==-->
     </header>
@@ -56,7 +25,7 @@
                 <!-- Car List Content Start -->
                 <div class="col-lg-8">
                     <div class="car-details-content">
-                        <h2>Humming Bird SuperYacht <span class="price">Rent: <b>$5,000 USD /day</b></span></h2>
+                        <h2>31-METERS LONG LUXURY SUPERYACHT</h2>
                         <div class="car-preview-crousel">
                             <div class="single-car-preview">
                                 <img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=1233&height=868&cropmode=none" alt="JSOFT">
@@ -90,8 +59,7 @@
                             </div>
                         </div>
                         <div class="car-details-info">
-                            <h4>HUMMING BIRD SUPERYACHT</h4>
-                            <p>HUMMINGBIRD is a 30.33m luxury yacht. Her top speed is 32.0kn and she boasts a maximum cruising range of 1000.0nm at 20.0kn with power coming from two 2400.0hp MTU 16V2000M91 diesel engines. She can accommodate up to 6 people with 4 crew members waiting on their every need. </p>
+                            <p>SuperYacht is a 30.33m luxury yacht. Her top speed is 32.0kn and she boasts a maximum cruising range of 1000.0nm at 20.0kn with power coming from two 2400.0hp MTU 16V2000M91 diesel engines. She can accommodate up to 6 people with 4 crew members waiting on their every need. </p>
 
                             <div class="technical-info">
                                 <div class="row">
@@ -136,6 +104,35 @@
                 <!-- Sidebar Area Start -->
                 <div class="col-lg-4">
                     <div class="sidebar-content-wrap m-t-50">
+
+                        <!-- Single Sidebar Start -->
+                        <div class="single-sidebar">
+                            <h3>Rates</h3>
+
+                            <div class="sidebar-body">
+                                <div class="tech-info-table">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th class="text-center">SEASON</th>
+                                            <th class="text-center">RATE</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">HIGH</td>
+                                            <td>EURO 45,000.00 / WEEK</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">LOW</td>
+                                            <td>EURO 43,000.00 / WEEK</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>EURO 10,000.00 / DAY</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Sidebar End -->
                     
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">

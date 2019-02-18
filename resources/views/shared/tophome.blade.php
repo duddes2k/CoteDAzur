@@ -14,7 +14,7 @@
 
         <!--== Single HeaderTop Start ==-->
         <div class="col-lg-4 text-center">
-            <i class="fa fa-ship"></i> <a href="/rental/boat">VanDutch 40 Superfast Luxury Speedboat</a>
+            <i class="fa fa-ship"></i> <a href="/rental/speedboat">VanDutch 40 Superfast Luxury Speedboat</a>
         </div>
         <!--== Single HeaderTop End ==-->
 

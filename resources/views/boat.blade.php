@@ -13,38 +13,7 @@
 
         <!--== Header Bottom Start ==-->
         <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">Cannes Luxury Rental</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li class="active"><a href="/">Rentals</a>
-                                    <ul>
-                                        <li><a href="/rental/yacht">Humming Bird SuperYacht</a></li>
-                                        <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
-                                        <li><a href="/rental/speedboat">Vandutch 40 Luxury Boat</a></li>
-                                    </ul>
-
-                                </li>
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
+            @include('shared.bottom')
         </div>
         <!--== Header Bottom End ==-->
     </header>
@@ -57,7 +26,7 @@
                 <!-- Car List Content Start -->
                 <div class="col-lg-8">
                     <div class="car-details-content">
-                        <h2>VanDutch 40 IL GRIGIO<span class="price">Rent: <b>$2,654.68 USD /day</b></span></h2>
+                        <h2>VANDUTCH 40 SUPERFAST LUXURY SPEEDBOAT</h2>
                         <div class="car-preview-crousel">
                             <div class="single-car-preview">
                                 <img src="https://l2cbxg.ch.files.1drv.com/y4mSpaSBWDevraB6jqg8oFeFbZkzictLOFANs3YugYqCDwHpYe2PLXwtclVXZ7FtgiWujjoOlyNjFBC31iJAd_4VlkdLWRY-T2vPwTEQIEi1jqF_D5xXfXCy_5qGT2SbN8deE9g0tGOjrcFHPEY7WZpfrBqUg9kT9mlj27x4uZAbioECqdAi65kAhsMnvXt08uXkH0gHgroHlj25umlki-g7Q?width=2000&height=1500&cropmode=none" alt="JSOFT">
@@ -104,7 +73,6 @@
                             
                         </div>
                         <div class="car-details-info">
-                            <h4>VANDUTCH 40 IL GRIGIO</h4>
                             <p>The brand-defining VanDutch 40, our original power boat model, remains as striking and inspiring today as the day it was launched. Frank Mulder’s legendary design combines style with performance to create a boat for all your needs, with ample space to entertain, power to reach speeds of up to 40 knots and luxurious features to ensure your ride is comfortable, including a semi-automatic Bimini top. The queen-size V-cabin with galley station turns this versatile day boat into an overnight cruiser, opening up a world of options to your boating experience.</p>
 
                             <div class="technical-info">
@@ -150,7 +118,17 @@
                 <!-- Sidebar Area Start -->
                 <div class="col-lg-4">
                     <div class="sidebar-content-wrap m-t-50">
-                    
+
+                        <!-- Single Sidebar Start -->
+                        <div class="single-sidebar">
+                            <h3>Rate</h3>
+
+                            <div class="sidebar-body">
+                                <p class="text-center">EURO 2,950.00 PER DAY<br/>( INCLUDING CAPTAIN )</p>
+                            </div>
+                        </div>
+                        <!-- Single Sidebar End -->
+
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
                             <h3>Additional Information</h3>

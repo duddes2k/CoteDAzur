@@ -12,38 +12,7 @@
 
         <!--== Header Bottom Start ==-->
         <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">Cannes Luxury Rental</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li class="active"><a href="/">Rentals</a>
-                                    <ul>
-                                        <li><a href="/rental/yacht">Humming Bird SuperYacht</a></li>
-                                        <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
-                                        <li><a href="/rental/speedboat">Vandutch 40 Luxury Boat</a></li>
-                                    </ul>
-
-                                </li>
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
+            @include('shared.bottom')
         </div>
         <!--== Header Bottom End ==-->
     </header>
@@ -56,7 +25,7 @@
                 <!-- Car List Content Start -->
                 <div class="col-lg-8">
                     <div class="car-details-content">
-                        <h2>Rolls-Royce Phantom <span class="price">Rent: <b>$1,350 USD /day</b></span></h2>
+                        <h2>ROLLS-ROYCE PHANTOM DROPHEAD</h2>
                         <div class="car-preview-crousel">
                             <div class="single-car-preview">
                                 <img src="https://upn3pw.ch.files.1drv.com/y4mZs5ZDPrZvBAo5LFREH7Z6BpzGeooBGCdK29rbr9E9miZoqgnjjv7JdLnIfbVjQXjtcpDTpAp5efgvazmifq-HpX_RgmPP-8OGsTNEEfiMw412yMm9TI_hquxNPR7akG12MMi_LgmUlG2rj-_7kgaxQ1W8I3NbvThnlzbX7qfl_NN7pFNM4_w9GzAiWmabruTQirlBEOOc7jo3cjLcA1zRQ?width=4608&height=3072&cropmode=none" alt="JSOFT">
@@ -117,7 +86,6 @@
                             </div>
                         </div>
                         <div class="car-details-info">
-                            <h4>Rolls-Royce Phantom Drophead II V12 6.75 460ch</h4>
                             <p>Convertible english white over white cream hide, beige hood</p>
 
                             <div class="technical-info">
@@ -159,7 +127,17 @@
                 <!-- Sidebar Area Start -->
                 <div class="col-lg-4">
                     <div class="sidebar-content-wrap m-t-50">
-                    
+
+                        <!-- Single Sidebar Start -->
+                        <div class="single-sidebar">
+                            <h3>Rate</h3>
+
+                            <div class="sidebar-body">
+                                <p class="text-center">EURO 2,950.00 PER DAY<br/>( INCLUDING CHAUFFEUR )</p>
+                            </div>
+                        </div>
+                        <!-- Single Sidebar End -->
+
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
                             <h3>Additional Information</h3>
