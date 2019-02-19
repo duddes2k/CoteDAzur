@@ -2,7 +2,7 @@
     <div class="row">
         <!--== Single HeaderTop Start ==-->
         <div class="col-lg-4 text-left">
-            <i class="fa fa-ship"></i> <a href="/rental/yacht">31-meters Long Luxury SuperYacht</a>
+            <i class="fa fa-ship"></i> <a href="/rental/yacht">Luxury Mega Yacht</a>
         </div>
         <!--== Single HeaderTop End ==-->
 

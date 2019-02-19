@@ -17,7 +17,7 @@
                     <li><a href="/aboutus">About</a></li>
                     <li class="active"><a href="/">Rentals</a>
                         <ul>
-                            <li><a href="/rental/yacht">31-Meters Long Luxury SuperYacht</a></li>
+                            <li><a href="/rental/yacht">Luxury Mega Yacht</a></li>
                             <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
                             <li><a href="/rental/speedboat">Vandutch 40 Superfast Luxury Speedboat</a></li>
                         </ul>

@@ -25,7 +25,7 @@
                 <!-- Car List Content Start -->
                 <div class="col-lg-8">
                     <div class="car-details-content">
-                        <h2>31-METERS LONG LUXURY SUPERYACHT</h2>
+                        <h2>LUXURY MEGA YACHT</h2>
                         <div class="car-preview-crousel">
                             <div class="single-car-preview">
                                 <img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=1233&height=868&cropmode=none" alt="JSOFT">
@@ -82,11 +82,11 @@
                                                     <th>Beam</th>
                                                     <td>6.5m</td>
                                                     <th>Guests</th>
-                                                    <td>6</td>
+                                                    <td>7-8</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Guest Cabin</th>
-                                                    <td>3</td>
+                                                    <td>4</td>
                                                     <th>Crew</th>
                                                     <td>4</td>
                                                 </tr>

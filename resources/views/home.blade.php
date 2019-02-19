@@ -74,14 +74,14 @@
                                         <div class="car-choose bookinput-item">
                                             <select class="custom-select" name="rental" id="rental">
                                               <option selected>Choose Rental</option>
-                                              <option value="1">31-meters Long Luxury SuperYacht</option>
+                                              <option value="1">Mega Luxury Yacht</option>
                                               <option value="2">Rolls-Royce Phantom Drophead</option>
                                               <option value="3">VanDutch 40 Superfast Luxury Boat</option>
                                             </select>
                                         </div>
 
                                         <div class="bookcar-btn bookinput-item">
-                                            <button type="submit" id="submit-request">REQUEST A QUOTE</button>
+                                            <button type="submit" id="submit-request">GET A QUOTE</button>
                                         </div>
                                     </form>
                                 </div>
@@ -206,7 +206,7 @@
                             <div class="service_rental mb-3">
                                 <img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=256&height=180&cropmode=none"/>
                             </div>
-							<h5>31-METERS LONG LUXURY SUPERYACHT</h5>
+							<h5>LUXURY MEGA YACHT</h5>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
                             <div class="about-btn mt-3">
                                 <a href="/rental/yacht">View Details</a>
