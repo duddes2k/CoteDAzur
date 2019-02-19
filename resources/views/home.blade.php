@@ -25,7 +25,7 @@
                                 <li class="active sliding-link"><a href="/">Home</a></li>
                                 <li><a href="/aboutus">About</a></li>
                                 <li><a href="/rental/yacht">Yacht Charter</a></li>
-                                <li><a href="/rental/boat">Speedboat Charter</a></li>
+                                <li><a href="/rental/speedboat">Speedboat Charter</a></li>
                                 <li><a href="/rental/car">Car Rental</a></li>
                                 <!-- <li><a class="sliding-link" href="#service-area">Rentals</a>
                                     <ul>
