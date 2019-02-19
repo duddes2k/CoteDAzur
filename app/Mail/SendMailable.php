@@ -41,8 +41,8 @@ class SendMailable extends Mailable
     public function build()
     {
         $address = 'no-reply@cannesluxuryrental.com';
-        $name = 'Cannes Luxury Rental';
-        $subject = 'Rental Inquiry';
+        $name = "Cote d'Azur Luxury Rentals";
+        $subject = 'Quote Request';
 
         return $this->view('email.inquiry')
                     ->from($address, $name)

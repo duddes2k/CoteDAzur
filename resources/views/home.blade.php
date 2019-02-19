@@ -4,6 +4,7 @@
 
     <!--== Header Area Start ==-->
     <header id="header-area" class="fixed-top">
+        
         <!--== Header Bottom Start ==-->
         <div id="header-bottom">
             <div class="container">
@@ -12,7 +13,7 @@
                     <div class="col-lg-4">
                         <a href="/" class="logo">
                             <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname mt-2">Cannes Luxury Rental</h5>
+                            <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
                         </a>
                     </div>
                     <!--== Logo End ==-->
@@ -23,7 +24,16 @@
                             <ul>
                                 <li class="active sliding-link"><a href="/">Home</a></li>
                                 <li><a href="/aboutus">About</a></li>
-                                <li><a class="sliding-link" href="#service-area">Rentals</a></li>
+                                <li><a href="/rental/yacht">Yacht Charter</a></li>
+                                <li><a href="/rental/boat">Speedboat Charter</a></li>
+                                <li><a href="/rental/car">Car Rental</a></li>
+                                <!-- <li><a class="sliding-link" href="#service-area">Rentals</a>
+                                    <ul>
+                                        <li><a href="/rental/yacht">Luxury Mega Yacht</a></li>
+                                        <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
+                                        <li><a href="/rental/speedboat">Vandutch 40 Superfast Luxury Speedboat</a></li>
+                                    </ul>
+                                </li> -->
                                 <li><a class="sliding-link" href="#footer-area">Contact</a></li>
                             </ul>
                         </nav>
@@ -44,10 +54,11 @@
                     <div class="slideshowcontent">
                         <div class="display-table">
                             <div class="display-table-cell">
-                                <h1>BOOK NOW!</h1>
-                                <p>LOOKING FOR A LUXURY EXPERIENCE IN THE FRENCH RIVIERA?<br> WE HAVE THE BEST LUXURY RENTAL THAT FITS TO YOUR NEED.</p>
-
-                                <div class="book-ur-car">
+                            
+                                <!-- <p>Looking for a luxury experience in The French Riviera?<br>We have the best luxury rental that fits to your need.</p> -->
+                               
+                            <div class="book-ur-car">
+                                    
                                     <form action="{{ route('reservation') }}" method="POST" id="request_quote">
                                         @csrf
                                         <div class="pick-location bookinput-item">

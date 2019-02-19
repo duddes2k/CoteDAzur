@@ -201,7 +201,7 @@ header.fixTotop #header-top {
 /*== Header Bottom CSS Start ==*/
 
 #header-bottom {
-    background-color: rgba(64, 102, 109, 0.8);
+    background-color: rgba(64, 102, 109, 1);
     padding: 15px 0;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
@@ -267,7 +267,7 @@ header.fixTotop #header-bottom {
 }
 
 .mainmenu ul li ul li a {
-    color: #000 !important;
+    color: #000000 !important;
     font-size: 12px;
     font-weight: 600;
     margin: 0;
@@ -277,6 +277,7 @@ header.fixTotop #header-bottom {
 .mainmenu ul li ul li.active a,
 .mainmenu ul li ul li a:hover {
     background-color: #ffd000;
+    color: #000000 !important;
 }
 
 #header-bottom .container {
@@ -1549,7 +1550,7 @@ body,
     font-weight: 600;
     line-height: 2;
     margin-top: 30px;
-    text-shadow: 1px 1px 1px #000;
+    /* text-shadow: 1px 1px 1px #000; */
 }
 
 .slideshowcontent h1 {
@@ -1590,10 +1591,16 @@ body,
 .book-ur-car {
     background-color: rgba(64, 102, 109, 0.7);
     border-radius: 4px;
-    margin: 70px auto auto;
+    margin: 240px auto auto;
     overflow: hidden;
-    padding: 50px 20px;
+    padding: 20px 10px;
     width: 90%;
+}
+
+.home_pitch {
+    color: #ffd000;
+    font-family: "Courgette", cursive;
+    font-size: 14pt;
 }
 
 .bookinput-item {
@@ -3262,6 +3269,8 @@ body,
 
 .bizname {
     color: #fbd033 !important;
+    font-size: 30pt;
+    font-family: "Tangerine", cursive;
 }
 
 .circular-landscape {

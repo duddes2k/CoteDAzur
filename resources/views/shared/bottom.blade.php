@@ -4,7 +4,7 @@
         <div class="col-lg-4">
             <a href="/" class="logo">
                 <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                <h5 class="bizname">Cannes Luxury Rental</h5>
+                <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
             </a>
         </div>
         <!--== Logo End ==-->
@@ -13,16 +13,11 @@
         <div class="col-lg-8 d-none d-xl-block">
             <nav class="mainmenu alignright">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li class="active"><a href="/">Home</a></li>
                     <li><a href="/aboutus">About</a></li>
-                    <li class="active"><a href="/">Rentals</a>
-                        <ul>
-                            <li><a href="/rental/yacht">Luxury Mega Yacht</a></li>
-                            <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
-                            <li><a href="/rental/speedboat">Vandutch 40 Superfast Luxury Speedboat</a></li>
-                        </ul>
-
-                    </li>
+                    <li><a href="/rental/yacht">Yacht Charter</a></li>
+                    <li><a href="/rental/boat">Speedboat Charter</a></li>
+                    <li><a href="/rental/car">Car Rental</a></li>
                     <li><a class="sliding-link" href="#footer-area">Contact</a></li>
                 </ul>
             </nav>

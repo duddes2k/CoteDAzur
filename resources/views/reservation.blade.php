@@ -76,7 +76,7 @@
                                         </div>
 
                                         <div class="input-submit">
-                                            <button type="submit" class="btn btn-lg btn-primary" id="submitReservation">Submit</button>
+                                            <button type="submit" id="submitReservation"><h3>Submit</h3></button>
                                         </div>
                                     </form>
                                 </div>
@@ -113,7 +113,7 @@
                                                     <td>{{ $duration }} Day(s)</td>
                                                 </tr>
                                             </table>
-                                            <h3>Total: ${{ number_format($total,2) }}</h3>
+                                            <h3>Total: Euro &euro; {{ number_format($total,2) }}</h3>
                                         </div>
                                     </div>
                                 </div>

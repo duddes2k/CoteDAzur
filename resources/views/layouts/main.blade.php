@@ -9,7 +9,7 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
 
-    <title>{{ config('app.name','Cannes Luxe Rental') }}</title>
+    <title>{{ config("app.name","Cote d'Azur Luxury Rentals") }}</title>
 
     <!--=== Bootstrap CSS ===-->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -34,6 +34,8 @@
     <!--=== PickADate ===-->
     <link href="{{ asset('/js/plugins/pickadate/themes/default.date.css') }}" rel="stylesheet">
     <link href="{{ asset('/js/plugins/pickadate/themes/default.css') }}" rel="stylesheet">
+    <!--=== Google Fonts ===-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Tangerine" rel="stylesheet">
 
 
     <!--[if lt IE 9]>
@@ -68,7 +70,7 @@
                             <h2>About Us</h2>
                             <div class="widget-body">
                                 <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                                <h5 class="bizname">Cannes Luxury Rental</h5>
+                                <h5 class="bizname">Cote d'Azur Luxury Rentals</h5>
                                 
                                 <p>We are located in Cannes, France, the ultimate glamorous destination in The French Riviera with its Luxury Villas, Cars and Yachts and known for the famous Cannes Film Festival.</p>
 
@@ -126,7 +128,7 @@
                                 <p>We're looking forward to hearing from you!</p>
 
                                 <ul class="get-touch">
-                                    <li><i class="fa fa-map-marker"></i> Cannes, France</li>
+                                    <li><i class="fa fa-map-marker"></i> French Riviera, France</li>
                                     <li><i class="fa fa-mobile"></i> +63-917-522-9797</li>
                                     <li><i class="fa fa-envelope"></i> aernout@pldtdsl.net</li>
                                 </ul>
