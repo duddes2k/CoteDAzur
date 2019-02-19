@@ -161,21 +161,23 @@
             overlay: true,
             transition: "fade",
             transitionDuration: 2000,
-            delay: 4000,
+            delay: 8000,
             color: "#000",
             animation: "random",
             animationDuration: 20000,
             slides: [
                 {
-                    src: "/img/slider-img/slider-img-9.jpg"
+                    src: "/img/slider-img/slider-img-10.jpg"
                 },
                 {
-                    src:
-                        "https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=1233&height=868&cropmode=none"
+                    src: "/img/slider-img/slider-img-13.jpg"
                 },
                 {
                     src:
                         "https://upn3pw.ch.files.1drv.com/y4mZs5ZDPrZvBAo5LFREH7Z6BpzGeooBGCdK29rbr9E9miZoqgnjjv7JdLnIfbVjQXjtcpDTpAp5efgvazmifq-HpX_RgmPP-8OGsTNEEfiMw412yMm9TI_hquxNPR7akG12MMi_LgmUlG2rj-_7kgaxQ1W8I3NbvThnlzbX7qfl_NN7pFNM4_w9GzAiWmabruTQirlBEOOc7jo3cjLcA1zRQ?width=4608&height=3072&cropmode=none"
+                },
+                {
+                    src: "/img/slider-img/slider-img-11.jpg"
                 },
                 {
                     src:
