@@ -39,15 +39,21 @@
             <div class="row">
                 <!-- About Content Start -->
                 <div class="col-lg-6">
-                    <div class="display-table">
+                    <div>
                         <div class="display-table-cell">
                             <div class="about-content">
                         
-                                <p>We offer Super Luxury Yacht to discover the beautiful French Riviera beach of Cannes or drive our luxurious Rolls Royce around the city or enjoying the sea breeze of French Riviera while sailing around whith our beautiful Vandutch Speedboat.</p>
+                                <p>We offer: 
+                                    <ul class="ml-4">
+                                        <li><i class="fa fa-angle-double-right"></i> A Spectacular Super Yacht, 31-meters long, to explore the beautiful French Riviera, Italy, Spain, Corsica, etc.</li>
+                                        <li><i class="fa fa-angle-double-right"></i> A beautiful Rolls-Royce Phantom Drophead to drive around the city and breathtaking coastline of the French Riviera.</li>
+                                        <li><i class="fa fa-angle-double-right"></i> A super-fast and luxurious VanDutch 40 Speedboat to enjoy the seabreeze and amazing beaches of the French Riviera.</li>
+                                    </ul>
+                                </p>
 
                                 <p>Cannes has a small airport but you may prefer to fly into Nice Airport, rent our luxury rolls royce car and drive into Cannes with the top down.</p>
                                 <div class="about-btn">
-                                    <a href="/">Book Now</a>
+                                    <a class="sliding-link" href="#slideslow-bg">Book Now</a>
                                     <a class="sliding-link" href="#footer-area">Contact Us</a>
                                 </div>
                             </div>

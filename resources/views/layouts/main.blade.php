@@ -85,7 +85,7 @@
                     <!-- Single Footer Widget End -->
 
                     <!-- Single Footer Widget Start -->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-lg-4">
                         <div class="single-footer-widget">
                             <h2>SEND US YOUR INQUERY</h2>
                             <div class="widget-body">
@@ -102,15 +102,12 @@
                                                 <input type="email" placeholder="Email Address">
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 col-md-12">
+                                        <div class="col-lg-6 col-md-6">
                                             <div class="message-input">
-                                                <textarea name="review" cols="42" placeholder="Message"></textarea>
+                                                <textarea name="review" cols="40" placeholder="Message"></textarea>
                                             </div>
                                         </div>
                                     </div>
-
-                                    
-
                                     <div class="input-submit">
                                         <button type="submit">Submit Message</button>
                                     </div>

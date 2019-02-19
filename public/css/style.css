@@ -201,14 +201,14 @@ header.fixTotop #header-top {
 /*== Header Bottom CSS Start ==*/
 
 #header-bottom {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(64, 102, 109, 0.8);
     padding: 15px 0;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
 
 header.fixTotop #header-bottom {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(64, 102, 109, 1);
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
@@ -1309,7 +1309,7 @@ a.slicknav_btn {
 }
 
 .footer-widget-area {
-    background-color: #1e2228;
+    background-color: rgba(64, 102, 109);
     padding: 60px 0;
 }
 
@@ -1549,6 +1549,7 @@ body,
     font-weight: 600;
     line-height: 2;
     margin-top: 30px;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .slideshowcontent h1 {
@@ -1587,7 +1588,7 @@ body,
 /*== Book Car CSS ==*/
 
 .book-ur-car {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(64, 102, 109, 0.7);
     border-radius: 4px;
     margin: 70px auto auto;
     overflow: hidden;
@@ -1650,9 +1651,9 @@ body,
 }
 
 .book-ur-car select option {
-    color: #000;
+    color: #fff;
     font-weight: 400;
-    background: #fff;
+    background: #000;
     text-transform: capitalize;
 }
 
@@ -3277,7 +3278,7 @@ body,
     height: 100%;
 }
 
-.service_rental img{
+.service_rental img {
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
@@ -3286,4 +3287,12 @@ body,
 
 .picker__input {
     padding: 6px 6px !important;
+}
+
+/** 
+* Duddes
+* Home Page > Booking Form 
+**/
+.display-table {
+    margin: 170px auto auto;
 }
