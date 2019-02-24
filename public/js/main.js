@@ -206,6 +206,15 @@
         //     }
         // });
 
+        // Auto CAPS
+        $("input:not([name='_token']), textarea").keyup(function() {
+            $(this).val(
+                $(this)
+                    .val()
+                    .toUpperCase()
+            );
+        });
+
         $("#startDate2").pickadate({
             min: 1,
             max: false,

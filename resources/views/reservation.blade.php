@@ -32,6 +32,7 @@
                                     <form action="{{ route('reservation.sendmail') }}" method="POST" id="client_info">
                                         @csrf
 
+                                        <input type="hidden" id="service_id" name="service_id" value="{{ $service_id }}" />
                                         <input type="hidden" id="rental" name="rental" value="{{ strtoupper($rental) }}"/>
                                         <input type="hidden" id="pickdate" name="pickdate" value="{{ $pickdate }}"/>
                                         <input type="hidden" id="returndate" name="returndate" value="{{ $returndate  }}"/>
@@ -72,7 +73,7 @@
 
                                         <div class="message-input">
                                             <label>Additional Information</label>
-                                            <textarea name="review" cols="30" rows="5" name="info" id="info"></textarea>
+                                            <textarea cols="30" rows="5" name="info" id="info"></textarea>
                                         </div>
 
                                         <div class="input-submit">

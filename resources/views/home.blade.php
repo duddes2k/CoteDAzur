@@ -80,8 +80,8 @@
                                             <select class="custom-select" name="rental" id="rental">
                                               <option selected>Choose Rental</option>
                                               <option value="1">Mega Luxury Yacht</option>
-                                              <option value="2">Rolls-Royce Phantom Drophead</option>
-                                              <option value="3">VanDutch 40 Superfast Luxury Boat</option>
+                                              <option value="3">Rolls-Royce Phantom Drophead</option>
+                                              <option value="2">VanDutch 40 Superfast Luxury Boat</option>
                                             </select>
                                         </div>
 

@@ -15,16 +15,17 @@ class CreateBookingTable extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('code');
 
             $table->unsignedInteger('service_id');
             $table->foreign('service_id')
                     ->references('id')
-                    ->on('bookings');
+                    ->on('services');
 
             $table->date('departure_date');
-            $table->string('departure_time', 25);
+            $table->string('departure_time', 25)->nullable();
             $table->date('return_date');
-            $table->string('return_time', 25);
+            $table->string('return_time', 25)->nullable();
             $table->string('status', 15);
 
             $table->timestamps();

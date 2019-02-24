@@ -27,7 +27,8 @@
                 <!-- Section Title Start -->
                 <div class="col-lg-12">
                     <div class="section-title  text-center">
-                        <h2>Thank you, your inquiry has been sent.</h2>
+                        <h4>Thank you for your booking request.<br/>
+We would like to inform you that your request is currently being processed.<br/> Our reservation team will contact you shortly to complete and confirm your booking.</h4>
                     </div>
                 </div>
                 <!-- Section Title End -->

@@ -7,17 +7,27 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMailable;
 
+use App\Booking;
+use App\Service;
+use App\Rate;
+use App\Client;
+
+use Carbon\Carbon;
+
 use Redirect, URL;
 
 class ReservationController extends Controller
 {
     public function index( Request $request)
     {
+        // Convert to number of days
         $datetime1 = strtotime($request->pickdate);
         $datetime2 = strtotime($request->returndate);
         $interval = $datetime2 - $datetime1;
         $days = floor($interval / (60*60*24) );
- 
+        
+
+
         switch ($request->rental)
         {
             case 1:
@@ -32,12 +42,12 @@ class ReservationController extends Controller
                     }
                     
                     break;
-            case 2:
+            case 3:
                     $rental = "Rolls-Royce Phantom Drophead";
                     $rate = 2950;
                     $total = $days * (float)$rate;
                     break;
-            case 3:
+            case 2:
                     $rental = "VanDutch 40 Superfast Luxury Speedboat";
                     $rate = 2950;
                     $total = $days * (float)$rate;
@@ -48,16 +58,21 @@ class ReservationController extends Controller
                         ->with('pickdate', $request->pickdate)
                         ->with('returndate', $request->returndate)
                         ->with('rental', $rental)
+                        ->with('service_id', $request->rental)
                         ->with('duration', $days)
                         ->with('total', $total);
     }
 
     /**
-     * Send Email
+     * Email Notification
+     * Sending email notificationt to owner and client upon submitting booking request
+     * 
+     * @return void
      */
     public function mailInquery( Request $request)
     {
         $email_content = [
+            'service_id' => $request->service_id,
             'rental' => $request->rental,
             'pickdate' => $request->pickdate,
             'returndate' => $request->retundate,
@@ -69,6 +84,27 @@ class ReservationController extends Controller
             'phone' => $request->phone,
             'info' => $request->info
         ];
+
+        $new_booking_id = Booking::create([
+                            'code'           => 'BK-' . Carbon::now()->format('YmdHis') .'-'. mt_rand(4,100),
+                            'service_id'     => $request->service_id,
+                            'departure_date' => Carbon::parse($request->pickdate)->format('Y-m-d'),
+                            'departure_time' => '00:00:00',
+                            'return_date'    => Carbon::parse($request->returndate)->format('Y-m-d'),
+                            'return_time'    => '00:00:00',
+                            'duration'       => $request->duration,
+                            'total'          => $request->total,
+                            'status'         => 'inquiry'
+                        ]);
+        
+        $new_client = Client::create([
+                        'booking_id' => $new_booking_id->id,
+                        'first_name' => $request->firstname,
+                        'last_name'  => $request->lastname,
+                        'phone'      => $request->phone,
+                        'email'      => $request->email,
+                        'other_info' => $request->info
+                    ]); 
 
         Mail::to('duddesatwork@gmail.com')->send(new SendMailable($email_content));
         
