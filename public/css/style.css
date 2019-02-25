@@ -1591,7 +1591,7 @@ body,
 .book-ur-car {
     background-color: rgba(64, 102, 109, 0.7);
     border-radius: 4px;
-    margin: 240px auto auto;
+    margin: auto;
     overflow: hidden;
     padding: 20px 10px;
     width: 90%;
