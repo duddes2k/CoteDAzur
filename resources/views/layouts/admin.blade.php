@@ -48,7 +48,7 @@
 <body class="horizontal-layout horizontal-menu 2-columns menu-expanded" data-open="hover"
 data-menu="horizontal-menu" data-col="2-columns">
   <!-- fixed-top-->
-  <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-fixed bg-gradient-y-danger navbar-shadow navbar-brand-center">
+  <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-fixed bg-gradient-y-success navbar-shadow navbar-brand-center">
     <div class="navbar-wrapper">
     
       <div class="navbar-header">
@@ -129,7 +129,7 @@ data-menu="horizontal-menu" data-col="2-columns">
   <!-- ////////////////////////////////////////////////////////////////////////////-->
   <footer class="footer footer-transparent footer-dark navbar-shadow">
     <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2 content">
-      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2019 COTE D'AZUR LUXURY RE. All rights reserved. </span>
+      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2019 COTE D'AZUR LUXURY RENTALS. All rights reserved. </span>
       <span class="float-md-right d-block d-md-inline-blockd-none d-lg-block">Hand-crafted & Made with <i class="ft-heart pink"></i></span>
     </p>
   </footer>

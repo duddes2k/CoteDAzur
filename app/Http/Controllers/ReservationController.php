@@ -94,7 +94,7 @@ class ReservationController extends Controller
                             'return_time'    => '00:00:00',
                             'duration'       => $request->duration,
                             'total'          => $request->total,
-                            'status'         => 'inquiry'
+                            'status'         => 'INQUIRY'
                         ]);
         
         $new_client = Client::create([

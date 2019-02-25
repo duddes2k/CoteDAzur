@@ -40,21 +40,24 @@
                           <th>Duration</th>
                           <th>Total</th>
                           <th>Status</th>
-                          <!-- <th>Action</th> -->
+                          <th>Action</th>
                         </tr>
                       </thead>
                       <tbody>
                         
                         @foreach( $bookings as $key => $booking)
                           <tr>
-                            <td>{{ $booking->created_at }}</td>
+                            <td>{{ Carbon\Carbon::parse($booking->created_at)->format('M j, Y h:i:sA') }}</td>
                             <td>{{ $booking->service->name }}</td>
                             <td>{{ $booking->client->first_name .' '.$booking->client->last_name }}</td>
-                            <td>{{ $booking->departure_date }}</td>
-                            <td>{{ $booking->return_date }}</td>
+                            <td>{{ Carbon\Carbon::parse($booking->departure_date)->format('M j, Y') }}</td>
+                            <td>{{ Carbon\Carbon::parse($booking->return_date)->format('M j, Y') }}</td>
                             <td>{{ $booking->duration }} day(s)</td>
-                            <td>{{ $booking->total }}</td>
+                            <td><strong>&euro; {{ number_format($booking->total,2) }}</strong></td>
                             <td>{{ $booking->status }}</td>
+                            <td>
+                              <button class="btn btn-primary">View</button>
+                            </td>
 
                           </tr>
                         @endforeach
@@ -135,8 +138,8 @@
                 className: "text-center",
             },
             {
-              target: [0,1,2,3],
-              width: 300
+              target: [0,1,2],
+              width: 150
             }
         ]
     } );

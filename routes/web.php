@@ -23,6 +23,8 @@ Route::name('admin.logout')->get('/admin/logout', 'Auth\LoginController@logout')
 
 Route::name('admin.bookings')->get('/admin/bookings', 'Admin\AdminController@index');
 
+Route::name('admin')->get('/admin', 'Admin\AdminController@index');
+
 Route::name('admin.inquiries')->get('/admin/inquiries', function() {
     return view('admin.inquiry');
 });
