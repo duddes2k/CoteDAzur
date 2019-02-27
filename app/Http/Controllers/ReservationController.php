@@ -76,7 +76,7 @@ class ReservationController extends Controller
             'service_id' => $request->service_id,
             'rental' => $request->rental,
             'pickdate' => $request->pickdate,
-            'returndate' => $request->retundate,
+            'returndate' => $request->returndate,
             'duration' => $request->duration,
             'total' => $request->total,
             'firstname' => $request->firstname,

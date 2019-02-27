@@ -2,17 +2,12 @@
     <head>
     </head>
     <body>
-        <h3>Cannes Luxury Rental</h3>
+        <h3>Cote d'Azur Luxury Rentals</h3>
         <p>
         <table>
             <tr>
                 <td  style="padding: 10px 30px">
                     Hi,
-                </td>
-            </tr>
-            <tr>
-                <td style="padding: 10px 30px">
-                    <p>Congratulation!</p>
                 </td>
             </tr>
             <tr>
