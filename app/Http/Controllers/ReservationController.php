@@ -34,11 +34,12 @@ class ReservationController extends Controller
                     $rental = "Luxury Mega Yacht";
                     $rate = 45000;
                     $rate2 = 43000;
+                    $rate_per_day = $rate / 7;
                     
-                    $total = $days * (float)$rate;
+                    $total = $days * (float)$rate_per_day;
                     if ($days >= 7)
                     {
-                        $total = $days * (float)$rate2;
+                        $total = $days * (float)$rate_per_day;
                     }
                     
                     break;

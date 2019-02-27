@@ -25,7 +25,7 @@
                     Pick Date: {{ $pickdate }}<br>
                     Return Date: {{ $returndate }}<br>
                     Duration: <strong>{{ $duration }} day(s)</strong><br>
-                    Total: <strong> EURO {{ number_format($total) }}</strong><br>
+                    Total: <strong> EURO {{ number_format($total, 2) }}</strong><br>
                     </p>
 
                     <p>
@@ -33,7 +33,7 @@
                     Last Name: {{ $lastname }}<br>
                     Email: {{ $email }}<br>
                     Phone: {{ $phone }}<br>
-                    Additional Info:<br> {{ $info }}
+                    Additional Info: {{ $info }}
                     </p>
 
                 </td>

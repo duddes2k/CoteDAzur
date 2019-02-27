@@ -40,7 +40,7 @@ class SendMailable extends Mailable
      */
     public function build()
     {
-        $address = 'no-reply@cannesluxuryrental.com';
+        $address = 'no-reply@cotedazurluxuryrentals.com';
         $name = "Cote d'Azur Luxury Rentals";
         $subject = 'Quote Request';
 

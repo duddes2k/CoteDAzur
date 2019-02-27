@@ -114,7 +114,7 @@
                                                     <td>{{ $duration }} Day(s)</td>
                                                 </tr>
                                             </table>
-                                            <h3>Total: Euro &euro; {{ number_format($total,2) }}</h3>
+                                            <!-- <h3>Total: Euro &euro; {{ number_format($total,2) }}</h3> -->
                                         </div>
                                     </div>
                                 </div>
