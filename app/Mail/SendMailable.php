@@ -42,7 +42,7 @@ class SendMailable extends Mailable
     {
         $address = 'no-reply@cotedazurluxuryrentals.com';
         $name = "Cote d'Azur Luxury Rentals";
-        $subject = 'Quote Request';
+        $subject = 'Rental Booking Request';
 
         return $this->view('email.inquiry')
                     ->from($address, $name)

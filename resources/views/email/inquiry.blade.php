@@ -13,7 +13,7 @@
             <tr>
                 <td style="padding: 10px 30px">
 
-                    <p>You have a new rental inquiry. Please see details below:</p>
+                    <p>You have a new booking request. Please see details below:</p>
 
                     <p>
                     Rental: <strong>{{ $rental }}</strong><br>
@@ -34,12 +34,9 @@
                 </td>
             </tr>
             <tr>
-                <td style="padding: 10px 30px"><p>Please reply to the email provided by the client above.</p></td>
-            </tr>
-            <tr>
                 <td style="padding: 10px 30px">
                     --<br>
-                    <em>Note: This is a generated email. Please do not reply.</em>
+                    <em>Note: This is a generated email notification from the website. Please reply to the email address provided by the client above.</em>
                 </td>
             </tr>    
         </table>

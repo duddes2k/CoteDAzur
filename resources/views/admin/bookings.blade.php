@@ -56,7 +56,7 @@
                             <td><strong>&euro; {{ number_format($booking->total,2) }}</strong></td>
                             <td>{{ $booking->status }}</td>
                             <td>
-                              <button class="btn btn-primary">View</button>
+                              <button class="btn btn-primary" id="btnDetails">Details</button>
                             </td>
 
                           </tr>
