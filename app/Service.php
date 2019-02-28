@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Service extends Model
 {
+    protected $primaryKey = 'id';
+    
     public function bookings()
     {
         return $this->hasOne(Booking::class);

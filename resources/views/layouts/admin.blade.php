@@ -100,20 +100,39 @@ data-menu="horizontal-menu" data-col="2-columns">
 
     <div class="navbar-container main-menu-content" data-menu="menu-container">
       <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
+
+      <!-- ///// Inquiries ///// -->
+        <li class="dropdown nav-item" data-menu="dropdown">
+           <a class="nav-link" href="/admin/bookings"><i class="la la-calendar block-page"></i>
+            <span>Calendar</span>
+          </a>
+        </li>
        
         <!-- ///// Bookings ///// -->
         <li class="dropdown nav-item active" data-menu="dropdown">
-           <a class="nav-link" href="/admin/bookings"><i class="la la-calendar block-page"></i>
-            <span>Bookings</span>
-          </a>
+           <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+           <i class="la la-calendar block-page"></i>
+            <span>Bookings</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu="">
+                <a class="dropdown-item" href="/admin/bookings/speedboat" data-toggle="dropdown"><i class="la la-ship"></i>Speedboat Charter</a>
+              </li>
+              <li data-menu="">
+                <a class="dropdown-item" href="/admin/bookings/yacht" data-toggle="dropdown"><i class="la la-ship"></i>Yacht Charter</a>
+              </li>
+              <li data-menu="">
+                <a class="dropdown-item" href="/admin/bookings/car" data-toggle="dropdown"><i class="la la-car"></i>Car Rental</a>
+              </li>
+            </ul>
+          
         </li>
 
         <!-- ///// Inquiries ///// -->
-        <li class="dropdown nav-item" data-menu="dropdown">
+        <!-- <li class="dropdown nav-item" data-menu="dropdown">
            <a class="nav-link" href="/admin/inquiries"><i class="la la-book block-page"></i>
             <span>Inquiries</span>
           </a>
-        </li>
+        </li> -->
 
       </ul>
       

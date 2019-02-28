@@ -32,13 +32,12 @@
                     <table id="invoices-list" class="table table-striped table-bordered zero-configuration item-list">
                       <thead>
                         <tr>
-                          <th>Date Booked</th>
+                          <th>Date Received</th>
                           <th>Rental</th>
                           <th>Name</th>
                           <th>Pick Date</th>
                           <th>Return Date</th>
                           <th>Duration</th>
-                          <th>Total</th>
                           <th>Status</th>
                           <th>Action</th>
                         </tr>
@@ -48,15 +47,14 @@
                         @foreach( $bookings as $key => $booking)
                           <tr>
                             <td>{{ Carbon\Carbon::parse($booking->created_at)->format('M j, Y h:i:sA') }}</td>
-                            <td>{{ $booking->service->name }}</td>
+                            <td>{{ strtoupper($booking->service->type) }}</td>
                             <td>{{ $booking->client->first_name .' '.$booking->client->last_name }}</td>
                             <td>{{ Carbon\Carbon::parse($booking->departure_date)->format('M j, Y') }}</td>
                             <td>{{ Carbon\Carbon::parse($booking->return_date)->format('M j, Y') }}</td>
-                            <td>{{ $booking->duration }} day(s)</td>
-                            <td><strong>&euro; {{ number_format($booking->total,2) }}</strong></td>
-                            <td>{{ $booking->status }}</td>
+                            <td>{{ $booking->duration }} DAY(s)</td>
+                            <td>{{ strtoupper($booking->status) }}</td>
                             <td>
-                              <button class="btn btn-primary" id="btnDetails">Details</button>
+                              <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#detailsModal" data-id="{{ $booking->id }}">Details</button>
                             </td>
 
                           </tr>
@@ -74,6 +72,118 @@
         </section>
       </div>
     </div>
+
+  <!-- Rental Details Modal -->
+  <div class="modal fade text-left" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel35" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-success">
+          <h3 class="modal-title" id="myModalLabel35"> Booking Details</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-12">
+                      <label for="consumer_name">Rental/Charter</label>
+                      <div class="form-group">
+                          <input type="text" class="form-control text-bold-600" id="rental" placeholder="Rental" readonly>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <label for="email">Pick Date</label>
+                      <div class="form-group">
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                  <div class="input-group-text">
+                                      <span class="la la-calendar"></span>
+                                  </div>
+                              </div>
+                                <input type="text" class="form-control" placeholder="Select a date" id="pick_date" aria-haspopup="true" aria-expanded="true" aria-readonly="false" readonly>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <label for="email">Return Date</label>
+                      <div class="form-group">
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                  <div class="input-group-text">
+                                      <span class="la la-calendar"></span>
+                                  </div>
+                              </div>
+                                <input type="text" class="form-control pickadate picker__input picker__input--active" placeholder="Select a date" id="return_date" aria-haspopup="true" aria-expanded="true" aria-readonly="false" readonly>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-6">
+                        <label for="accountno">First Name</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="firstname" placeholder="First Name" readonly>
+                            <input type="hidden" id="consumer_id">
+                            <input type="hidden" id="meter_id">
+                            <input type="hidden" id="soa_id">
+                            <input type="hidden" id="service_type_id">
+                        </div>
+                  </div>
+                  <div class="col-md-6">
+                      <label for="consumer_name">Last Name</label>
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="lastname" placeholder="Last Name" readonly>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-6">
+                      <label for="consumer_name">Email Address</label>
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="email" placeholder="Email Address" readonly>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <label for="consumer_name">Contact Number</label>
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="phone" placeholder="Contact Number" readonly>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-6">
+                      <label for="consumer_name">Duration</label>
+                      <div class="form-group">
+                          <input type="text" class="form-control text-bold-600" id="duration" placeholder="0" readonly>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <label for="title1">Total</label>
+                      <div class="form-group">
+                          <input type="number" class="form-control text-bold-600" id="total" placeholder="0.00" readonly>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <label for="title1">Additional Information</label>
+                      <div class="form-group">
+                          <textarea class="form-control" id="info" readonly></textarea>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <div class="alert alert-danger" role="alert">
+                        <span class="text-bold-600">Oh snap!</span>
+                        You entered an invalid meter number, please try again.
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="reset" class="btn btn-outline-danger btn-sm" data-dismiss="modal"><i class="la la-close"></i> Close</button>
+            <button type="button" class="btn btn-danger btn-sm" id="cancelled" disabled><i class="la la-ban"></i> Cancelled</button>
+            <button type="button" class="btn btn-secondary btn-sm" id="confirmed" disabled><i class="la la-check-circle"></i> Confirmed</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
 @endsection
 
@@ -105,7 +215,6 @@
   <script src="{{ asset('admin/vendors/js/pickers/daterange/daterangepicker.js') }}"
   type="text/javascript"></script>
 
-
 @endpush
 
 @push('page_level_scripts')
@@ -134,12 +243,16 @@
         dom: '<"toolbar">frtip',
         columnDefs: [
             {
-                targets: [4,5,6,7],
+                targets: [3,4,5,6,7],
                 className: "text-center",
             },
             {
-              target: [0,1,2],
-              width: 150
+              targets: [5,6,7],
+              width: 55
+            },
+            {
+              targets: [0,2],
+              width: 170
             }
         ]
     } );
@@ -164,8 +277,8 @@
         cancelClass: "btn-danger",
         showDropdowns: true,
         ranges: {
-            'Current Month Sales': [moment().startOf('month'), moment().endOf('month')],
-            'Previous Month Sales': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')],
+            'Current Month': [moment().startOf('month'), moment().endOf('month')],
+            'Previous Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')],
         },
         locale: {
             format: 'YYYY-MM-DD'
@@ -183,7 +296,7 @@
 
             var startDate = Date.parse(range[0],10);
             var endDate = Date.parse(range[1],10);
-            var columnDate = Date.parse(data[0]) || 0; 
+            var columnDate = Date.parse(data[3]) || 4; 
             if ((isNaN(startDate) && isNaN(endDate)) ||
                 (isNaN(startDate) && columnDate <= endDate) ||
                 (startDate <= columnDate && isNaN(endDate)) ||
@@ -307,35 +420,71 @@
     });
 
     // Modal: onShowing event
-    $('#readingModal').on('show.bs.modal', function (event){
+    $('#detailsModal').on('show.bs.modal', function (event){
         var modal = $(this);
         modal.find('.modal-body div.alert').hide();
         modal.find('.modal-body #spinner').hide();
     });
     // Modal: onShown event
-    $('#readingModal').on('shown.bs.modal', function (event) {  
+    $('#detailsModal').on('shown.bs.modal', function (event) {  
 
         $(".modal:visible").each(alignModal);
         var button = $(event.relatedTarget); // Button that triggered the modal 
         var modal = $(this);
-        var meterid = button.data('reading');
+        var booking_id = button.data('id');
+
+        console.log(booking_id);  
 
         // Clear form inputs
         modal.find(".modal-body input").val('');
 
+        // Request data from the server
+        $.ajax({
+            url: "{{ route('admin.bookings.get') }}", 
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data:{ 
+              booking_id : booking_id,
+            },
+            type: 'POST',  
+            success: function(response){
+                if(response.status == '200')
+                {
+                  $('#rental').val(response.data.service.name);
+                  $('#pick_date').val(response.data.departure_date);
+                  $('#return_date').val(response.data.return_date);
+                  $('#firstname').val(response.data.client.first_name);
+                  $('#lastname').val(response.data.client.last_name);
+                  $('#email').val(response.data.client.email);
+                  $('#phone').val(response.data.client.phone);
+                  $('#duration').val(response.data.duration);
+                  $('#total').val(response.data.total);
+                  $('#info').text(response.data.client.other_info);
+                } else {
+                  $('.modal-body div.alert').text(response.message).show();
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                console.log(jqXHR.responseText);
+                $('.modal-body div.alert').text(jqXHR.responseText).show();
+            }
+        });
+
     });
     // Modal: onHide event
-    $('#readingModal').on('hidden.bs.modal', function (e) {
+    $('#detailsModal').on('hidden.bs.modal', function (e) {
         $(this).removeData('bs.modal');
         $(this).find(".modal-body input")
                .val('')
                .end();
+        $(this).find(".modal-body textarea")
+               .text('');
         $(this).find("select option:first-child").attr("selected", "selected");
-        $(this).find(".modal-body div.alert").html('<span class="text-bold-600">Oh snap!</span> You entered an invalid meter number, please try again.');
+        $(this).find(".modal-body div.alert").html('<span class="text-bold-600">Oh snap!</span> There\'s an unknown error, please try again.');
         $(this).data('bs.modal', null);
     });
     
-
   });
 </script>
 

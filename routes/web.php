@@ -23,6 +23,10 @@ Route::name('admin.logout')->get('/admin/logout', 'Auth\LoginController@logout')
 
 Route::name('admin.bookings')->get('/admin/bookings', 'Admin\AdminController@index');
 
+Route::name('admin.bookings.get')->post('/admin/bookings/details', 'Admin\AdminController@details');
+
+Route::name('admin.bookings.type')->get('/admin/bookings/{type}', 'Admin\AdminController@rentals');
+
 Route::name('admin')->get('/admin', 'Admin\AdminController@index');
 
 Route::name('admin.inquiries')->get('/admin/inquiries', function() {

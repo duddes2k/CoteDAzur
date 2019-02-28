@@ -27,9 +27,55 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $bookings = Booking::with(['client','service'])->get();
+        $bookings = Booking::with(['client','service'])
+                    ->latest('departure_date')
+                    ->get();
 
         return view('admin.bookings', compact('bookings'));
+    }
+
+    /**
+     * Display specific rental
+     * 
+     * @return \Illuminate\Http\Response
+     */
+    public function rentals($type)
+    {
+        $rental_type = $type;
+
+        $bookings = Booking::whereHas('service', $filter = function($query) use ($rental_type){
+                        $query->where('type','=', $rental_type);
+                    })->with(['client','service' => $filter])
+                    ->latest('departure_date')->get();
+
+        return view('admin.bookings', compact('bookings'));
+    }
+
+    /**
+     * Get booking details
+     * 
+     * @return \Illuminate\Http\Respose
+     */
+    public function details(Request $request)
+    {
+        $booking = Booking::with(['client','service'])
+                    ->where('id', $request->booking_id)
+                    ->first();
+
+        if($booking)
+        {
+            return response()->json([
+                'status' => '200',
+                'message' => 'success',
+                'data' => $booking
+            ]);
+        } else {
+            return response()->json([
+                'status' => '400',
+                'message' => 'failed',
+                'data' => []
+            ]);
+        }
     }
 
     /**

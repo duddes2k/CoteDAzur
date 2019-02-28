@@ -12,6 +12,8 @@ class Booking extends Model
         'duration', 'total'
     ];
 
+    protected $primaryKey = 'id';
+
     public function client()
     {
         return $this->hasOne(Client::class);
