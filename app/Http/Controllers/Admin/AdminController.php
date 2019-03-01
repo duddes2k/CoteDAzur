@@ -5,9 +5,13 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+use MaddHatter\LaravelFullcalendar\Facades\Calendar;
+
 use App\Booking;
 use App\Client;
 use App\Service;
+
+use URL, Redirect;
 
 class AdminController extends Controller
 {
@@ -31,7 +35,7 @@ class AdminController extends Controller
                     ->latest('departure_date')
                     ->get();
 
-        return view('admin.bookings', compact('bookings'));
+        return view('admin.bookings', compact('bookings'))->with('menu','bookings');
     }
 
     /**
@@ -48,7 +52,7 @@ class AdminController extends Controller
                     })->with(['client','service' => $filter])
                     ->latest('departure_date')->get();
 
-        return view('admin.bookings', compact('bookings'));
+        return view('admin.bookings', compact('bookings'))->with('menu','bookings');
     }
 
     /**
@@ -76,6 +80,59 @@ class AdminController extends Controller
                 'data' => []
             ]);
         }
+    }
+
+    /**
+     * Display Booking Calendar
+     * 
+     * @return \Illuminate\Http\Response
+     */
+    public function calendar()
+    {
+        $events = [];
+
+        $bookings = Booking::with(['client','service'])
+                    ->latest('departure_date')
+                    ->get();
+
+        if($bookings->count()) {
+
+            foreach ($bookings as $key => $booking) {
+
+                $color = 'gray';
+
+                switch ($booking->service->type)
+                {
+                    case 'car': 
+                                $color = 'blue'; 
+                                $rental = 'CAR RENTAL';
+                                break;
+                    case 'yacht': 
+                                $color = 'green'; 
+                                $rental = 'YACHT CHARTER';
+                                break;
+                    case 'speedboat': 
+                                $color = 'yellow'; 
+                                $rental = 'SPEEDBOAT CHARTER';
+                                break;
+                }
+
+                $events[] = Calendar::event(
+                    $rental.' - '.strtoupper($booking->client->first_name. ' ' .$booking->client->last_name),
+                    true,
+                    new \DateTime($booking->departure_date),
+                    new \DateTime($booking->return_date.' +1 day'),
+                    null,
+                    // Add color and link on event
+                    [
+                        'color' => $color,
+                        'url' => route('admin.bookings'),
+                    ]
+                );
+            }
+        }
+        $calendar = Calendar::addEvents($events);
+        return view('admin.calendar', compact('calendar'))->with('menu', 'calendar');
     }
 
     /**

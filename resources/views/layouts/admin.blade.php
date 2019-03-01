@@ -44,11 +44,13 @@
 
   @stack('style')
 
+  @yield('style')
+
 </head>
 <body class="horizontal-layout horizontal-menu 2-columns menu-expanded" data-open="hover"
 data-menu="horizontal-menu" data-col="2-columns">
   <!-- fixed-top-->
-  <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-fixed bg-gradient-y-success navbar-shadow navbar-brand-center">
+  <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-fixed bg-gradient-y-danger navbar-shadow navbar-brand-center">
     <div class="navbar-wrapper">
     
       <div class="navbar-header">
@@ -102,14 +104,14 @@ data-menu="horizontal-menu" data-col="2-columns">
       <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
 
       <!-- ///// Inquiries ///// -->
-        <li class="dropdown nav-item" data-menu="dropdown">
-           <a class="nav-link" href="/admin/bookings"><i class="la la-calendar block-page"></i>
+        <li class="dropdown nav-item {{ ($menu == 'calendar' ? 'active' : '') }}" data-menu="dropdown">
+           <a class="nav-link" href="{{ route('admin.bookings.calendar')  }}"><i class="la la-calendar block-page"></i>
             <span>Calendar</span>
           </a>
         </li>
        
         <!-- ///// Bookings ///// -->
-        <li class="dropdown nav-item active" data-menu="dropdown">
+        <li class="dropdown nav-item {{ ($menu == 'bookings' ? 'active' : '') }}" data-menu="dropdown">
            <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">
            <i class="la la-calendar block-page"></i>
             <span>Bookings</span></a>
@@ -173,6 +175,8 @@ data-menu="horizontal-menu" data-col="2-columns">
   <!-- BEGIN PAGE LEVEL JS-->
   @stack('page_level_scripts')
   <!-- END PAGE LEVEL JS-->
+
+  @yield('script')
   
   <script>
 

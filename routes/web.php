@@ -17,6 +17,8 @@
 |---------------------------------------------
 */
 
+Route::name('admin')->get('/admin', 'Admin\AdminController@index');
+
 Route::name('admin.login')->get('/admin/login', 'Auth\LoginController@showLoginForm');
 
 Route::name('admin.logout')->get('/admin/logout', 'Auth\LoginController@logout');
@@ -27,11 +29,10 @@ Route::name('admin.bookings.get')->post('/admin/bookings/details', 'Admin\AdminC
 
 Route::name('admin.bookings.type')->get('/admin/bookings/{type}', 'Admin\AdminController@rentals');
 
-Route::name('admin')->get('/admin', 'Admin\AdminController@index');
+Route::name('admin.bookings.calendar')->get('/admin/calendar', 'Admin\AdminController@calendar');
 
-Route::name('admin.inquiries')->get('/admin/inquiries', function() {
-    return view('admin.inquiry');
-});
+
+// Front-end routes
 
 Route::get('/', function () {
     return view('home');
@@ -48,7 +49,6 @@ Route::get('/rental/car', function () {
 Route::get('/rental/speedboat', function () {
     return view('boat');
 });
-
 
 Route::get('/aboutus', function () {
     return view('about');
