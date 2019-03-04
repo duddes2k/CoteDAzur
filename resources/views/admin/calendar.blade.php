@@ -2,7 +2,7 @@
 
 @section('style')
 <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css"/>
 @endsection
 
 @section('content')
@@ -58,7 +58,7 @@
   <script type="text/javascript" src="{{ asset('admin/js/scripts/ui/breadcrumbs-with-stats.js') }}"></script>  
   <script src="{{ asset('admin/vendors/js/pickers/dateTime/moment-with-locales.min.js') }}"
   type="text/javascript"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.js"></script>
   {!! $calendar->script() !!}
   
 @endpush
