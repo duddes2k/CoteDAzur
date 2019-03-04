@@ -9,7 +9,7 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
 
-    <title>{{ config("app.name","Cote d'Azur Luxury Rentals") }}</title>
+    <title>{{ config("app.name","Côte d'Azur Luxury Rentals") }}</title>
 
     <!--=== Bootstrap CSS ===-->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -70,9 +70,9 @@
                             <h2>About Us</h2>
                             <div class="widget-body">
                                 <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                                <h5 class="bizname">Cote d'Azur Luxury Rentals</h5>
+                                <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
                                 
-                                <p>We are located in Cannes, France, the ultimate glamorous destination in The French Riviera with its Luxury Villas, Cars and Yachts and known for the famous Cannes Film Festival.</p>
+                                <p>Côte d’Azur Luxury Rentals gives you the most luxurious charter experience. Sail and explore the clear blue waters of the French Riviera and nearby places. Cruise around the city and marvel at the breathtaking Côte d’Azur coastline. Get sun-kissed and feel the breeze aboard a super-fast speedboat.</p>
 
                                 <!-- <div class="newsletter-area">
                                     <form action="index.html">
@@ -89,7 +89,7 @@
                     <!-- Single Footer Widget Start -->
                     <div class="col-lg-4 col-lg-4">
                         <div class="single-footer-widget">
-                            <h2>SEND US YOUR INQUERY</h2>
+                            <h2>SEND US YOUR INQUIRY</h2>
                             <div class="widget-body">
                                 <form action="index.html">
                                     <div class="row">
@@ -125,7 +125,7 @@
                         <div class="single-footer-widget">
                             <h2>contact us</h2>
                             <div class="widget-body">
-                                <p>We're looking forward to hearing from you!</p>
+                                <p>We would love to hear from you!</p>
 
                                 <ul class="get-touch">
                                     <li><i class="fa fa-map-marker"></i> French Riviera, France</li>
