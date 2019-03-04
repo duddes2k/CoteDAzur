@@ -85,7 +85,7 @@
                             </div>
                         </div>
                         <div class="car-details-info">
-                            <p>SuperYacht is a 30.33m luxury yacht. Her top speed is 32.0kn and she boasts a maximum cruising range of 1000.0nm at 20.0kn with power coming from two 2400.0hp MTU 16V2000M91 diesel engines. She can accommodate up to 6 people with 4 crew members waiting on their every need. </p>
+                            <p>Our 30.33-meter spacious mega yacht can take you as fast as 32kn with a maximum cruising range of 1000.0nm at 25.0kn. Designed with exquisite interiors, the yacht can accommodate 7 to 8 guests with 4 professionally-trained crew members.</p>
 
                             <div class="technical-info">
                                 <div class="row">
@@ -120,6 +120,31 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-lg-12">
+                                        <h3 class="rates">Rates</h3>
+                                        <div class="tech-info-table">
+                                            <table class="table table-bordered">
+                                                <tr>
+                                                    <th class="text-center">SEASON</th>
+                                                    <th class="text-center">RATE</th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">PEAK SEASON</td>
+                                                    <td class="text-center">EURO 45,000.00 / WEEK</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">LEAN SEASON</td>
+                                                    <td class="text-center">EURO 43,000.00 / WEEK</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td class="text-center">EURO 10,000.00 / DAY</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -132,32 +157,7 @@
                     <div class="sidebar-content-wrap m-t-50">
 
                         <!-- Single Sidebar Start -->
-                        <div class="single-sidebar">
-                            <h3>Rates</h3>
-
-                            <div class="sidebar-body">
-                                <div class="tech-info-table">
-                                    <table class="table table-bordered">
-                                        <tr>
-                                            <th class="text-center">SEASON</th>
-                                            <th class="text-center">RATE</th>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">HIGH</td>
-                                            <td>EURO 45,000.00 / WEEK</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">LOW</td>
-                                            <td>EURO 43,000.00 / WEEK</td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td>EURO 10,000.00 / DAY</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <!-- Single Sidebar End -->
                     
                         <!-- Single Sidebar Start -->
@@ -165,11 +165,13 @@
                             <h3>Additional Information</h3>
 
                             <div class="sidebar-body">
-                                <p>Built-in 2007 by Couach in kevlar composite to a design from the French shipyard, Hummingbird is part of the Couach Yachts 3000 Fly series. She features a minimalist interior design by Danièle Chopard, which includes light woods and soft furnishings throughout. Able to accommodate up to seven guests in four cabins, this includes a full-beam master suite with a separate study that can be converted into a single cabin, a twin cabin and a VIP cabin located forward. She also features crew quarters for four members.</p>
+                                <p>From the Guy Couach shipyard, the Hummingbird was built in 2007 and designed with Kevlar composite for the Couach Yachts 3000 Fly series.</p><br/>
 
-                                <p>Her spacious main saloon offers an adjacent formal dining area with plenty of natural lighting and views. Outside the sundeck features a big sun pad, with 360-degree views and a dining table for al-fresco dining. Another additional sunbathing area can be found forward, with extra seating and dining possibilities. Hummingbird’s swimming platform can easily be converted into a dive platform or sunbathing platform when at anchor.</p> 
+                                <p>The light wood and soft furnishings of the minimalist interior design by Danièle Chopard gives you the ambiance of a beach house. This superyacht can accommodate 7 to 8 guests in its four rooms. The full-beam master suite with a separate study is convertible into a single cabin and adeptly designed to ensure privacy. Other rooms include a twin cabin and a VIP cabin. The Hummingbird also features quarters for the crew.</p><br/> 
 
-                                <p>Powered by twin MTU 16V 2000 M93 Diesel engines, she has a cruising speed of 25 knots and a top speed of 32 knots. </p>
+                                <p>Lounge at the spacious main saloon and enjoy meals at the adjacent formal dining area while savoring the view. Step outside the sundeck with a big sun pad, delight in the 360-degree view while dining al-fresco at the dining table or grill steaks and freshly caught fish at the newly installed barbeque at the flybridge. Additional sunbathing areas, extra seating, and dining spaces await your guests. Take a dip into the Hummingbird’s swimming pool where the platform can be converted into a dive platform or sunbathing platform.</p><br/>
+
+                                <p>This superyacht is powered by twin MTU 16V 2000 M93 Diesel engines that take you cruising at 25 knots and takes you as fast as 32 knots.</p>
                             </div>
                         </div>
                         <!-- Single Sidebar End -->

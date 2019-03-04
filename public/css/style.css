@@ -3305,3 +3305,12 @@ body,
 .display-table {
     margin: 170px auto auto;
 }
+
+.rates {
+    background-color: #ffd000;
+    color: #222;
+    font-size: 18px;
+    padding: 12px 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
