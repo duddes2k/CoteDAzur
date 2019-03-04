@@ -106,9 +106,9 @@
                 <!-- Section Title Start -->
                 <div class="col-lg-12">
                     <div class="section-title  text-center">
-                        <h2>Our Rentals</h2>
+                        <h2>Our Rental Fleet</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Below are our Luxury units available for rent.</p>
+                        <p>Whether it's a family holiday, romantic getaway, corporate event or an adventure of a lifetime, Côte d’Azur Luxury Rentals can give you an exceptional charter experience in the French Riviera.</p>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -116,6 +116,9 @@
 
 			<!-- Service Content Start -->
 			<div class="row">
+                <div class="col-lg-11 m-auto text-center pb-5">
+                    <h5>Choose below and book now for an unforgettable charter experience!</h5>
+                </div>
 				<div class="col-lg-11 m-auto text-center">
 					<div class="service-container-wrap">
 						<!-- Single Service Start -->
