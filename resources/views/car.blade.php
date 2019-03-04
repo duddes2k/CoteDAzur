@@ -112,7 +112,7 @@
                             </div>
                         </div>
                         <div class="car-details-info">
-                            <p>Convertible english white over white cream hide, beige hood</p>
+                            <p>The epitome of traveling in luxury is this legendary British hand-built car. A timeless piece crafted and engineered by Rolls Royce, this chauffeur-driven classic white and beige convertible that never goes out of style will surely make your holiday special.</p>
 
                             <div class="technical-info">
                                 <div class="row">
@@ -170,7 +170,7 @@
 
                             <div class="sidebar-body">
                                 
-                                <p>If there was ever an automaker that had a flagship model lead the way to success, that would be Rolls-Royce, riding on the magic carpet ride that has been the Phantom. With roots that predate World War II and an illustrious history that was only put on hold for a short period of time between 1939 and 1950 due to the second World War, the Phantom is one of the longest-running models in automotive history. It has always been the epitome of luxury, even when the very first model that took the streets by storm back in 1925. Over the years, the Phantom has seen a total of seven generational shifts with the most recent happening for the 2018 model year. The new Phantom VIII debuts with a fairly fresh look, an all-new aluminum architecture, and an all-new 6.75-liter, turbocharged, V-12. The 2018 Phantom also takes a huge step into the modern era with a new digital instrument cluster, updated infotainment system, and night vision, among other things.</p>
+                                <p>The Phantom is the flagship model of automaker Rolls Royce and one of the longest-running card models that transcended generations. A car of elegance and power, the Phantom can accelerate smoothly with its direct-injection V12 engine. Designed with advanced air suspension and intuitive navigation, this car ensures serene and comfortable rides. Its aluminum architecture with a sleek and powerful exterior is a head-turner wherever you go. The stylish and luxurious interior is fitted with lambswool soft leather and wood. Furnished with the top of the line digital instrument cluster, the latest infotainment system, and night vision capabilities. Our chauffeur-driven Phantom Drophead allows you to take the top down while driving around to get a better view of the coastline.</p>
 
                             </div>
                         </div>

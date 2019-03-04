@@ -99,7 +99,7 @@
                             
                         </div>
                         <div class="car-details-info">
-                            <p>The brand-defining VanDutch 40, our original power boat model, remains as striking and inspiring today as the day it was launched. Frank Mulder’s legendary design combines style with performance to create a boat for all your needs, with ample space to entertain, power to reach speeds of up to 40 knots and luxurious features to ensure your ride is comfortable, including a semi-automatic Bimini top. The queen-size V-cabin with galley station turns this versatile day boat into an overnight cruiser, opening up a world of options to your boating experience.</p>
+                            <p>Class, performance, and speed defines Frank Mulder’s legendary VanDutch 40. With its maximum speed of 40 knots, explore Côte d’Azur while fueling your need for speed. VanDutch 40 also takes you to a luxurious boating experience with its semi-automatic Bimini top, plush interiors, and a queen-sized V-Cabin with a galley station that converts this day boat into an overnight cruiser.</p>
 
                             <div class="technical-info">
                                 <div class="row">
@@ -110,7 +110,7 @@
                                                     <th>Top Speed</th>
                                                     <td>40kts</td>
                                                     <th>Engine</th>
-                                                    <td>480hp</td>
+                                                    <td>2 x 480hp</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Length Overall</th>
@@ -160,7 +160,8 @@
                             <h3>Additional Information</h3>
 
                             <div class="sidebar-body">
-                                <p>To match our world-class design, VanDutch offers the high-quality luxury and comfort that you would expect from a boat created to enjoy the French Riviera. All our boat models include on-board accommodation, from a double berth on the VanDutch 30 to a capacity of 10 guests on the VanDutch 55. Each boat is provided as standard with a full suite of the latest systems for guest convenience, including air conditioning, heating, audio entertainment, microwave and refrigerator. There is a fully equipped bathroom with hot-water shower and WC, and the high-quality Corian interior panels are both durable and attractive.</p>
+                                <p>A luxurious adventure is guaranteed by our VanDutch speedboat. Powered by its 2 X 480 HP engine that can take you as fast as 40 knots. Designed with Corian interior panels, equipped with the state-of-the-art entertainment system, and provided with the necessities like a fully-furnished bathroom, air conditioning, and heating systems to ensure comfort while cruising. VanDutch is also furnished with a microwave to warm quick meals and a refrigerator to keep chill your beverages.</p><br/>
+                                <p>If you wish to swim, the boat’s swimming platform and ladder make it easier to dive into the water.</p>
                             </div>
                         </div>
                         <!-- Single Sidebar End -->
