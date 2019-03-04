@@ -163,7 +163,7 @@
             transitionDuration: 2000,
             delay: 8000,
             color: "#000",
-            animation: "random",
+            animation: null,
             animationDuration: 20000,
             slides: [
                 {
