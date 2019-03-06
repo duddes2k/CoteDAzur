@@ -103,10 +103,14 @@
     margin-bottom: 80px;
 }
 
+/* Duddes */
 .section-title h2 {
+    font-family: "Eczar"; /* Duddes */
     margin-bottom: 10px;
     position: relative;
-    text-transform: uppercase;
+    color: #09357c;
+    font-weight: bold;
+    /* text-transform: uppercase; */
 }
 
 .section-title p {
@@ -164,11 +168,12 @@
 
 #header-area,
 #header-area a {
-    color: #fff;
+    color: #c1d3d1;
 }
 
 #header-top {
-    background-color: #1e2228;
+    /* background-color: #1e2228; */
+    background-color: #09357c;
     padding: 8px 0;
 }
 
@@ -189,7 +194,7 @@
 #header-area .header-social-icons a:hover i.fa,
 #header-area .mainmenu ul li.active a,
 #header-area .mainmenu ul li:hover a {
-    color: #ffd000;
+    color: #dbb02c;
 }
 
 header.fixTotop #header-top {
@@ -201,20 +206,28 @@ header.fixTotop #header-top {
 /*== Header Bottom CSS Start ==*/
 
 #header-bottom {
-    background-color: rgba(64, 102, 109, 1);
-    padding: 15px 0;
+    /* background-color: rgba(64, 102, 109, 1); */
+    background-color: #09357c;
+    /* padding: 15px 0; */
+    padding: 0;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
 
 header.fixTotop #header-bottom {
-    background-color: rgba(64, 102, 109, 1);
+    /* background-color: rgba(64, 102, 109, 1); */
+    background-color: #09357c;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
 
 .logo {
     display: inline-block;
+}
+
+/* Duddes */
+.logo img {
+    height: 100px;
 }
 
 .mainmenu ul li {
@@ -227,7 +240,7 @@ header.fixTotop #header-bottom {
     font-weight: 700;
     margin-left: 25px;
     padding: 15px 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
@@ -1309,17 +1322,37 @@ a.slicknav_btn {
     color: #ffd000;
 }
 
+#footer-logo {
+    height: 200px;
+}
+
 .footer-widget-area {
-    background-color: rgba(64, 102, 109);
+    /* background-color: rgba(64, 102, 109); */
+    background-color: #09357c;
     padding: 60px 0;
+    color: #c1d4d2 !important;
+    font-family: "Signika";
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+.footer-widget-area p {
+    text-align: justify;
+    font-size: 15px !important;
+}
+
+.footer-widget-area h2 {
+    font-family: "Eczar";
 }
 
 .footer-widget-area h2,
 .footer-widget-area {
-    color: #fff;
+    /* color: #fff; */
+    color: #ddb12c;
 }
 
-.singlefooter-widget h2 {
+/* Dash under header 2 */
+/* .single-footer-widget h2 {
     border-bottom: 1px dashed #ffd000;
     display: inline-block;
     font-size: 25px;
@@ -1328,13 +1361,31 @@ a.slicknav_btn {
     padding-bottom: 15px;
     position: relative;
     text-transform: uppercase;
+} */
+
+.single-footer-widget-left,
+.single-footer-widget-right {
+    margin-top: 155px;
+}
+
+.single-footer-widget-right {
+    margin-left: 100px;
+}
+
+.single-footer-widget-left h2,
+.single-footer-widget-right h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: "Eczar";
+    /* text-transform: uppercase; */
 }
 
 .single-footer-widget h2 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 30px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .single-footer-widget p {
@@ -1452,10 +1503,9 @@ a.slicknav_btn {
 }
 
 .get-touch {
-    color: #ffd000;
+    color: #c1d3d1;
     font-size: 15px;
-    font-weight: 600;
-    line-height: 2.5;
+    line-height: 1.5;
     margin-top: 20px;
 }
 
@@ -1589,7 +1639,7 @@ body,
 /*== Book Car CSS ==*/
 
 .book-ur-car {
-    background-color: rgba(64, 102, 109, 0.7);
+    background-color: rgba(64, 102, 109, 0);
     border-radius: 4px;
     margin: auto;
     overflow: hidden;
@@ -1604,7 +1654,8 @@ body,
 }
 
 .bookinput-item {
-    border: 1px solid #fff;
+    background-color: rgb(221, 177, 44, 0.8);
+    /* border: 1px solid #fff; */
     display: block;
     float: left;
     margin-right: 1%;
@@ -1623,13 +1674,17 @@ body,
     background-color: transparent;
     border: none;
     border-radius: 0;
-    color: #fff;
+    color: #09357c !important;
     font-size: 16px;
     font-weight: 600;
     padding: 10px;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     width: 100%;
+}
+
+.book-ur-car button {
+    color: #dbb02c !important;
 }
 
 .book-ur-car select:focus,
@@ -1641,6 +1696,8 @@ body,
 
 .bookcar-btn button {
     padding: 7px;
+    background-color: #09357c;
+    color: #dbb02c;
     cursor: pointer;
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -2032,8 +2089,17 @@ body,
 
 /*== What Do Area CSS ==*/
 
+#service-area h4 {
+    font-family: "Signika-Bold";
+    color: #09357c;
+}
+
 #service-area.section-padding {
     padding-bottom: 50px;
+}
+
+#service-area p {
+    font-size: 13pt;
 }
 
 /*== What Choose CSS ==*/

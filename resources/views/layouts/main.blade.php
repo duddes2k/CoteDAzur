@@ -56,6 +56,49 @@
     </div>
     <!--== Preloader Area End ==-->
 
+    <!--== Header Area Start ==-->
+    <header id="header-area" class="fixed-top">
+        <!--== Header Bottom Start ==-->
+        <div id="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <!--== Logo Start ==-->
+                    <div class="col-lg-3">
+                        <a href="/" class="logo">
+                            <img src="{{ asset('/img/logo/header-logo.png') }}" alt="JSOFT">
+                            <!-- <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5> -->
+                        </a>
+                    </div>
+                    <!--== Logo End ==-->
+
+                    <!--== Main Menu Start ==-->
+                    <div class="col-lg-8 d-none d-xl-block">
+                        <nav class="mainmenu alignleft mt-4">
+                            <ul>
+                                <li class="active sliding-link"><a href="/">Home</a></li>
+                                <li><a href="/aboutus">About</a></li>
+                                <li><a href="/rental/yacht">Yacht Charter</a></li>
+                                <li><a href="/rental/speedboat">Speedboat Charter</a></li>
+                                <li><a href="/rental/car">Car Rental</a></li>
+                                <!-- <li><a class="sliding-link" href="#service-area">Rentals</a>
+                                    <ul>
+                                        <li><a href="/rental/yacht">Luxury Mega Yacht</a></li>
+                                        <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
+                                        <li><a href="/rental/speedboat">Vandutch 40 Superfast Luxury Speedboat</a></li>
+                                    </ul>
+                                </li> -->
+                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--== Main Menu End ==-->
+                </div>
+            </div>
+        </div>
+        <!--== Header Bottom End ==-->
+    </header>
+    <!--== Header Area End ==-->
+
     @yield('content')
 
     <!--== Footer Area Start ==-->
@@ -64,22 +107,32 @@
         <div class="footer-widget-area">
             <div class="container">
                 <div class="row">
+
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-footer-widget-left">
+                            
+                            <div class="widget-body">
+                                <h2>Contact Us</h2>
+                                <p>We would love to hear from you!</p>
+
+                                <ul class="get-touch">
+                                    <li><i class="fa fa-map-marker"></i> French Riviera, France</li>
+                                    <li><i class="fa fa-mobile"></i> 06 37 23 75 60</li>
+                                    <li><i class="fa fa-envelope"></i> nicolance@icloud.com</li>
+                                </ul><br/>
+                                <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="btn btn-warning" target="_blank">Show Location</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+
                     <!-- Single Footer Widget Start -->
                     <div class="col-lg-4 col-md-6">
                         <div class="single-footer-widget">
-                            <h2>About Us</h2>
                             <div class="widget-body">
-                                <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                                <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
-                                
+                                <img id="footer-logo" src="{{ asset('/img/logo/footer-logo.png') }}" alt="JSOFT">
                                 <p>Côte d’Azur Luxury Rentals gives you the most luxurious charter experience. Sail and explore the clear blue waters of the French Riviera and nearby places. Cruise around the city and marvel at the breathtaking Côte d’Azur coastline. Get sun-kissed and feel the breeze aboard a super-fast speedboat.</p>
-
-                                <!-- <div class="newsletter-area">
-                                    <form action="index.html">
-                                        <input type="email" placeholder="Subscribe Our Newsletter">
-                                        <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>
-                                    </form>
-                                </div> -->
 
                             </div>
                         </div>
@@ -87,31 +140,29 @@
                     <!-- Single Footer Widget End -->
 
                     <!-- Single Footer Widget Start -->
-                    <div class="col-lg-4 col-lg-4">
-                        <div class="single-footer-widget">
-                            <h2>SEND US YOUR INQUIRY</h2>
+                    <div class="col-lg-4">
+                        <div class="single-footer-widget-right">
+                            
                             <div class="widget-body">
-                                <form action="index.html">
+                                <h2>Send us your inquiries</h2>
+                                <form action="#">
                                     <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="name-input">
-                                                <input type="text" placeholder="Full Name">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" placeholder="Full Name">
+                                            </div>
+                                        
+                                            <div class="form-group">
+                                                <input class="form-control" type="email" placeholder="Email Address">
+                                            </div>
+                                        
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="review" cols="40" placeholder="Message"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <button class="btn btn-warning btn-block input-submit" type="submit">Submit</button>
                                             </div>
                                         </div>
-
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="email-input">
-                                                <input type="email" placeholder="Email Address">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="message-input">
-                                                <textarea name="review" cols="40" placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="input-submit">
-                                        <button type="submit">Submit Message</button>
                                     </div>
                                 </form>
                             </div>
@@ -120,23 +171,7 @@
                     </div>
                     <!-- Single Footer Widget End -->
 
-                    <!-- Single Footer Widget Start -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-footer-widget">
-                            <h2>contact us</h2>
-                            <div class="widget-body">
-                                <p>We would love to hear from you!</p>
-
-                                <ul class="get-touch">
-                                    <li><i class="fa fa-map-marker"></i> French Riviera, France</li>
-                                    <li><i class="fa fa-mobile"></i> +63-917-522-9797</li>
-                                    <li><i class="fa fa-envelope"></i> aernout@pldtdsl.net</li>
-                                </ul>
-                                <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="map-show" target="_blank">Show Location</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Footer Widget End -->
+                    
                 </div>
             </div>
         </div>
@@ -147,6 +182,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
+                        <p>
+                            <a href="#">Cookies Policy</a> | 
+                            <a href="#">Privay Policy</a> |
+                            <a href="#">Terms and Condition</a>
+                        </p>
                         <p>
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 </p>

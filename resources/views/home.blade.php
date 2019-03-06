@@ -2,50 +2,6 @@
 
 @section('content')
 
-    <!--== Header Area Start ==-->
-    <header id="header-area" class="fixed-top">
-        
-        <!--== Header Bottom Start ==-->
-        <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li class="active sliding-link"><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li><a href="/rental/yacht">Yacht Charter</a></li>
-                                <li><a href="/rental/speedboat">Speedboat Charter</a></li>
-                                <li><a href="/rental/car">Car Rental</a></li>
-                                <!-- <li><a class="sliding-link" href="#service-area">Rentals</a>
-                                    <ul>
-                                        <li><a href="/rental/yacht">Luxury Mega Yacht</a></li>
-                                        <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
-                                        <li><a href="/rental/speedboat">Vandutch 40 Superfast Luxury Speedboat</a></li>
-                                    </ul>
-                                </li> -->
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
-        </div>
-        <!--== Header Bottom End ==-->
-    </header>
-    <!--== Header Area End ==-->
-
     <!--== SlideshowBg Area Start ==-->
     <section id="slideslow-bg">
         <div class="container">
@@ -86,7 +42,7 @@
                                         </div>
 
                                         <div class="bookcar-btn bookinput-item">
-                                            <button type="submit" id="submit-request">GET A QUOTE</button>
+                                            <button type="submit" id="submit-request">Get a Quote</button>
                                         </div>
                                     </form>
                                 </div>
@@ -117,7 +73,7 @@
 			<!-- Service Content Start -->
 			<div class="row">
                 <div class="col-lg-11 m-auto text-center pb-5">
-                    <h5>Choose below and book now for an unforgettable charter experience!</h5>
+                    <h4>Choose below and book now for an unforgettable charter experience!</h4>
                 </div>
 				<div class="col-lg-11 m-auto text-center">
 					<div class="service-container-wrap">

@@ -2,8 +2,8 @@
     Theme Fonts
 ==========================================*/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Monoton");
 
 /**
 *******************************************
@@ -11,13 +11,36 @@
 *******************************************
 **/
 
+@font-face {
+    font-family: Eczar;
+    src: url("../fonts/Eczar/Eczar-Regular.ttf?") format("truetype");
+    src: url("../fonts/Eczar/Eczar-Medium.ttf?") format("truetype");
+    src: url("../fonts/Eczar/Eczar-SemiBold.ttf?") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Signika;
+    src: url("../fonts/Signika/Signika-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Signika-Bold;
+    src: url("../fonts/Signika/Signika-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: bold;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 * {
-    outline: none!important
+    outline: none !important;
 }
 
 .fix {
@@ -69,7 +92,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -78,18 +101,17 @@ h6 {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Signika", "Open Sans", sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    /* font-weight: 400;*/
     line-height: 1.6;
     color: #333;
     letter-spacing: 0.8px;
 }
 
 a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
-
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
@@ -117,6 +139,15 @@ ul li {
 ::selection {
     background-color: #fff;
     color: #fab702;
+}
+
+.form-control,
+.btn {
+    border-radius: 0 !important;
+}
+
+.btn {
+    color: #09357c !important;
 }
 
 /**
