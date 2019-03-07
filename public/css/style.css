@@ -1651,17 +1651,17 @@ body,
 }
 
 .book-ur-car input::-webkit-input-placeholder {
-    color: #fff;
+    color: #09357c;
     opacity: 1;
 }
 
 .book-ur-car input:-ms-input-placeholder {
-    color: #fff;
+    color: #09357c;
     opacity: 1;
 }
 
 .book-ur-car input::placeholder {
-    color: #fff;
+    color: #09357c;
     opacity: 1;
 }
 
