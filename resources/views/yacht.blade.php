@@ -44,68 +44,16 @@
                             </div>
                         </div>
                         <div class="car-details-info">
-                            <p>Our 30.33-meter spacious mega yacht can take you as fast as 32kn with a maximum cruising range of 1000.0nm at 25.0kn. Designed with exquisite interiors, the yacht can accommodate 7 to 8 guests with 4 professionally-trained crew members.</p>
+                            <p>Our 30.33-meter spacious mega yacht can take you as fast as 32kn with a maximum cruising range of 1000.0nm at 25.0kn. Designed with exquisite interiors, the yacht can accommodate 7 to 8 guests with 4 professionally-trained crew members.</p><br/>
 
-                            <div class="technical-info">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tech-info-table">
-                                            <table class="table table-bordered">
-                                                <tr>
-                                                    <th>Top Speed</th>
-                                                    <td>32kts</td>
-                                                    <th>Cruise Speed</th>
-                                                    <td>26kts</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Range</th>
-                                                    <td>10000nm</td>
-                                                    <th>Displacement</th>
-                                                    <td>80t</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Beam</th>
-                                                    <td>6.5m</td>
-                                                    <th>Guests</th>
-                                                    <td>7-8</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Guest Cabin</th>
-                                                    <td>4</td>
-                                                    <th>Crew</th>
-                                                    <td>4</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
+                            <p>From the Guy Couach shipyard, the Hummingbird was built in 2007 and designed with Kevlar composite for the Couach Yachts 3000 Fly series.</p><br/>
 
-                                    <div class="col-lg-12">
-                                        <h3 class="rates">Rates</h3>
-                                        <div class="tech-info-table">
-                                            <table class="table table-bordered">
-                                                <tr>
-                                                    <th class="text-center">SEASON</th>
-                                                    <th class="text-center">RATE</th>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-center">PEAK SEASON</td>
-                                                    <td class="text-center">EURO 45,000.00 / WEEK</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-center">LEAN SEASON</td>
-                                                    <td class="text-center">EURO 43,000.00 / WEEK</td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td class="text-center">EURO 10,000.00 / DAY</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                
-                                    </div>
+                            <p>The light wood and soft furnishings of the minimalist interior design by Danièle Chopard gives you the ambiance of a beach house. This superyacht can accommodate 7 to 8 guests in its four rooms. The full-beam master suite with a separate study is convertible into a single cabin and adeptly designed to ensure privacy. Other rooms include a twin cabin and a VIP cabin. The Hummingbird also features quarters for the crew.</p><br/> 
 
-                                </div>
-                            </div>
+                            <p>Lounge at the spacious main saloon and enjoy meals at the adjacent formal dining area while savoring the view. Step outside the sundeck with a big sun pad, delight in the 360-degree view while dining al-fresco at the dining table or grill steaks and freshly caught fish at the newly installed barbeque at the flybridge. Additional sunbathing areas, extra seating, and dining spaces await your guests. Take a dip into the Hummingbird’s swimming pool where the platform can be converted into a dive platform or sunbathing platform.</p><br/>
+
+                            <p>This superyacht is powered by twin MTU 16V 2000 M93 Diesel engines that take you cruising at 25 knots and takes you as fast as 32 knots.</p>
+
                         </div>
                     </div>
                 </div>
@@ -113,29 +61,81 @@
 
                 <!-- Sidebar Area Start -->
                 <div class="col-lg-4">
-                    <div class="sidebar-content-wrap m-t-50">
+                    <div class="sidebar-content-wrap">
 
                         <!-- Single Sidebar Start -->
-                        
-                        <!-- Single Sidebar End -->
-                    
-                        <!-- Single Sidebar Start -->
-                        <div class="single-sidebar">
-                            <h3>Additional Information</h3>
-
-                            <div class="sidebar-body">
-                                <p>From the Guy Couach shipyard, the Hummingbird was built in 2007 and designed with Kevlar composite for the Couach Yachts 3000 Fly series.</p><br/>
-
-                                <p>The light wood and soft furnishings of the minimalist interior design by Danièle Chopard gives you the ambiance of a beach house. This superyacht can accommodate 7 to 8 guests in its four rooms. The full-beam master suite with a separate study is convertible into a single cabin and adeptly designed to ensure privacy. Other rooms include a twin cabin and a VIP cabin. The Hummingbird also features quarters for the crew.</p><br/> 
-
-                                <p>Lounge at the spacious main saloon and enjoy meals at the adjacent formal dining area while savoring the view. Step outside the sundeck with a big sun pad, delight in the 360-degree view while dining al-fresco at the dining table or grill steaks and freshly caught fish at the newly installed barbeque at the flybridge. Additional sunbathing areas, extra seating, and dining spaces await your guests. Take a dip into the Hummingbird’s swimming pool where the platform can be converted into a dive platform or sunbathing platform.</p><br/>
-
-                                <p>This superyacht is powered by twin MTU 16V 2000 M93 Diesel engines that take you cruising at 25 knots and takes you as fast as 32 knots.</p>
+                         <div class="single-sidebar">
+                            <h3>Overview</h3>
+                            <div class="single-body">
+                                <div class="tech-info-table">
+                                    <table class="table table-bottom-border">
+                                        <tr>
+                                            <td>Top Speed</td>
+                                            <td>32kts</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cruise Speed</td>
+                                            <td>26kts</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Range</td>
+                                            <td>10000nm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Displacement</td>
+                                            <td>80t</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Beam</td>
+                                            <td>6.5m</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Guests</td>
+                                            <td>7-8</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Guest Cabin</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Crew</td>
+                                            <td>4</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                         <!-- Single Sidebar End -->
 
-                       
+                        <!-- Single Sidebar Start -->
+                        <div class="single-sidebar">
+                            <h3>Rates</h3>
+                            <div class="single-body">
+                                 <div class="tech-info-table">
+                                    <table class="table table-bottom-border">
+                                        <tr>
+                                            <td>PEAK SEASON</td>
+                                            <td>EURO 45,000.00 / week</td>
+                                        </tr>
+                                        <tr>
+                                            <td>LEAN SEASON</td>
+                                            <td>EURO 43,000.00 / week</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>EURO 10,000.00 / day</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>* Includes Captain</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <a href="/" class="btn btn-md btn-block btn-reserve">Book Now</a>
+                        </div>
+                        <!-- Single Sidebar End -->
+                    
                     </div>
                 </div>
                 <!-- Sidebar Area End -->

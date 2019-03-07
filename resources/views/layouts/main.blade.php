@@ -75,11 +75,11 @@
                     <div class="col-lg-8 d-none d-xl-block">
                         <nav class="mainmenu alignleft mt-4">
                             <ul>
-                                <li class="active sliding-link"><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li><a href="/rental/yacht">Yacht Charter</a></li>
-                                <li><a href="/rental/speedboat">Speedboat Charter</a></li>
-                                <li><a href="/rental/car">Car Rental</a></li>
+                                <li class="{{ ($menu == 'home' ? 'active' : '') }}"><a href="/">Home</a></li>
+                                <li class="{{ ($menu == 'aboutus' ? 'active' : '') }}"><a href="/aboutus">About</a></li>
+                                <li class="{{ ($menu == 'yacht' ? 'active' : '') }}"><a href="/rental/yacht">Yacht Charter</a></li>
+                                <li class="{{ ($menu == 'speedboat' ? 'active' : '') }}"><a href="/rental/speedboat">Speedboat Charter</a></li>
+                                <li class="{{ ($menu == 'car' ? 'active' : '') }}"><a href="/rental/car">Car Rental</a></li>
                                 <!-- <li><a class="sliding-link" href="#service-area">Rentals</a>
                                     <ul>
                                         <li><a href="/rental/yacht">Luxury Mega Yacht</a></li>

@@ -86,7 +86,7 @@
                         <div class="single-sidebar">
                             <h3>Overview</h3>
 
-                            <div class="sidebar-body">
+                            <div class="single-body">
                                 <div class="tech-info-table">
                                     <table class="table table-bottom-border">
                                         <tr>
@@ -122,12 +122,12 @@
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
                             <h3>Rates</h3>
-                            <div class="sidebar-body">
+                            <div class="single-body">
                                  <div class="tech-info-table">
                                     <table class="table table-bottom-border">
                                         <tr>
                                             <td>&euro; 2,950.00 per day</td>
-                                            <td>* Include Chauffeur</td>
+                                            <td>* Includes Chauffeur</td>
                                         </tr>
                                     </table>
                                 </div>

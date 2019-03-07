@@ -35,27 +35,27 @@ Route::name('admin.bookings.calendar')->get('/admin/calendar', 'Admin\AdminContr
 // Front-end routes
 
 Route::get('/', function () {
-    return view('home');
+    return view('home')->with('menu','home');
 });
 
 Route::get('/rental/yacht', function () {
-    return view('yacht');
+    return view('yacht')->with('menu','yacht');
 });
 
 Route::get('/rental/car', function () {
-    return view('car');
+    return view('car')->with('menu','car');
 });
 
 Route::get('/rental/speedboat', function () {
-    return view('boat');
+    return view('boat')->with('menu','speedboat');
 });
 
 Route::get('/aboutus', function () {
-    return view('about');
+    return view('about')->with('menu','aboutus');
 });
 
 Route::get('/thankyou', function () {
-    return view('thankyou');
+    return view('thankyou')->with('menu','home');
 });
 
 //Auth::routes();

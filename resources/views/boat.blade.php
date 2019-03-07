@@ -69,7 +69,7 @@
 
                 <!-- Sidebar Area Start -->
                 <div class="col-lg-4">
-                    <div class="sidebar-content-wrap m-t-50">
+                    <div class="sidebar-content-wrap">
 
                         <!-- Single Sidebar Overview -->
                         <div class="single-sidebar">
@@ -78,35 +78,35 @@
                                 <div class="tech-info-table">
                                     <table class="table table-bottom-border">
                                         <tr>
-                                            <td>Top Speed</th>
+                                            <td>Top Speed</td>
                                             <td>40kts</td>
                                         </tr>
                                         <tr>
-                                            <td>Engine</th>
+                                            <td>Engine</td>
                                             <td>2 x 480hp</td>
                                         </tr>
                                         <tr>
-                                            <td>Length Overall</th>
+                                            <td>Length Overall</td>
                                             <td>40 feet</td>
                                         </tr>
                                         <tr>
-                                            <td>Beam Overall</th>
+                                            <td>Beam Overall</td>
                                             <td>11.6 feet</td>
                                         </tr>
                                         <tr>
-                                            <td>Fuel Capacity</th>
+                                            <td>Fuel Capacity</td>
                                             <td>240gal</td>
                                         </tr>
                                         <tr>
-                                            <td>Water Capacity</th>
+                                            <td>Water Capacity</td>
                                             <td>40gl</td>
                                         </tr>
                                         <tr>
-                                            <td>Draft</th>
+                                            <td>Draft</td>
                                             <td>2.6 feet</td>
                                         </tr>
                                         <tr>
-                                            <td>Displacement</th>
+                                            <td>Displacement</td>
                                             <td>16,535lb</td>
                                         </tr>
                                     </table>
@@ -115,10 +115,10 @@
                         </div>
 
                         <!-- Single Sidebar Start -->
-                        <div class="single-sidebar">
+                         <div class="single-sidebar">
                             <h3>Rates</h3>
-                            <div class="sidebar-body">
-                                 <div class="tech-info-table">
+                            <div class="single-body">
+                                <div class="tech-info-table">
                                     <table class="table table-bottom-border">
                                         <tr>
                                             <td>&euro; 2,950.00 per day</td>
