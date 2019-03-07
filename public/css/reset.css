@@ -141,6 +141,12 @@ ul li {
     color: #fab702;
 }
 
+input.form-control,
+textarea.form-control {
+    background-color: #fafafa !important;
+    border: 1px solid #eaeaea !important;
+}
+
 .form-control,
 .btn {
     border-radius: 0 !important;

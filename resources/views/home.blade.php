@@ -79,43 +79,31 @@
 					<div class="service-container-wrap">
 						<!-- Single Service Start -->
 						<div class="service-item">
-							<!-- <i class="fa fa-car"></i> -->
-                            <div class="service_rental mb-3">
-                                <img src="https://upn3pw.ch.files.1drv.com/y4mZs5ZDPrZvBAo5LFREH7Z6BpzGeooBGCdK29rbr9E9miZoqgnjjv7JdLnIfbVjQXjtcpDTpAp5efgvazmifq-HpX_RgmPP-8OGsTNEEfiMw412yMm9TI_hquxNPR7akG12MMi_LgmUlG2rj-_7kgaxQ1W8I3NbvThnlzbX7qfl_NN7pFNM4_w9GzAiWmabruTQirlBEOOc7jo3cjLcA1zRQ?width=256&height=171&cropmode=none"/>
-                            </div>
-							<h5>ROLLS-ROYCE PHANTOM DROPHEAD</h5>
-							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
-                            <div class="about-btn mt-3">
-                                <a href="/rental/car">View Details</a>
-                            </div>
+
+                            <a href="/rental/car"><img src="https://jed2dg.ch.files.1drv.com/y4mn4F9HaGsR0yQstxGwxc_3Bb9skuT0-8unpD16eNPZWM-ZIwOgmoFvWN3CLid5SALlFXOPYTQvQWChqU47PHwBQ2e_voi-LDCSnTi01izZRkwY2I6BFrrYeGAXRWGhuN2TzJw3ep8OR13UuMSNRB6VKui3hXyLFrceTUB4IkENSCYRVjV3tAyuFoNfhTHs2wf9Z6CeJj8moZ6vQavRTUBIw?width=324&height=227&cropmode=none"/></a>
+                            
+							<h3>Rolls-Royce<br/>Phantom Drophead</h3>
+							
                         </div>
 						<!-- Single Service End -->
 
 						<!-- Single Service Start -->
 						<div class="service-item">
-							<!-- <i class="fa fa-ship"></i> -->
-                            <div class="service_rental mb-3">
-                                <img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=256&height=180&cropmode=none"/>
-                            </div>
-							<h5>LUXURY MEGA YACHT</h5>
-							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
-                            <div class="about-btn mt-3">
-                                <a href="/rental/yacht">View Details</a>
-                            </div>
+
+                            <a href="/rental/yacht"><img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=256&height=180&cropmode=none"/></a>
+
+							<h3>Luxury Mega Yacht</h3>
+							
                         </div>
 						<!-- Single Service End -->
 
 						<!-- Single Service Start -->
 						<div class="service-item">
-							<!-- <i class="fa fa-ship"></i> -->
-                            <div class="service_rental mb-3">
-                                <img src="https://7l2mkq.ch.files.1drv.com/y4mDieMO4lgaXU_FJLLzj3OWwa-q_0cvybEDpGO-xJ0jmlrcfUjSnxbHbojYNVhMJiC-wc8Nq-pun_pQdP6tqvuwnv41D7T6HYnF3SIqzfW0Yce7jMA1Xbgqtx5JUiGqKIkDUdR48bbu_qR6PmqN3LNTBu0DkRyJtgdcFpOfiRlKnmZ6Z-ASitH5xP3xx4jNIFNXXJ1Up-epWCf6AW3YkH97w?width=256&height=192&cropmode=none"/>
-                            </div>
-							<h5>VANDUTCH 40 SUPERFAST LUXURY SPEEDBOAT</h5>
-							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit admollitia.</p> -->
-                            <div class="about-btn mt-3">
-                                <a href="/rental/speedboat">View Details</a>
-                            </div>
+
+                            <a href="/rental/speedboat"><img src="https://jefbaq.ch.files.1drv.com/y4m2mqZDsZlnG24XTWBWKjGKTyg1ZEX58JrO1nbpGbLqalh8GE8_SjA05ggsK0cCmqv5vYocAP3fTRJ2bTTcNnGE9JKpN2bJx0pY8zOdnJWedzJSl2Qy9Uud8EpUeYUvxS00pstqUslJD9lSJ8VPLN4XWMht_L-gLe8vxYSDF-3lEKxrpmGObno3UsiG3Y9g8IYoomHIyCd-EH94yErK0oLPQ?width=324&height=227&cropmode=none"/></a>
+                            
+							<h3>VanDutch 40<br/>Superfast Speedboat</h3>
+							
                         </div>
 						<!-- Single Service End -->
 

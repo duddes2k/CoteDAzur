@@ -61,7 +61,8 @@ class ReservationController extends Controller
                         ->with('rental', $rental)
                         ->with('service_id', $request->rental)
                         ->with('duration', $days)
-                        ->with('total', $total);
+                        ->with('total', $total)
+                        ->with('menu','home');
     }
 
     /**
@@ -114,6 +115,6 @@ class ReservationController extends Controller
 
     public function thankyou()
     {
-        return view('thankyou');
+        return view('thankyou')->with('menu','home');
     }
 }

@@ -557,15 +557,23 @@ a.slicknav_btn {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
     color: #222;
     margin-bottom: 30px;
-    padding: 65px 25px;
+    background-color: #ddb12c;
+    /* padding: 65px 25px; */
+}
+
+.service-item img {
+    width: 100%;
 }
 
 .service-item h3 {
-    color: #000;
-    font-size: 25px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 20px 0 15px;
+    color: #fcf9f9;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Eczar";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    height: 60px;
 }
 
 .service-item i.fa {
@@ -576,8 +584,8 @@ a.slicknav_btn {
 .service-container-wrap .service-item {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #ffd000;
-    padding: 50px 20px;
+    /* border: 1px solid #ffd000; */
+    /* padding: 50px 20px; */
 }
 
 /*== Service Area CSS End ==*/
@@ -1703,9 +1711,14 @@ body,
     transition: 0.4s;
 }
 
-.bookcar-btn:hover {
-    background-color: #ffd000;
-    border-color: #ffd000;
+.bookcar-btn button:focus {
+    background-color: #09357c;
+    color: #ddb12c !important;
+}
+
+.bookcar-btn button:hover {
+    background-color: #ddb12c;
+    color: #09357c !important;
 }
 
 .book-ur-car .input-group-append i.fa {
@@ -3363,12 +3376,13 @@ body,
     height: 100%;
 }
 
-.service_rental img {
+/* .service_rental img {
     border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
-}
+   border-top-right-radius: 50% 50%;
+    height: 400px;
+} */
 
 .picker__input {
     padding: 6px 6px !important;
