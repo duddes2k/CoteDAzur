@@ -162,6 +162,12 @@ textarea.form-control {
     color: #ddb12c !important;
 }
 
+.btn-about {
+    font-family: "Signika";
+    background-color: #ddb12c;
+    color: #09357c !important;
+}
+
 /**
 *******************************************
 * Reset CSS End

@@ -80,13 +80,7 @@
                                 <li class="{{ ($menu == 'yacht' ? 'active' : '') }}"><a href="/rental/yacht">Yacht Charter</a></li>
                                 <li class="{{ ($menu == 'speedboat' ? 'active' : '') }}"><a href="/rental/speedboat">Speedboat Charter</a></li>
                                 <li class="{{ ($menu == 'car' ? 'active' : '') }}"><a href="/rental/car">Car Rental</a></li>
-                                <!-- <li><a class="sliding-link" href="#service-area">Rentals</a>
-                                    <ul>
-                                        <li><a href="/rental/yacht">Luxury Mega Yacht</a></li>
-                                        <li><a href="/rental/car">Rolls Royce Phantom Drophead</a></li>
-                                        <li><a href="/rental/speedboat">Vandutch 40 Superfast Luxury Speedboat</a></li>
-                                    </ul>
-                                </li> -->
+                               
                                 <li><a class="sliding-link" href="#footer-area">Contact</a></li>
                             </ul>
                         </nav>
