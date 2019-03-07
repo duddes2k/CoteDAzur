@@ -2,50 +2,9 @@
 
 @section('content')
 
-    <!--== Header Area Start ==-->
-    <header id="header-area" class="fixed-top">
-        <!--== Header Top Start ==-->
-        <div id="header-top" class="d-none d-xl-block">
-            @include('shared.top')
-        </div>
-        <!--== Header Top End ==-->
-
-        <!--== Header Bottom Start ==-->
-        <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li><a href="/rental/yacht">Yacht Charter</a></li>
-                                <li><a href="/rental/speedboat">Speedboat Charter</a></li>
-                                <li class="active"><a href="/rental/car">Car Rental</a></li>
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
-        </div>
-        <!--== Header Bottom End ==-->
-    </header>
-    <!--== Header Area End ==-->
     <!--== Car List Area Start ==-->
     <div style="padding-top:100px"></div>
-    <section id="car-list-area" class="section-padding">
+    <section id="car-list-area" class="car-list section-padding">
         <div class="container">
             <div class="row">
                 <!-- Car List Content Start -->
@@ -112,39 +71,8 @@
                             </div>
                         </div>
                         <div class="car-details-info">
-                            <p>The epitome of traveling in luxury is this legendary British hand-built car. A timeless piece crafted and engineered by Rolls Royce, this chauffeur-driven classic white and beige convertible that never goes out of style will surely make your holiday special.</p>
-
-                            <div class="technical-info">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tech-info-table">
-                                            <table class="table table-bordered">
-                                                <tr>
-                                                    <th>Vehicle Type</th>
-                                                    <td>Convertible</td>
-                                                    <th>Number of Seats</th>
-                                                    <td>4</td>
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <th>Doors</th>
-                                                    <td>2</td>
-                                                    <th>Exterior Color</th>
-                                                    <td>White</td>
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <th>Fuel Type</th>
-                                                    <td>Gasoline</td>
-                                                    <th>Transmission</th>
-                                                    <td>Automatic</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                            <p>The epitome of traveling in luxury is this legendary British hand-built car. A timeless piece crafted and engineered by Rolls Royce, this chauffeur-driven classic white and beige convertible that never goes out of style will surely make your holiday special.</p><br/>
+                            <p>The Phantom is the flagship model of automaker Rolls Royce and one of the longest-running card models that transcended generations. A car of elegance and power, the Phantom can accelerate smoothly with its direct-injection V12 engine. Designed with advanced air suspension and intuitive navigation, this car ensures serene and comfortable rides. Its aluminum architecture with a sleek and powerful exterior is a head-turner wherever you go. The stylish and luxurious interior is fitted with lambswool soft leather and wood. Furnished with the top of the line digital instrument cluster, the latest infotainment system, and night vision capabilities. Our chauffeur-driven Phantom Drophead allows you to take the top down while driving around to get a better view of the coastline.</p>
                         </div>
                     </div>
                 </div>
@@ -156,23 +84,55 @@
 
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
-                            <h3>Rate</h3>
+                            <h3>Overview</h3>
 
                             <div class="sidebar-body">
-                                <p class="text-center">EURO 2,950.00 PER DAY<br/>( INCLUDING CHAUFFEUR )</p>
+                                <div class="tech-info-table">
+                                    <table class="table table-bottom-border">
+                                        <tr>
+                                            <td>Vehicle Type</td>
+                                            <td>Convertible</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Number of Seats</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Doors</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Exterior Color</td>
+                                            <td>White</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fuel Type</td>
+                                            <td>Gasoline</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Transmission</td>
+                                            <td>Automatic</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                         <!-- Single Sidebar End -->
 
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
-                            <h3>Additional Information</h3>
-
+                            <h3>Rates</h3>
                             <div class="sidebar-body">
-                                
-                                <p>The Phantom is the flagship model of automaker Rolls Royce and one of the longest-running card models that transcended generations. A car of elegance and power, the Phantom can accelerate smoothly with its direct-injection V12 engine. Designed with advanced air suspension and intuitive navigation, this car ensures serene and comfortable rides. Its aluminum architecture with a sleek and powerful exterior is a head-turner wherever you go. The stylish and luxurious interior is fitted with lambswool soft leather and wood. Furnished with the top of the line digital instrument cluster, the latest infotainment system, and night vision capabilities. Our chauffeur-driven Phantom Drophead allows you to take the top down while driving around to get a better view of the coastline.</p>
-
+                                 <div class="tech-info-table">
+                                    <table class="table table-bottom-border">
+                                        <tr>
+                                            <td>&euro; 2,950.00 per day</td>
+                                            <td>* Include Chauffeur</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
+                            <a href="/" class="btn btn-md btn-block btn-reserve">Book Now</a>
                         </div>
                         <!-- Single Sidebar End -->
 

@@ -150,6 +150,12 @@ ul li {
     color: #09357c !important;
 }
 
+.btn-reserve {
+    font-family: "Eczar";
+    background-color: #09357c;
+    color: #ddb12c !important;
+}
+
 /**
 *******************************************
 * Reset CSS End

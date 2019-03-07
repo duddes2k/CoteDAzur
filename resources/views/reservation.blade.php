@@ -2,24 +2,9 @@
 
 @section('content')
 
-    <!--== Header Area Start ==-->
-    <header id="header-area" class="fixed-top">
-        <!--== Header Top Start ==-->
-        <div id="header-top" class="d-none d-xl-block">
-            @include('shared.top')
-        </div>
-        <!--== Header Top End ==-->
-
-        <!--== Header Bottom Start ==-->
-        <div id="header-bottom">
-            @include('shared.bottom')
-        </div>
-        <!--== Header Bottom End ==-->
-    </header>
-    <!--== Header Area End ==-->
     <!--== Car List Area Start ==-->
     <div style="padding-top:100px"></div>
-    <section id="car-list-area" class="section-padding">
+    <section id="car-list-area" class="car-list section-padding">
         <div class="container">
             <div class="row">
                 <!-- Car List Content Start -->

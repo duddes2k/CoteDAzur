@@ -2,7 +2,6 @@
 
 @section('content')
 
-    
     <!--== Car List Area Start ==-->
     <div style="padding-top:100px"></div>
 

@@ -2,50 +2,9 @@
 
 @section('content')
 
-    <!--== Header Area Start ==-->
-    <header id="header-area" class="fixed-top">
-        <!--== Header Top Start ==-->
-        <div id="header-top" class="d-none d-xl-block">
-            @include('shared.top')
-        </div>
-        <!--== Header Top End ==-->
-
-        <!--== Header Bottom Start ==-->
-        <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li class="active"><a href="/rental/yacht">Yacht Charter</a></li>
-                                <li><a href="/rental/speedboat">Speedboat Charter</a></li>
-                                <li><a href="/rental/car">Car Rental</a></li>
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
-        </div>
-        <!--== Header Bottom End ==-->
-    </header>
-    <!--== Header Area End ==-->
     <!--== Car List Area Start ==-->
     <div style="padding-top:100px"></div>
-    <section id="car-list-area" class="section-padding">
+    <section id="car-list-area" class="car-list section-padding">
         <div class="container">
             <div class="row">
                 <!-- Car List Content Start -->

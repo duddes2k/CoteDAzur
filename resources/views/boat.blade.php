@@ -2,51 +2,9 @@
 
 @section('content')
 
-    <!--== Header Area Start ==-->
-    <header id="header-area" class="fixed-top">
-    
-        <!--== Header Top Start ==-->
-        <div id="header-top" class="d-none d-xl-block">
-            @include('shared.top')
-        </div>
-        <!--== Header Top End ==-->
-
-        <!--== Header Bottom Start ==-->
-        <div id="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <!--== Logo Start ==-->
-                    <div class="col-lg-4">
-                        <a href="/" class="logo">
-                            <!-- <img src="{{ asset('/img/logo.png') }}" alt="JSOFT"> -->
-                            <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5>
-                        </a>
-                    </div>
-                    <!--== Logo End ==-->
-
-                    <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/aboutus">About</a></li>
-                                <li><a href="/rental/yacht">Yacht Charter</a></li>
-                                <li class="active"><a href="/rental/speedboat">Speedboat Charter</a></li>
-                                <li><a href="/rental/car">Car Rental</a></li>
-                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--== Main Menu End ==-->
-                </div>
-            </div>
-        </div>
-        <!--== Header Bottom End ==-->
-    </header>
-    <!--== Header Area End ==-->
     <!--== Car List Area Start ==-->
     <div style="padding-top:100px"></div>
-    <section id="car-list-area" class="section-padding">
+    <section id="car-list-area" class="car-list section-padding">
         <div class="container">
             <div class="row">
                 <!-- Car List Content Start -->
@@ -99,43 +57,11 @@
                             
                         </div>
                         <div class="car-details-info">
-                            <p>Class, performance, and speed defines Frank Mulder’s legendary VanDutch 40. With its maximum speed of 40 knots, explore Côte d’Azur while fueling your need for speed. VanDutch 40 also takes you to a luxurious boating experience with its semi-automatic Bimini top, plush interiors, and a queen-sized V-Cabin with a galley station that converts this day boat into an overnight cruiser.</p>
+                            <p>Class, performance, and speed defines Frank Mulder’s legendary VanDutch 40. With its maximum speed of 40 knots, explore Côte d’Azur while fueling your need for speed. VanDutch 40 also takes you to a luxurious boating experience with its semi-automatic Bimini top, plush interiors, and a queen-sized V-Cabin with a galley station that converts this day boat into an overnight cruiser.</p><br/>
 
-                            <div class="technical-info">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tech-info-table">
-                                            <table class="table table-bordered">
-                                                <tr>
-                                                    <th>Top Speed</th>
-                                                    <td>40kts</td>
-                                                    <th>Engine</th>
-                                                    <td>2 x 480hp</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Length Overall</th>
-                                                    <td>40 feet</td>
-                                                    <th>Beam Overall</th>
-                                                    <td>11.6 feet</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Fuel Capacity</th>
-                                                    <td>240gal</td>
-                                                    <th>Water Capacity</th>
-                                                    <td>40gl</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Draft</th>
-                                                    <td>2.6 feet</td>
-                                                    <th>Displacement</th>
-                                                    <td>16,535lb</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
+                            <p>A luxurious adventure is guaranteed by our VanDutch speedboat. Powered by its 2 X 480 HP engine that can take you as fast as 40 knots. Designed with Corian interior panels, equipped with the state-of-the-art entertainment system, and provided with the necessities like a fully-furnished bathroom, air conditioning, and heating systems to ensure comfort while cruising. VanDutch is also furnished with a microwave to warm quick meals and a refrigerator to keep chill your beverages.</p><br/>
 
-                                </div>
-                            </div>
+                            <p>If you wish to swim, the boat’s swimming platform and ladder make it easier to dive into the water.</p>
                         </div>
                     </div>
                 </div>
@@ -145,28 +71,66 @@
                 <div class="col-lg-4">
                     <div class="sidebar-content-wrap m-t-50">
 
+                        <!-- Single Sidebar Overview -->
+                        <div class="single-sidebar">
+                            <h3>Overview</h3>
+                            <div class="single-body">
+                                <div class="tech-info-table">
+                                    <table class="table table-bottom-border">
+                                        <tr>
+                                            <td>Top Speed</th>
+                                            <td>40kts</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Engine</th>
+                                            <td>2 x 480hp</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Length Overall</th>
+                                            <td>40 feet</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Beam Overall</th>
+                                            <td>11.6 feet</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fuel Capacity</th>
+                                            <td>240gal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Water Capacity</th>
+                                            <td>40gl</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Draft</th>
+                                            <td>2.6 feet</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Displacement</th>
+                                            <td>16,535lb</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
-                            <h3>Rate</h3>
-
+                            <h3>Rates</h3>
                             <div class="sidebar-body">
-                                <p class="text-center">EURO 2,950.00 PER DAY<br/>( INCLUDING CAPTAIN )</p>
+                                 <div class="tech-info-table">
+                                    <table class="table table-bottom-border">
+                                        <tr>
+                                            <td>&euro; 2,950.00 per day</td>
+                                            <td>* Include Captain</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
+                            <a href="/" class="btn btn-md btn-block btn-reserve">Book Now</a>
                         </div>
                         <!-- Single Sidebar End -->
 
-                        <!-- Single Sidebar Start -->
-                        <div class="single-sidebar">
-                            <h3>Additional Information</h3>
-
-                            <div class="sidebar-body">
-                                <p>A luxurious adventure is guaranteed by our VanDutch speedboat. Powered by its 2 X 480 HP engine that can take you as fast as 40 knots. Designed with Corian interior panels, equipped with the state-of-the-art entertainment system, and provided with the necessities like a fully-furnished bathroom, air conditioning, and heating systems to ensure comfort while cruising. VanDutch is also furnished with a microwave to warm quick meals and a refrigerator to keep chill your beverages.</p><br/>
-                                <p>If you wish to swim, the boat’s swimming platform and ladder make it easier to dive into the water.</p>
-                            </div>
-                        </div>
-                        <!-- Single Sidebar End -->
-
-                       
                     </div>
                 </div>
                 <!-- Sidebar Area End -->
