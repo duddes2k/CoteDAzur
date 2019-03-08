@@ -127,7 +127,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <a href="/" class="btn btn-md btn-block btn-reserve">Book Now</a>
+                            <a href="/reservation/?rental=2" class="btn btn-md btn-block btn-reserve">Book Now</a>
                         </div>
                         <!-- Single Sidebar End -->
 

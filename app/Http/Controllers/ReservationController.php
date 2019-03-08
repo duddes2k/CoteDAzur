@@ -26,12 +26,11 @@ class ReservationController extends Controller
         $interval = $datetime2 - $datetime1;
         $days = floor($interval / (60*60*24) );
         
-
-
         switch ($request->rental)
         {
             case 1:
                     $rental = "Luxury Mega Yacht";
+                    $menu = 'yacht';
                     $rate = 45000;
                     $rate2 = 43000;
                     $rate_per_day = $rate / 7;
@@ -45,13 +44,15 @@ class ReservationController extends Controller
                     break;
             case 3:
                     $rental = "Rolls-Royce Phantom Drophead";
-                    $rate = 2950;
-                    $total = $days * (float)$rate;
+                    $menu = 'car';
+                    $rate_per_day = 2950;
+                    $total = $days * (float)$rate_per_day;
                     break;
             case 2:
                     $rental = "VanDutch 40 Superfast Luxury Speedboat";
-                    $rate = 2950;
-                    $total = $days * (float)$rate;
+                    $menu = 'speedboat';
+                    $rate_per_day = 2950;
+                    $total = $days * (float)$rate_per_day;
                     break;
         }
 
@@ -62,7 +63,8 @@ class ReservationController extends Controller
                         ->with('service_id', $request->rental)
                         ->with('duration', $days)
                         ->with('total', $total)
-                        ->with('menu','home');
+                        ->with('rate', $rate_per_day)
+                        ->with('menu', $menu);
     }
 
     /**

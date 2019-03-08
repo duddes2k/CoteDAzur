@@ -61,7 +61,7 @@ Route::get('/thankyou', function () {
 //Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::post('/reservation', 'ReservationController@index')->name('reservation');
+Route::get('/reservation', 'ReservationController@index')->name('reservation');
 Route::post('/reservation/send', 'ReservationController@mailInquery')->name('reservation.sendmail');
 
 Auth::routes();

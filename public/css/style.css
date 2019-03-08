@@ -2753,7 +2753,19 @@ input#startDate2 {
 }
 
 .input-submit button {
-    background-color: #ffd000;
+    background-color: #ddb12c;
+    border: medium none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-top: 25px;
+    padding: 8px 40px;
+    text-transform: uppercase;
+}
+
+.input-submit-disabled button {
+    background-color: #848080;
     border: medium none;
     cursor: pointer;
     font-size: 12px;

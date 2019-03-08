@@ -9,7 +9,7 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
 
-    <title>{{ config("app.name","Côte d'Azur Luxury Rentals") }}</title>
+    <title>Côte d'Azur Luxury Rentals</title>
 
     <!--=== Bootstrap CSS ===-->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">

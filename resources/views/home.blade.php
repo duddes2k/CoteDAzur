@@ -15,7 +15,7 @@
                                
                             <div class="book-ur-car">
                                     
-                                    <form action="{{ route('reservation') }}" method="POST" id="request_quote">
+                                    <form action="{{ route('reservation') }}" method="GET" id="request_quote">
                                         @csrf
                                         <div class="pick-location bookinput-item">
                                             <select class="custom-select" name="location" id="loc">

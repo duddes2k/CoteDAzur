@@ -215,16 +215,66 @@
             );
         });
 
-        $("#startDate2").pickadate({
+        $("#startDate2, #pickdate").pickadate({
             min: 1,
             max: false,
-            today: ""
+            today: "",
+            selectMonths: true,
+            selectYears: true,
+            format: "mmm dd, yyyy",
+            onClose: function() {
+                var startdate = Date.parse($("#pickdate").val());
+                var enddate = Date.parse($("#returndate").val());
+                var days = 0;
+
+                if (startdate < enddate) {
+                    var days = (enddate - startdate) / 1000 / 60 / 60 / 24;
+                    var rate = $("#rate").val();
+                    var total = days * rate;
+
+                    $("#duration").val(days);
+                    $("#total").val(total);
+                    $("#selDuration").css("color", "#062454");
+                    $(".input-submit").removeAttr("disabled");
+                } else {
+                    $("#selDuration").css("color", "red");
+                    $(".input-submit").attr("disabled", "disabled");
+                }
+
+                $("#selDuration").text(days + " day(s)");
+                $("#selPickDate").text(this.get());
+            }
         });
 
-        $("#endDate2").pickadate({
+        $("#endDate2, #returndate").pickadate({
             min: 1,
             max: false,
-            today: ""
+            today: "",
+            selectMonths: true,
+            selectYears: true,
+            format: "mmm dd, yyyy",
+            onClose: function() {
+                var startdate = Date.parse($("#pickdate").val());
+                var enddate = Date.parse($("#returndate").val());
+                var days = 0;
+
+                if (startdate < enddate) {
+                    var days = (enddate - startdate) / 1000 / 60 / 60 / 24;
+                    var rate = $("#rate").val();
+                    var total = days * rate;
+
+                    $("#duration").val(days);
+                    $("#total").val(total);
+                    $("#selDuration").css("color", "#062454");
+                    $(".input-submit").removeAttr("disabled");
+                } else {
+                    $("#selDuration").css("color", "red");
+                    $(".input-submit").attr("disabled", "disabled");
+                }
+
+                $("#selDuration").text(days + " day(s)");
+                $("#selReturnDate").text(this.get());
+            }
         });
 
         // Home: submit request a quote form

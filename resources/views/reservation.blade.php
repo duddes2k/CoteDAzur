@@ -19,11 +19,26 @@
 
                                         <input type="hidden" id="service_id" name="service_id" value="{{ $service_id }}" />
                                         <input type="hidden" id="rental" name="rental" value="{{ strtoupper($rental) }}"/>
-                                        <input type="hidden" id="pickdate" name="pickdate" value="{{ $pickdate }}"/>
-                                        <input type="hidden" id="returndate" name="returndate" value="{{ $returndate  }}"/>
                                         <input type="hidden" id="duration" name="duration" value="{{ $duration }}"/>
+                                        <input type="hidden" id="rate" name="rate" value="{{ $rate }}"/>
                                         <input type="hidden" id="total" name="total" value="{{ $total }}"/>
 
+                                        <div class="mt-4 mb-4"><h3>Reservation Date</h3></div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="name-input">
+                                                    <label>Pick Date</label>
+                                                    <input type="text" class="form-control" id="pickdate" name="pickdate" value="{{ $pickdate }}" class="required" placeholder="Select date">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="name-input">
+                                                    <label>Return Date</label>
+                                                    <input type="email" id="returndate" name="returndate" value="{{ $returndate  }}" class="required" placeholder="Select date">
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="mt-4 mb-4"><h3>Your Information</h3></div>
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6">
@@ -78,7 +93,7 @@
                     
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
-                            <h3>Your Reservation</h3>
+                            <h3>Reservation Summary</h3>
 
                             <div class="sidebar-body">
                                 <div class="row">
@@ -88,15 +103,15 @@
                                             <table class="table table-bordered">
                                                 <tr>
                                                     <th>Pick Date</th>
-                                                    <td>{{ $pickdate }}</td>
+                                                    <td id="selPickDate">{{ $pickdate }}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Return Date</th>
-                                                    <td>{{ $returndate }}</td>
+                                                    <td id="selReturnDate">{{ $returndate }}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Duration</th>
-                                                    <td>{{ $duration }} Day(s)</td>
+                                                    <td id="selDuration">{{ $duration }} Day(s)</td>
                                                 </tr>
                                             </table>
                                             <!-- <h3>Total: Euro &euro; {{ number_format($total,2) }}</h3> -->
