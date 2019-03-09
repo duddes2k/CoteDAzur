@@ -316,8 +316,21 @@
         margin-bottom: 50px;
     }
     #footer-area .col-lg-4:last-child .single-footer-widget,
+    #footer-area .col-lg-4:last-child .single-footer-widget-left,
+    #footer-area .col-lg-4:last-child .single-footer-widget-right,
     #pricing-area .col-lg-4:last-child .single-pricing-table {
         margin-bottom: 0;
+    }
+    .single-footer-widget-left,
+    .single-footer-widget-right {
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .widget-body {
+        text-align: center;
+        display: inline-block;
+        margin: auto 0 !important;
     }
     #mobile-app-area::after {
         display: none;
