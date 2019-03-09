@@ -141,7 +141,7 @@
                             
                             <div class="widget-body">
                                 <h2>Send us your inquiries</h2>
-                                <form action="#">
+                                <form id="inquiry-form" action="#" action="POST">
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="form-group">
@@ -156,10 +156,7 @@
                                                 <textarea class="form-control" name="review" cols="40" placeholder="Message"></textarea>
                                             </div>
                                             <div class="form-group">
-                                                <div class="g-recaptcha" data-sitekey="6LfUjZYUAAAAAI7OljQCWCBunsFKIN9Wf5GlxIiC"></div>
-                                            </div>
-                                            <div class="form-group">
-                                                <button class="btn btn-warning btn-block input-submit" type="submit">Submit</button>
+                                                <button class="g-recaptcha btn btn-warning btn-block input-submit" type="submit" data-sitekey="6LfUjZYUAAAAAI7OljQCWCBunsFKIN9Wf5GlxIiC" data-callback='onSubmit'>Submit</button>
                                             </div>
                                         </div>
                                     </div>
@@ -237,6 +234,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!--=== Mian Js ===-->
     <script src="{{ asset('/js/main.js') }}"></script>
+
+    <!--=== Custom JS ===-->
+    <script>
+       function onSubmit(token) {
+         document.getElementById("inquiry-form").submit();
+       }
+    </script>
 
 </body>
 
