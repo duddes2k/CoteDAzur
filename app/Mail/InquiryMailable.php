@@ -11,7 +11,7 @@ class InquiryMailable extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $name, $email, $message;
+    public $fullname, $emailadd, $msg;
 
     /**
      * Create a new message instance.
@@ -20,9 +20,9 @@ class InquiryMailable extends Mailable
      */
     public function __construct($email_content)
     {
-        $this->name = $email_content['name'];
-        $this->email = $email_content['email'];
-        $this->message = $email_content['message'];
+        $this->fullname = $email_content['name'];
+        $this->emailadd = $email_content['email'];
+        $this->msg = $email_content['message'];
     }
 
     /**

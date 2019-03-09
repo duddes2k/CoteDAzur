@@ -16,9 +16,9 @@
                     <p>You have a new inquiry. Please see details below:</p>
 
                     <p>
-                    Name: {{ $name }}<br>
-                    Email: {{ $email }}<br>
-                    Message:<br/> {{ $message }}
+                    Name: {{ $fullname }}<br>
+                    Email: {{ $emailadd }}<br>
+                    Message:<br/> {{ $msg }}
                     </p>
 
                 </td>

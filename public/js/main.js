@@ -291,7 +291,7 @@
             if (message == "") error++;
 
             if (error > 0) {
-                //alert("Please complete the form before submitting.");
+                alert("Please complete the form before submitting.");
             } else {
                 $("#inquiry-form").submit();
             }

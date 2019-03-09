@@ -42,8 +42,6 @@
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body class="loader-active">
@@ -157,7 +155,7 @@
                                                 <textarea id="message" class="form-control" name="message" cols="40" placeholder="Message"></textarea>
                                             </div>
                                             <div class="form-group">
-                                                <button id="submit-inquiry" class="g-recaptcha btn btn-warning btn-block input-submit" type="submit" data-sitekey="6LfUjZYUAAAAAI7OljQCWCBunsFKIN9Wf5GlxIiC" data-callback='onSubmit'>Submit</button>
+                                                <button id="submit-inquiry" class="btn btn-warning btn-block input-submit">Submit</button>
                                             </div>
                                         </div>
                                     </div>
