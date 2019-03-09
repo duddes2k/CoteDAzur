@@ -44,7 +44,7 @@ class SendMailable extends Mailable
         $name = "Cote d'Azur Luxury Rentals";
         $subject = 'Rental Booking Request';
 
-        return $this->view('email.inquiry')
+        return $this->view('email.booking')
                     ->from($address, $name)
                     ->replyTo($address, $name)
                     ->subject($subject);

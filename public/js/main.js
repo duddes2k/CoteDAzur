@@ -278,6 +278,26 @@
         });
 
         // Home: submit request a quote form
+        $("#submit-inquiry").on("click", function(e, token) {
+            e.preventDefault();
+
+            var name = $("#fullname").val();
+            var email = $("#emailadd").val();
+            var message = $("#message").val();
+            var error = 0;
+
+            if (name == "") error++;
+            if (email == "") error++;
+            if (message == "") error++;
+
+            if (error > 0) {
+                //alert("Please complete the form before submitting.");
+            } else {
+                $("#inquiry-form").submit();
+            }
+        });
+
+        // Home: submit request a quote form
         $("#submit-request").on("click", function(e) {
             e.preventDefault();
 

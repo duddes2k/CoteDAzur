@@ -14,9 +14,7 @@
                 <!-- Section Title Start -->
                 <div class="col-lg-12">
                     <div class="section-title text-center">
-                        <h4>Thank you for your reservation request.<br/>
-We would like to inform you that your request is currently being processed.<br/> 
-Our reservation team will contact you shortly to complete and confirm your booking.</h4>
+                        <h4>Thank you. Our reservation team will contact you shortly to attend to your request.</h4>
                     </div>
                 </div>
                 <!-- Section Title End -->

@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Mail;
-use App\Mail\SendMailable;
+use App\Mail\BookingMailable;
+use App\Mail\InquiryMailable;
 
 use App\Booking;
 use App\Service;
@@ -73,7 +74,7 @@ class ReservationController extends Controller
      * 
      * @return void
      */
-    public function mailInquery( Request $request)
+    public function mailBooking( Request $request)
     {
         $email_content = [
             'service_id' => $request->service_id,
@@ -110,7 +111,25 @@ class ReservationController extends Controller
                         'other_info' => $request->info
                     ]); 
 
-        Mail::to('duddesatwork@gmail.com')->send(new SendMailable($email_content));
+        Mail::to('duddesatwork@gmail.com')->send(new BookingMailable($email_content));
+        
+        return redirect('/thankyou');
+    }
+
+    /**
+     * Send Inquiry
+     * 
+     * @return void
+     */
+    public function mailInquiry( Request $request )
+    {
+        $email_content = [
+            'name' => $request->fullname,
+            'email' => $request->emailadd,
+            'message' => $request->message
+        ];
+
+        Mail::to('duddesatwork@gmail.com')->send(new InquiryMailable($email_content));
         
         return redirect('/thankyou');
     }

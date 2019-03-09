@@ -141,22 +141,23 @@
                             
                             <div class="widget-body">
                                 <h2>Send us your inquiries</h2>
-                                <form id="inquiry-form" action="#" action="POST">
+                                <form id="inquiry-form" action="{{ route('inquiry.sendmail') }}" method="POST">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="form-group">
-                                                <input class="form-control" type="text" placeholder="Full Name">
+                                                <input id="fullname" name="fullname" class="form-control" type="text" placeholder="Full Name">
                                             </div>
                                         
                                             <div class="form-group">
-                                                <input class="form-control" type="email" placeholder="Email Address">
+                                                <input id="emailadd" name="emailadd" class="form-control" type="email" placeholder="Email Address">
                                             </div>
                                         
                                             <div class="form-group">
-                                                <textarea class="form-control" name="review" cols="40" placeholder="Message"></textarea>
+                                                <textarea id="message" class="form-control" name="message" cols="40" placeholder="Message"></textarea>
                                             </div>
                                             <div class="form-group">
-                                                <button class="g-recaptcha btn btn-warning btn-block input-submit" type="submit" data-sitekey="6LfUjZYUAAAAAI7OljQCWCBunsFKIN9Wf5GlxIiC" data-callback='onSubmit'>Submit</button>
+                                                <button id="submit-inquiry" class="g-recaptcha btn btn-warning btn-block input-submit" type="submit" data-sitekey="6LfUjZYUAAAAAI7OljQCWCBunsFKIN9Wf5GlxIiC" data-callback='onSubmit'>Submit</button>
                                             </div>
                                         </div>
                                     </div>
@@ -236,12 +237,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="{{ asset('/js/main.js') }}"></script>
 
     <!--=== Custom JS ===-->
-    <script>
-       function onSubmit(token) {
-         document.getElementById("inquiry-form").submit();
-       }
-    </script>
-
+    
 </body>
 
 </html>

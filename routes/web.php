@@ -38,6 +38,10 @@ Route::get('/', function () {
     return view('home')->with('menu','home');
 });
 
+Route::get('/home', function () {
+    return view('home')->with('menu','home');
+});
+
 Route::get('/rental/yacht', function () {
     return view('yacht')->with('menu','yacht');
 });
@@ -60,10 +64,10 @@ Route::get('/thankyou', function () {
 
 //Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/reservation', 'ReservationController@index')->name('reservation');
-Route::post('/reservation/send', 'ReservationController@mailInquery')->name('reservation.sendmail');
+Route::post('/reservation/send', 'ReservationController@mailBooking')->name('reservation.sendmail');
+Route::post('/inquiry/send', 'ReservationController@mailInquiry')->name('inquiry.sendmail');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
