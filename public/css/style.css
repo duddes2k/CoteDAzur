@@ -394,6 +394,12 @@ a.slicknav_btn {
     background-image: url(/img/caret-cion.png);
     background-position: right 13px center;
     background-size: 12px auto;
+    text-align: center;
+    text-align-last: center;
+}
+
+select.custom-select option {
+    text-align: center;
 }
 
 .book-item {
@@ -507,7 +513,7 @@ div#about-background-right {
 
 .about-content {
     line-height: 1.5em;
-    width: 450px;
+    width: 100% !important;
 }
 
 .about-content p {

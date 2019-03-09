@@ -3,7 +3,7 @@
 @section('content')
 
     <!--== Car List Area Start ==-->
-    <div style="padding-top:100px"></div>
+    <div class="empty-top" style="padding-top:100px"></div>
     <section id="car-list-area" class="car-list section-padding">
         <div class="container">
             <div class="row">
