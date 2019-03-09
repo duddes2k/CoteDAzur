@@ -539,7 +539,8 @@ div#about-background-right {
 }
 
 .about-btn a:hover {
-    background-color: #222;
+    background-color: #09357c;
+    color: #ffd000 !important;
 }
 
 .about-video {
@@ -1709,10 +1710,10 @@ input#startDate2 {
     margin-right: 0;
 }
 
-.book-ur-car select,
+.book-ur-car select.custom-select,
 .book-ur-car input,
 .book-ur-car button {
-    background-color: transparent;
+    background-color: #dbb02c;
     border: none;
     border-radius: 0;
     color: #09357c !important;
@@ -1724,15 +1725,23 @@ input#startDate2 {
     width: 100%;
 }
 
+.book-ur-car select.custom-select,
+.book-ur-car input {
+    background-color: #dbb02c;
+}
+
+.book-ur-car button {
+    background-color: transparent;
+}
+
 .book-ur-car button {
     color: #dbb02c !important;
 }
 
-.book-ur-car select:focus,
+.book-ur-car select.custom-select:focus,
 .book-ur-car input:focus,
 .book-ur-car button:focus {
     border-color: #fff;
-    background-color: transparent;
 }
 
 .bookcar-btn button {
@@ -1760,7 +1769,7 @@ input#startDate2 {
     color: #ffd000;
 }
 
-.book-ur-car select option {
+.book-ur-car select.custom-select option {
     color: #fff;
     font-weight: 400;
     background: #000;

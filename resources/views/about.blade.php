@@ -30,7 +30,7 @@
                     <p>If you wish to have a look around the city and the coastline by land, our chauffeur-driven grand Rolls-Royce Phantom Drophead can take you around comfortably. Our ultra-comfortable Rolls-Royce can also pick you up from Nice Airport if you wish to alight there instead of flying into Cannes’ small airport.</p>
                     
                     <div class="about-btn">
-                        <a class="sliding-link btn btn-lg btn-about" href="#slideslow-bg">Book Now</a>
+                        <a class="btn btn-lg btn-about" href="/reservation/?rental=1">Book Now</a>
                         <a class="sliding-link btn btn-lg btn-about" href="#footer-area">Contact Us</a>
                     </div>
                 </div>
