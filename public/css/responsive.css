@@ -381,6 +381,9 @@
     .team-member-pro-pic {
         margin: 10px 0;
     }
+    /* .section-padding {
+        padding: 50px 0;
+    } */
 
     /* === HOME PAGE TWO RESPONSIVE CSS === */
     .slideshowcontent {
@@ -393,6 +396,8 @@
     select.custom-select,
     .custom-select option {
         text-align: center !important;
+        text-align: -webkit-center !important;
+        text-align: -moz-center !important;
         text-align-last: center;
     }
     .service-image {
