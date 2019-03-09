@@ -451,6 +451,10 @@
         margin-top: 0;
         padding-top: 20px;
     }
+    .about-content {
+        width: 100% !important;
+        padding: 0 10px 0 10px;
+    }
     .empty-top {
         padding-top: 20px !important;
     }

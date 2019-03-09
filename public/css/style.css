@@ -508,12 +508,11 @@ div#about-background-right {
     padding-top: 150px;
     padding-left: 5%;
     padding-bottom: 5%;
-    height: 100%;
 }
 
 .about-content {
     line-height: 1.5em;
-    width: 100% !important;
+    width: 90% !important;
 }
 
 .about-content p {
