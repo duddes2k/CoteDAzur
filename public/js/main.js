@@ -170,6 +170,10 @@
                     src: "/img/slider-img/slider-img-10.jpg"
                 },
                 {
+                    src:
+                        "https://9asu1q.ch.files.1drv.com/y4mymghDMjipa2ubo67GFKJ9-ybwAPS-GEzlixkZNc4_FAloQI-X7zMZ0RGrCn6iCxXW8XLA0eoUEpJ1T31Yc8d930sVbZFfJNAmeYZFGb9qQfPaX4H_t-rFnhHS0DbWOY9hPMkK_HhMl0nHXspo1dpF6zAX0N-pXGUOzicTjXXTSVzPAP3_3yMtpk1nXQ2JMz8xLFOCaIAK6YQG-chq5WewA?width=1024&height=683&cropmode=none"
+                },
+                {
                     src: "/img/slider-img/slider-img-13.jpg"
                 },
                 {

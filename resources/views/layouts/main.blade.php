@@ -111,9 +111,9 @@
                                 <p>We would love to hear from you!</p>
 
                                 <ul class="get-touch">
-                                    <li><i class="fa fa-map-marker"></i> French Riviera, France</li>
-                                    <li><i class="fa fa-mobile"></i> 06 37 23 75 60</li>
-                                    <li><i class="fa fa-envelope"></i> nicolance@icloud.com</li>
+                                    <li><i class="fa fa-user"></i> Jean Paul Reinaud<br><small style="margin-left:20px">General Manager</small></li>
+                                    <li><i class="fa fa-mobile"></i> +33 6 07 51  82 83</li>
+                                    <li><i class="fa fa-envelope"></i> jean-paul.reinaud@wanadoo.fr</li>
                                 </ul><br/>
                                 <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="btn btn-warning" target="_blank">Show Location</a>
                             </div>
