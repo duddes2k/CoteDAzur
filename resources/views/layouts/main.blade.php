@@ -50,7 +50,7 @@
     <div class="preloader">
         <div class="preloader-spinner">
             <div class="loader-content">
-                <img src="{{ asset('/img/preloader2.gif') }}" alt="JSOFT">
+                <img src="{{ asset('img/logo/about-logo.png') }}" alt="JSOFT">
             </div>
         </div>
     </div>
@@ -195,7 +195,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!--== Scroll Top Area Start ==-->
     <div class="scroll-top">
-        <img src="{{ asset('/img/scroll-top.png') }}" alt="JSOFT">
+        <img src="https://img.icons8.com/metro/50/000000/circled-up-2.png" alt="JSOFT">
     </div>
     <!--== Scroll Top Area End ==-->
 

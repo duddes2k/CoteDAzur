@@ -10,7 +10,7 @@
                 <!-- Car List Content Start -->
                 <div class="col-lg-8">
                     <div class="car-details-content">
-                        <h2>VANDUTCH 40 SUPERFAST SPEEDBOAT</h2>
+                        <h2>VanDutch 40 Speedboat</h2>
                         <div class="car-preview-crousel">
                             <div class="single-car-preview">
                                 <img src="https://l2cbxg.ch.files.1drv.com/y4mSpaSBWDevraB6jqg8oFeFbZkzictLOFANs3YugYqCDwHpYe2PLXwtclVXZ7FtgiWujjoOlyNjFBC31iJAd_4VlkdLWRY-T2vPwTEQIEi1jqF_D5xXfXCy_5qGT2SbN8deE9g0tGOjrcFHPEY7WZpfrBqUg9kT9mlj27x4uZAbioECqdAi65kAhsMnvXt08uXkH0gHgroHlj25umlki-g7Q?width=2000&height=1500&cropmode=none" alt="JSOFT">
@@ -116,7 +116,7 @@
 
                         <!-- Single Sidebar Start -->
                          <div class="single-sidebar">
-                            <h3>Rates</h3>
+                            <!-- <h3>Rates</h3>
                             <div class="single-body">
                                 <div class="tech-info-table">
                                     <table class="table table-bottom-border">
@@ -126,7 +126,7 @@
                                         </tr>
                                     </table>
                                 </div>
-                            </div>
+                            </div> -->
                             <a href="/reservation/?rental=2" class="btn btn-md btn-block btn-reserve">Book Now</a>
                         </div>
                         <!-- Single Sidebar End -->

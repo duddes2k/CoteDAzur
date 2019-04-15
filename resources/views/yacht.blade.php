@@ -10,7 +10,7 @@
                 <!-- Car List Content Start -->
                 <div class="col-lg-8">
                     <div class="car-details-content">
-                        <h2>LUXURY MEGA YACHT</h2>
+                        <h2>Hummingbird Superyacht</h2>
                         <div class="car-preview-crousel">
                            
                             <div class="single-car-preview">
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <div class="car-details-info">
-                            <p>Our 30.33-meter spacious mega yacht can take you as fast as 32kn with a maximum cruising range of 1000.0nm at 25.0kn. Designed with exquisite interiors, the yacht can accommodate 7 to 8 guests with 4 professionally-trained crew members.</p><br/>
+                            <p>Our 30.33-meter spacious superyacht can take you as fast as 32kn with a maximum cruising range of 1000.0nm at 25.0kn. Designed with exquisite interiors, the yacht can accommodate 7 to 8 guests with 4 professionally-trained crew members.</p><br/>
 
                             <p>From the Guy Couach shipyard, the Hummingbird was built in 2007 and designed with Kevlar composite for the Couach Yachts 3000 Fly series.</p><br/>
 
@@ -163,7 +163,7 @@
 
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
-                            <h3>Rates</h3>
+                            <!-- <h3>Rates</h3>
                             <div class="single-body">
                                  <div class="tech-info-table">
                                     <table class="table table-bottom-border">
@@ -185,7 +185,7 @@
                                         </tr>
                                     </table>
                                 </div>
-                            </div>
+                            </div> -->
                             <a href="/reservation/?rental=1" class="btn btn-md btn-block btn-reserve">Book Now</a>
                         </div>
                         <!-- Single Sidebar End -->

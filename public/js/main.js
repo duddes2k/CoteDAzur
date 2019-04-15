@@ -167,18 +167,16 @@
             animationDuration: 20000,
             slides: [
                 {
-                    src: "/img/slider-img/slider-img-10.jpg"
+                    src:
+                        "https://7l2ysg.ch.files.1drv.com/y4mVFZj-_FNQB2Fg-bKXwMQtCMEDQPr5TIg_MsrQXRj0RtN5ap2wdwJcNKF5wS6hqs28q0hLvdJPw-BqQuVssLOHw4qDXVjcFO9QxeAl_qkgPhy_twmyq2irwHW7TRn7bWCKmQ53WvSDLc_Hwmo4Lb6uf1LyWqs9OFLRH5w2XO2iB1nudKXSZ9iOjGs-TISua57sgDweTWk6mHkQJXfGbMZGg?width=4158&height=2767&cropmode=none"
                 },
                 {
                     src:
                         "https://9asu1q.ch.files.1drv.com/y4mymghDMjipa2ubo67GFKJ9-ybwAPS-GEzlixkZNc4_FAloQI-X7zMZ0RGrCn6iCxXW8XLA0eoUEpJ1T31Yc8d930sVbZFfJNAmeYZFGb9qQfPaX4H_t-rFnhHS0DbWOY9hPMkK_HhMl0nHXspo1dpF6zAX0N-pXGUOzicTjXXTSVzPAP3_3yMtpk1nXQ2JMz8xLFOCaIAK6YQG-chq5WewA?width=1024&height=683&cropmode=none"
                 },
                 {
-                    src: "/img/slider-img/slider-img-13.jpg"
-                },
-                {
                     src:
-                        "https://upn3pw.ch.files.1drv.com/y4mZs5ZDPrZvBAo5LFREH7Z6BpzGeooBGCdK29rbr9E9miZoqgnjjv7JdLnIfbVjQXjtcpDTpAp5efgvazmifq-HpX_RgmPP-8OGsTNEEfiMw412yMm9TI_hquxNPR7akG12MMi_LgmUlG2rj-_7kgaxQ1W8I3NbvThnlzbX7qfl_NN7pFNM4_w9GzAiWmabruTQirlBEOOc7jo3cjLcA1zRQ?width=4608&height=3072&cropmode=none"
+                        "https://uhrjbq.ch.files.1drv.com/y4me2vRmHgbwOjKyrwk-FRZ6wx0dt-AUil7JLmPbBOdYcQdzDesQkQFME_HsyJxykvloCZK5ZecftKv-KxfGBzeDF3hq2T7stgLTTwQdeQq70CsRiIj-fRzfUzvMdmpdgYCT6EAkj95LpLa49Hjb3hJFuZQbb65dWDK3-4NrKlK1LBrg6Fo-y8sF3ZTri4SWiY1bnFON_JeR1s8JgK7UPn64g?width=4608&height=3072&cropmode=none"
                 },
                 {
                     src: "/img/slider-img/slider-img-11.jpg"

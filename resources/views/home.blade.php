@@ -78,7 +78,7 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 
-                            <a href="/rental/car"><img src="https://jed2dg.ch.files.1drv.com/y4mn4F9HaGsR0yQstxGwxc_3Bb9skuT0-8unpD16eNPZWM-ZIwOgmoFvWN3CLid5SALlFXOPYTQvQWChqU47PHwBQ2e_voi-LDCSnTi01izZRkwY2I6BFrrYeGAXRWGhuN2TzJw3ep8OR13UuMSNRB6VKui3hXyLFrceTUB4IkENSCYRVjV3tAyuFoNfhTHs2wf9Z6CeJj8moZ6vQavRTUBIw?width=324&height=227&cropmode=none"/></a>
+                            <a href="/rental/car"><img src="https://uhrjbq.ch.files.1drv.com/y4me2vRmHgbwOjKyrwk-FRZ6wx0dt-AUil7JLmPbBOdYcQdzDesQkQFME_HsyJxykvloCZK5ZecftKv-KxfGBzeDF3hq2T7stgLTTwQdeQq70CsRiIj-fRzfUzvMdmpdgYCT6EAkj95LpLa49Hjb3hJFuZQbb65dWDK3-4NrKlK1LBrg6Fo-y8sF3ZTri4SWiY1bnFON_JeR1s8JgK7UPn64g?width=256&height=171&cropmode=none"/></a>
                             
 							<h3>Rolls-Royce<br/>Phantom Drophead</h3>
 							
@@ -88,9 +88,9 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 
-                            <a href="/rental/yacht"><img src="https://l2belg.ch.files.1drv.com/y4ml26vKPn8L_nmInRpzG94PWaTbReVx02Ce5uKkjxOJn44gWK8WUVNoPVAABbddmRUjmtnIapNgSOEQY7bCajMXi-XmAd4aSPL_5U27C7B5bhai2sLxJ91fHl-yUXZDfw7Gk55KzgF0icd8G-iuuNZ7T3zwAd1GgccpXkb4143QGmqGQQUOWk5sTnHvDkzdPDBQvVz57NP39RsWzO2jlz85w?width=256&height=180&cropmode=none"/></a>
+                            <a href="/rental/yacht"><img src="https://9asu1q.ch.files.1drv.com/y4mymghDMjipa2ubo67GFKJ9-ybwAPS-GEzlixkZNc4_FAloQI-X7zMZ0RGrCn6iCxXW8XLA0eoUEpJ1T31Yc8d930sVbZFfJNAmeYZFGb9qQfPaX4H_t-rFnhHS0DbWOY9hPMkK_HhMl0nHXspo1dpF6zAX0N-pXGUOzicTjXXTSVzPAP3_3yMtpk1nXQ2JMz8xLFOCaIAK6YQG-chq5WewA?width=256&height=171&cropmode=none"/></a>
 
-							<h3>Luxury Mega Yacht</h3>
+							<h3>Hummingbird Superyacht</h3>
 							
                         </div>
 						<!-- Single Service End -->
@@ -98,9 +98,9 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 
-                            <a href="/rental/speedboat"><img src="https://jefbaq.ch.files.1drv.com/y4m2mqZDsZlnG24XTWBWKjGKTyg1ZEX58JrO1nbpGbLqalh8GE8_SjA05ggsK0cCmqv5vYocAP3fTRJ2bTTcNnGE9JKpN2bJx0pY8zOdnJWedzJSl2Qy9Uud8EpUeYUvxS00pstqUslJD9lSJ8VPLN4XWMht_L-gLe8vxYSDF-3lEKxrpmGObno3UsiG3Y9g8IYoomHIyCd-EH94yErK0oLPQ?width=324&height=227&cropmode=none"/></a>
+                            <a href="/rental/speedboat"><img src="https://jefbaq.ch.files.1drv.com/y4m2mqZDsZlnG24XTWBWKjGKTyg1ZEX58JrO1nbpGbLqalh8GE8_SjA05ggsK0cCmqv5vYocAP3fTRJ2bTTcNnGE9JKpN2bJx0pY8zOdnJWedzJSl2Qy9Uud8EpUeYUvxS00pstqUslJD9lSJ8VPLN4XWMht_L-gLe8vxYSDF-3lEKxrpmGObno3UsiG3Y9g8IYoomHIyCd-EH94yErK0oLPQ?width=256&height=179&cropmode=none"/></a>
                             
-							<h3>VanDutch 40<br/>Superfast Speedboat</h3>
+							<h3>VanDutch 40<br/>Speedboat</h3>
 							
                         </div>
 						<!-- Single Service End -->

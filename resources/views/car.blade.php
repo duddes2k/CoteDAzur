@@ -10,7 +10,7 @@
                 <!-- Car List Content Start -->
                 <div class="col-lg-8">
                     <div class="car-details-content">
-                        <h2>ROLLS-ROYCE PHANTOM DROPHEAD</h2>
+                        <h2>Rolls-Royce Phantom Drophead</h2>
                         <div class="car-preview-crousel">
                             <div class="single-car-preview">
                                 <img src="https://upn3pw.ch.files.1drv.com/y4mZs5ZDPrZvBAo5LFREH7Z6BpzGeooBGCdK29rbr9E9miZoqgnjjv7JdLnIfbVjQXjtcpDTpAp5efgvazmifq-HpX_RgmPP-8OGsTNEEfiMw412yMm9TI_hquxNPR7akG12MMi_LgmUlG2rj-_7kgaxQ1W8I3NbvThnlzbX7qfl_NN7pFNM4_w9GzAiWmabruTQirlBEOOc7jo3cjLcA1zRQ?width=4608&height=3072&cropmode=none" alt="JSOFT">
@@ -121,7 +121,7 @@
 
                         <!-- Single Sidebar Start -->
                         <div class="single-sidebar">
-                            <h3>Rates</h3>
+                            <!-- <h3>Rates</h3>
                             <div class="single-body">
                                  <div class="tech-info-table">
                                     <table class="table table-bottom-border">
@@ -131,7 +131,7 @@
                                         </tr>
                                     </table>
                                 </div>
-                            </div>
+                            </div> -->
                             <a href="/reservation/?rental=3" class="btn btn-md btn-block btn-reserve">Book Now</a>
                         </div>
                         <!-- Single Sidebar End -->
