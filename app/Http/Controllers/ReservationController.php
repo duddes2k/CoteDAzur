@@ -111,7 +111,10 @@ class ReservationController extends Controller
                         'other_info' => $request->info
                     ]); 
 
-        Mail::to('duddesatwork@gmail.com')->send(new BookingMailable($email_content));
+        Mail::to('jean-paul.reinaud@wanadoo.fr')
+            ->cc('aernout@pldtdsl.net')
+            ->bcc('duddesatwork@gmail.com')
+            ->send(new BookingMailable($email_content));
         
         return redirect('/thankyou');
     }
@@ -129,7 +132,10 @@ class ReservationController extends Controller
             'message' => $request->message
         ];
 
-        Mail::to('duddesatwork@gmail.com')->send(new InquiryMailable($email_content));
+         Mail::to('jean-paul.reinaud@wanadoo.fr')
+            ->cc('aernout@pldtdsl.net')
+            ->bcc('duddesatwork@gmail.com')
+            ->send(new InquiryMailable($email_content));
         
         return redirect('/thankyou');
     }
