@@ -96,6 +96,47 @@
                             <div class="single-car-preview">
                                 <img src="https://qov2ag.ch.files.1drv.com/y4mDcklrCSQfFRKZNswZE5wA-16JYC1jD6TeeU4z_dMJQfdeBPp_PuaULTSkjcvlIcYSGxhxsl6LwG3Jmoq5u54z3ESlRvuEbyub6-R21BR3y1VJN8MwEe10BXYO46QLvVV2K4_53TJvPn69tjoNsaQTiIHLaeUIcojaOkNz47XaLzL_LeH7oVUv3aJL5uA_WASuqn3fll2veiT7W2EvqsSow?width=6000&height=4000&cropmode=none" alt="boat"/>
                             </div>
+                            <div class="single-car-preview">
+                                <img src="https://idimba.ch.files.1drv.com/y4mlRHWwl7w-zNiv3ULMpzlt-Stk39i-AkDY-fJFz0tdqOu7IN6eJwkwbuMdyp-ORcLp4wtQaAWwH4trwb1f7zVVjJFE4297PM2MiITKWce7QPhHxV7dx8R2Sqd10xm4W5kPM4vK7kJo77DIIQg8BW1_mrzapIlYCeRdHMbFuslaJNMiMZ9-QGPJ1_7fKjXf4TkGiF5WplF_Lp0zhy7kxDokQ?width=4719&height=3146&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://idknea.ch.files.1drv.com/y4mUX_O8sRz_-lRzdm74ieYBsKYz9Uo5qDGrlb1Up4XSAkT71zo0aD1d_YUVm7KSigby9ZAVVQ2cqyCBRGcUVShi4okCQ_IVdowv0LHRTGNaHu3B9cQlQ8F-Czryc8BNIQ_lM2lP9dEDgMT_6SlgTtnr_vmEOinQ8kYoIjZ8qYSdSe-2l4EJp_Q5sm_ceCo6xemIVPEJHbRcSIff9wmslyqMw?width=5603&height=3376&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://idldyq.ch.files.1drv.com/y4m1a-vklh6KFGIPuKkLayScscIj_XgK_cKPqeeNbbPb-pETfZK7Cp1DF7-dU5sG2Ea-tnz1XUlWNolspJkcTSTJtCvoZthBOrWxsiof0qglhIMGRIDse1_T0u8ijx0mogs4Wg61oPkkmyRtH8F4GR_vvcJcsWfqHBTQptUtMlJe5QFyDXIB9FJaLpDxsJSOXlZX07qNNUzETX4mZQj0XSHSA?width=6000&height=3615&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://idj41g.ch.files.1drv.com/y4mFUl01OZDDTdZeOCzO1Rdw3J3l8jI_30NWZn7BE2o0Jp2Erp6QU6ldTi5zUDcEA7LQHbgRiIs1Ksvz3lYSNSrae4cSOqZTKdCDyorTrR2ahdWCy4FScqRKfQ7Oa95f2st8E3HnwTMAbwwzcRvqxaIXVRuRj9muA4NxxNnv7fQ5rcpzcbty3xbgzbz2XD61iQDQahXhoRNtaCHW9q-HpXn8Q?width=5155&height=3106&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://idkuvw.ch.files.1drv.com/y4m8_9KdEq5f7x8qZcUwH1tlPEm73_h2oThDI0E8cb2O_yLEUh79-pU_bLrNZWsn-tdyNX7ZpnkkvsQ4j5pC_FXewv5LGMDHUv0FH_dw92Oyk0fIpMVkRyQVQCk4YyV5zteTzXfsq5d2XWaZ9NkLDkexTzY5oqiR1DW3b3qqcsy2yka4b8imSJ94xwqwn8qECIpaQ25AbM1QmZjJUL-xcjAVA?width=5774&height=6000&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://idi0xw.ch.files.1drv.com/y4mvCfub1M6OAtDCdgVF6jV2svGqgQAgjkLu01PEWU2qycFrBZUf9quCn8pfij1Dudku3MqEP626geagEMMPzdRG7Oco6XgZLXAwn5wgyQqvs_xFKUBgIOu8Nuh_RcPlC31mkvxB3pnLRdKZEuuuLswk2CheAgi0P3801jXuShXu-Z1J-OXlXCKSRufvvy3VbqigeS6Gyg75cSLdEFhLWINig?width=7360&height=4912&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://idlp0w.ch.files.1drv.com/y4my6lNKlp3PaiaeiLExm5IWp1fSmAELX2iElCvUq_vzS7xae1Yps9L5x73mXcLRhrhF5b1oLHxr4W9KAeleVqraSqcTrFSkTsJJH1sOwdtsjv6G1ut2Y6hTOJu_hFqVAqqwdweU2uKyRh_SKaR2ZR9EI9JxbMUqB8lX7X4vc6Eg3c6-HoB2xX8rDkCzw-8pJWSuwqU4S_JLvLPIONn4pil4Q?width=1024&height=684&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                           
+                            <div class="single-car-preview">
+                                <img src="https://qouyiw.ch.files.1drv.com/y4mcO29EjNFVIvN-fppvPm_fFvSuIMloscv9fsnXzmMZVeyNWDXwzW7F07u-IzUUtvMjVBTrAgiXR62VDgeO17QG9oxAoOWZ9muPrv3AYJp5DQ2S3lt7FtcDVu-_A8L7Yf4RLVddvER_kgV1o8n8uogW0s8jXtnesc4R3bG9sQBlhUxaXrej1XcJhPx6TXp3kn-iAOLgdm7S--S4iPvpLgQGQ?width=1024&height=684&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://v7uapa.ch.files.1drv.com/y4mmBxiCSAgJ3f3p0jM2jYQBNH-W3Wo30HMQ5hK2rIrG0buO19ZGq9hbWcH6ZjDpIBp5U635Q048Haec9ylAc3LAFI2lB7wTX590NGKjvQarAe8nhYsCNPgr39c5ycRzL4phJdHWG_boDAvZC_ymnfLgt6ieSsoBy5GiibmBNz8hSXOVjJNMT7LfoNxvbH9DlkXQUVW0ZKiIrOwQz8hAcKuPQ?width=1024&height=683&cropmode=none" alt="Hummingbird Superyacht"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://9arqxg.ch.files.1drv.com/y4mRXfV9tClP-jGqK1huGoGXvVIu_qM0UijnqxZA_ceMH4vL0VUonEm2QJ1zPnyU43Yk9CBr-VMk5P86oz555hQVoQ1P2y0QvrH8cv3meX5weGAshOfarktBxvLZ7IGbIeVF9GaDOJmsSg_vEDB4h4bLKz-MgcFxZ6GpLEXoD65RrExGPhKGs_t3D9KE9kKbJxRhZC6sPBFH6-fBM7gUy2OTg?width=1024&height=617&cropmode=none" alt="Hummingbird Superyacht"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://wjcbya.ch.files.1drv.com/y4mhDzH_KtwcGSpIjwqXckHUbF9nIzfwRb78hHPidA0i27YSxaiJjhoubgm35eeMMvpkORnn71POka3HPPpF7yNlji0DaflxTNHPG9CbIiHB2pxux-5wnR0DudVkCLYCcaDQAeXbE55lG5R3wnERJPkKMFFgTD_Z497CIgdVBYy1ikifoCmwVnJ2ROHVflayJHRphYyPjJ9Ab7mYarGKM96yQ?width=1024&height=617&cropmode=none" alt="Hummingbird Superyacht"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://9atp6q.ch.files.1drv.com/y4mzT1D0FcRdrewR_aL8oSr0bbZAtTHuWUoMycNbM9sPt3vwO3aMaHfXVKTr6TCSOsop3pl2P04-7onpR_KyenNSwvC1y6smbelHctjTGw13JNOLoXEz__rgzqRZaFaWYEZachtAf_rRBs8pqxqaNbnVX8je6LM_h9fXdJ2-yoOqbh1sqqmsrPZ1eZ_8wv_uU8VLwzTjNPl6BgAEmSjK38TkA?width=1024&height=617&cropmode=none" alt="Hummingbird Superyacht"/>
+                            </div>
+                            <div class="single-car-preview">
+                                <img src="https://wja21q.ch.files.1drv.com/y4mlYPos6kH7cWDEbrYYqVBTkUySfhpdtH7PIVVQObBL02J1C_RalklpS7W3h6misrTfLpmn-WM8pe61hwLc--Pm5MLU4cH8VyRDmEydD7wGbUQ64sfVQ6Ss9IeHE7dv8pC2nxIn6fdhAQ9EN0YWf-K412DRzmcliu2RktDqx6SPTxtQJV1BAA8IV_qKQBWA2xzSiot1txGJqhJphzjd8rT5A?width=1024&height=617&cropmode=none" alt="Hummingbird Superyacht"/>
+                            </div>
+                            
                         </div>
                         <div class="car-details-info">
                             <p>Our 30.33-meter spacious superyacht can take you as fast as 32kn with a maximum cruising range of 1000.0nm at 25.0kn. Designed with exquisite interiors, the yacht can accommodate 7 to 8 guests with 4 professionally-trained crew members.</p><br/>

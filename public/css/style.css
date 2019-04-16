@@ -2722,6 +2722,10 @@ input#startDate2 {
     background-color: #ffd000;
 }
 
+.single-car-preview img {
+    height: 516px;
+}
+
 .review-area {
     margin-top: 50px;
 }
