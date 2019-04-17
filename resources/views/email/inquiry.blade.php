@@ -24,7 +24,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="padding: 10px 30px">
+                <td style="font-size:9px;color:#B5B5B5;padding:10px 30px">
                     --<br>
                     <em>Note: This is a generated email notification from the website. Please reply to the email address provided by the client above.</em>
                 </td>
