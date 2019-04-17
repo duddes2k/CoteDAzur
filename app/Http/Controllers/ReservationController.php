@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Validator;
 use App\Mail\BookingMailable;
 use App\Mail\InquiryMailable;
 
@@ -126,6 +127,13 @@ class ReservationController extends Controller
      */
     public function mailInquiry( Request $request )
     {
+        $validator = Validator::make($request->all(),[
+            'fullname' => 'required:min:3',
+            'emailadd' => 'required|email',
+            'message' => 'required|min:5',
+            'g-recaptcha-response' => 'required|captcha'
+        ]);
+        
         $email_content = [
             'name' => $request->fullname,
             'email' => $request->emailadd,

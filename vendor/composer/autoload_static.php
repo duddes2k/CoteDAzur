@@ -154,6 +154,7 @@ class ComposerStaticInit2a56dcf5da4c8c427bc788cdfb1446cd
         'A' => 
         array (
             'App\\' => 4,
+            'Anhskohbo\\NoCaptcha\\' => 20,
         ),
     );
 
@@ -385,6 +386,10 @@ class ComposerStaticInit2a56dcf5da4c8c427bc788cdfb1446cd
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
+        'Anhskohbo\\NoCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/anhskohbo/no-captcha/src',
+        ),
     );
 
     public static $fallbackDirsPsr4 = array (
@@ -424,6 +429,9 @@ class ComposerStaticInit2a56dcf5da4c8c427bc788cdfb1446cd
     );
 
     public static $classMap = array (
+        'Anhskohbo\\NoCaptcha\\Facades\\NoCaptcha' => __DIR__ . '/..' . '/anhskohbo/no-captcha/src/Facades/NoCaptcha.php',
+        'Anhskohbo\\NoCaptcha\\NoCaptcha' => __DIR__ . '/..' . '/anhskohbo/no-captcha/src/NoCaptcha.php',
+        'Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider' => __DIR__ . '/..' . '/anhskohbo/no-captcha/src/NoCaptchaServiceProvider.php',
         'App\\Booking' => __DIR__ . '/../..' . '/app/Booking.php',
         'App\\Client' => __DIR__ . '/../..' . '/app/Client.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
@@ -445,7 +453,8 @@ class ComposerStaticInit2a56dcf5da4c8c427bc788cdfb1446cd
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'App\\Mail\\SendMailable' => __DIR__ . '/../..' . '/app/Mail/SendMailable.php',
+        'App\\Mail\\InquiryMailable' => __DIR__ . '/../..' . '/app/Mail/InquiryMailable.php',
+        'App\\Mail\\SendMailable' => __DIR__ . '/../..' . '/app/Mail/BookingMailable.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
