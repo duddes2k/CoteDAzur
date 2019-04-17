@@ -169,7 +169,7 @@
                                             <div class="form-group">
                                                 <script src='https://www.google.com/recaptcha/api.js'></script>
                                                 <div class="g-recaptcha" 
-                                                        data-sitekey="{{env('NOCAPTCHA_SITEKEY')}}">
+                                                        data-sitekey="6Lcfqp4UAAAAAGsLpVxyp6FUnj2pEH4v2aNEgBXl">
                                                 </div>
                                             </div>
                                             <div class="form-group">
