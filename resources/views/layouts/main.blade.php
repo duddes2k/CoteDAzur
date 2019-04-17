@@ -156,15 +156,15 @@
                                             </div>
                                             @endif
                                             <div class="form-group">
-                                                <input id="fullname" name="fullname" class="form-control" type="text" placeholder="Full Name">
+                                                <input id="fullname" name="fullname" class="form-control" type="text" placeholder="Full Name" value="{{ old('fullname') }}">
                                             </div>
                                         
                                             <div class="form-group">
-                                                <input id="emailadd" name="emailadd" class="form-control" type="email" placeholder="Email Address">
+                                                <input id="emailadd" name="emailadd" class="form-control" type="email" placeholder="Email Address" value="{{ old('emailadd') }}">
                                             </div>
                                         
                                             <div class="form-group">
-                                                <textarea id="message" class="form-control" name="message" cols="40" placeholder="Message"></textarea>
+                                                <textarea id="message" class="form-control" name="message" cols="40" placeholder="Message">{{ old('message') }}</textarea>
                                             </div>
                                             <div class="form-group">
                                                 <script src='https://www.google.com/recaptcha/api.js'></script>

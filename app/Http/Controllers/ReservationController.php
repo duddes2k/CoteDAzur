@@ -16,7 +16,7 @@ use App\Client;
 
 use Carbon\Carbon;
 
-use Redirect, URL;
+use Redirect, URL, Session;
 
 class ReservationController extends Controller
 {
@@ -125,10 +125,10 @@ class ReservationController extends Controller
      */
     public function mailInquiry( Request $request )
     {
-        $validator = Validator::make($request->all(),[
-            'fullname' => 'required:min:3',
+        $request->validate([
+            'fullname' => 'required|string|alpha|min:3',
             'emailadd' => 'required|email',
-            'message' => 'required|min:5',
+            'message' => 'required|string|min:5',
             'g-recaptcha-response' => 'required|captcha'
         ]);
         

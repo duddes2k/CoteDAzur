@@ -34,7 +34,7 @@ class InquiryMailable extends Mailable
     {
         $address = 'no-reply@cotedazurluxuryrentals.com';
         $name = "Cote d'Azur Luxury Rentals";
-        $subject = 'Guest Inquiry';
+        $subject = 'Website Inquiry';
 
         return $this->view('email.inquiry')
                     ->from($address, $name)
