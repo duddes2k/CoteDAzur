@@ -109,6 +109,10 @@
                                             <td>Displacement</td>
                                             <td>16,535lb</td>
                                         </tr>
+                                        <tr>
+                                            <td>Passenger</td>
+                                            <td>10 People</td>
+                                        </tr>
                                     </table>
                                 </div>
                             </div>

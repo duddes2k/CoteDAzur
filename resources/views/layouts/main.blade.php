@@ -77,9 +77,17 @@
                             <ul>
                                 <li class="{{ ($menu == 'home' ? 'active' : '') }}"><a href="/">Home</a></li>
                                 <li class="{{ ($menu == 'aboutus' ? 'active' : '') }}"><a href="/aboutus">About</a></li>
-                                <li class="{{ ($menu == 'yacht' ? 'active' : '') }}"><a href="/rental/yacht">Yacht Charter</a></li>
-                                <li class="{{ ($menu == 'speedboat' ? 'active' : '') }}"><a href="/rental/speedboat">Speedboat Charter</a></li>
-                                <li class="{{ ($menu == 'car' ? 'active' : '') }}"><a href="/rental/car">Car Rental</a></li>
+                                <li class="{{ ($menu == 'yacht' ? 'active' : '') }}"><a href="#">Charter</a>
+                                    <ul>
+                                        <li><a href="/rental/yacht">Hummingbird Superyacht</a></li>
+                                        <li><a href="/rental/speedboat">VanDutch 40 Speedboat</a></li>
+                                    </ul>
+                                </li>
+                                <li class="{{ ($menu == 'car' ? 'active' : '') }}"><a href="#">Car Rental</a>
+                                    <ul>
+                                        <li><a href="/rental/car">Rolls-Royce Phantom Drophead</a></li>
+                                    </ul>
+                                </li>
                                
                                 <li><a class="sliding-link" href="#footer-area">Contact</a></li>
                             </ul>
