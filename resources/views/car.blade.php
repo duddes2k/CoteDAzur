@@ -157,6 +157,24 @@
                         </div>
                         <!-- Single Sidebar End -->
 
+                        <!-- Single Sidebar Start -->
+                         <div class="single-sidebar">
+                            <h3>Resources</h3>
+                            <div class="single-body">
+                                <div class="tech-info-table">
+                                    <table class="table table-bottom-border">
+                                        <tr>
+                                            <td><a href="{{ Storage::url('CLR-Brochure-041919.pdf') }}">Download Brochure</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="{{ Storage::url('CLR-Flyer-041919.pdf') }}">Download Flyer</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Sidebar End -->
+
                        
                     </div>
                 </div>
