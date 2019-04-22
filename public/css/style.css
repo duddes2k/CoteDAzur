@@ -201,6 +201,9 @@ header.fixTotop #header-top {
     display: none !important;
 }
 
+.mainmenu {
+    margin-left: -65px !important;
+}
 /*== Header Top CSS End ==*/
 
 /*== Header Bottom CSS Start ==*/
@@ -238,7 +241,7 @@ header.fixTotop #header-bottom {
 .mainmenu ul li a {
     display: block;
     font-weight: 700;
-    margin-left: 25px;
+    margin-left: 10px;
     padding: 15px 0;
     /* text-transform: uppercase; */
     -webkit-transition: all 0.4s ease 0s;

@@ -6,6 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Cote d'Azur Luxury Rentals" />
+    <meta name="description" content="Whether it's a family holiday, romantic getaway, corporate event or an adventure of a lifetime, Côte d’Azur Luxury Rentals can give you an exceptional charter experience in the French Riviera." />
+    <meta property="og:title" content="French Riviera (Cote d'Azur) | Luxury Rentals" />
+    <meta property="og:image" content="http://cotedazurluxuryrentals.com/img/logo/about-logo.png" />
+    <meta property="og:site_name" content="Cote d'Azur Luxury Rentals" />
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
 
@@ -72,12 +77,12 @@
                     <!--== Logo End ==-->
 
                     <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
+                    <div class="col-lg-9 d-none d-xl-block">
                         <nav class="mainmenu alignleft mt-4">
                             <ul>
                                 <li class="{{ ($menu == 'home' ? 'active' : '') }}"><a href="/">Home</a></li>
                                 <li class="{{ ($menu == 'aboutus' ? 'active' : '') }}"><a href="/aboutus">About</a></li>
-                                <li class="{{ ($menu == 'yacht' ? 'active' : '') }}"><a href="#">Charter</a>
+                                <!-- <li class="{{ ($menu == 'yacht' ? 'active' : '') }}"><a href="#">Charter</a>
                                     <ul>
                                         <li><a href="/rental/yacht">Hummingbird Superyacht</a></li>
                                         <li><a href="/rental/speedboat">VanDutch 40 Speedboat</a></li>
@@ -87,7 +92,24 @@
                                     <ul>
                                         <li><a href="/rental/car">Rolls-Royce Phantom Drophead</a></li>
                                     </ul>
+                                </li> -->
+
+                                <li class="{{ ($menu == 'yacht' ? 'active' : '') }}">
+                                    <a href="/rental/yacht">Hummingbird Superyacht Charter</a>
                                 </li>
+                                <li class="{{ ($menu == 'boat' ? 'active' : '') }}">
+                                    <a href="/rental/speedboat">VanDucth 40 Speedboat Charter</a>
+                                </li>
+                                <li class="{{ ($menu == 'car' ? 'active' : '') }}">
+                                    <a href="/rental/car">Rolls-Royce Phantom Drophead Rental</a>
+                                </li>
+
+                                <!-- <li class=""><a href="#">Resources</a>
+                                    <ul>
+                                        <li><a href="#">Download Flyer</a></li>
+                                        <li><a href="#">Download Brochure</a></li>
+                                    </ul>
+                                </li> -->
                                
                                 <li><a class="sliding-link" href="#footer-area">Contact</a></li>
                             </ul>
@@ -122,6 +144,8 @@
                                     <li><i class="fa fa-user"></i> Jean Paul Reinaud<br><small style="margin-left:20px">General Manager</small></li>
                                     <li><i class="fa fa-mobile"></i> Local: 06 07 51  82 83</li>
                                     <li><i class="fa fa-mobile"></i> International: +33 6 07 51  82 83</li>
+                                    <li><i class="fa fa-mobile"></i> WhatsApp: +63 917 522 9797</li>
+                                    <li><i class="fa fa-envelope"></i> aernout@pldtdsl.net</li>
                                     <li><i class="fa fa-envelope"></i> jean-paul.reinaud@wanadoo.fr</li>
                                 </ul><br/>
                                 <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="btn btn-warning" target="_blank">Show Location</a>

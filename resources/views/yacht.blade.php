@@ -147,8 +147,11 @@
 
                             <p>Lounge at the spacious main saloon and enjoy meals at the adjacent formal dining area while savoring the view. Step outside the sundeck with a big sun pad, delight in the 360-degree view while dining al-fresco at the dining table or grill steaks and freshly caught fish at the newly installed barbeque at the flybridge. Additional sunbathing areas, extra seating, and dining spaces await your guests. Take a dip into the Hummingbird’s swimming pool where the platform can be converted into a dive platform or sunbathing platform.</p><br/>
 
-                            <p>This superyacht is powered by twin MTU 16V 2000 M93 Diesel engines that take you cruising at 25 knots and takes you as fast as 32 knots.</p>
+                            <p>This superyacht is powered by twin MTU 16V 2000 M93 Diesel engines that take you cruising at 25 knots and takes you as fast as 32 knots.</p><br/>
 
+                            <p>
+                                <iframe width="721" height="400" src="https://www.youtube.com/embed/fFeACqRemck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </p>
                         </div>
                     </div>
                 </div>

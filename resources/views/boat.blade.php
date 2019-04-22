@@ -110,7 +110,7 @@
                                             <td>16,535lb</td>
                                         </tr>
                                         <tr>
-                                            <td>Passenger</td>
+                                            <td>Passengers</td>
                                             <td>10 People</td>
                                         </tr>
                                     </table>
