@@ -246,6 +246,9 @@
                                         <tr>
                                             <td><a href="{{ Storage::url('CLR-Flyer-041919.pdf') }}">Download Flyer</a></td>
                                         </tr>
+                                        <tr>
+                                            <td><a href="{{ Storage::url('CLR-Business-Cards-041919-B.pdf') }}">Download Business Card</a></td>
+                                        </tr>
                                     </table>
                                 </div>
                             </div>
