@@ -100,7 +100,7 @@
 
                             <a href="/rental/speedboat"><img src="https://jefbaq.ch.files.1drv.com/y4m2mqZDsZlnG24XTWBWKjGKTyg1ZEX58JrO1nbpGbLqalh8GE8_SjA05ggsK0cCmqv5vYocAP3fTRJ2bTTcNnGE9JKpN2bJx0pY8zOdnJWedzJSl2Qy9Uud8EpUeYUvxS00pstqUslJD9lSJ8VPLN4XWMht_L-gLe8vxYSDF-3lEKxrpmGObno3UsiG3Y9g8IYoomHIyCd-EH94yErK0oLPQ?width=256&height=179&cropmode=none"/></a>
                             
-							<h3>VanDutch 40 Speedboat<br/>(10 people capacity)</h3>
+							<h3>VanDutch 40 Speedboat</h3>
 							
                         </div>
 						<!-- Single Service End -->

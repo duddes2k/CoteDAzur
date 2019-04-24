@@ -287,6 +287,15 @@
 /* ==== Mobile Layout: 320px ==== */
 
 @media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 100px 0;
+    }
+    .g-recaptcha {
+        transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
     .slider-right-text {
         font-size: 14px;
         text-align: center;

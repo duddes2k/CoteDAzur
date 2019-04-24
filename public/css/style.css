@@ -2726,7 +2726,8 @@ input#startDate2 {
 }
 
 .single-car-preview img {
-    height: 516px;
+    /* height: 516px; */
+    height: 100%;
 }
 
 .review-area {

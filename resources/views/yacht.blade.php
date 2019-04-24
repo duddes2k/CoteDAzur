@@ -108,9 +108,9 @@
                             <div class="single-car-preview">
                                 <img src="https://idj41g.ch.files.1drv.com/y4mFUl01OZDDTdZeOCzO1Rdw3J3l8jI_30NWZn7BE2o0Jp2Erp6QU6ldTi5zUDcEA7LQHbgRiIs1Ksvz3lYSNSrae4cSOqZTKdCDyorTrR2ahdWCy4FScqRKfQ7Oa95f2st8E3HnwTMAbwwzcRvqxaIXVRuRj9muA4NxxNnv7fQ5rcpzcbty3xbgzbz2XD61iQDQahXhoRNtaCHW9q-HpXn8Q?width=5155&height=3106&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
                             </div>
-                            <div class="single-car-preview">
+                            <!-- <div class="single-car-preview">
                                 <img src="https://idkuvw.ch.files.1drv.com/y4m8_9KdEq5f7x8qZcUwH1tlPEm73_h2oThDI0E8cb2O_yLEUh79-pU_bLrNZWsn-tdyNX7ZpnkkvsQ4j5pC_FXewv5LGMDHUv0FH_dw92Oyk0fIpMVkRyQVQCk4YyV5zteTzXfsq5d2XWaZ9NkLDkexTzY5oqiR1DW3b3qqcsy2yka4b8imSJ94xwqwn8qECIpaQ25AbM1QmZjJUL-xcjAVA?width=5774&height=6000&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
-                            </div>
+                            </div> -->
                             <div class="single-car-preview">
                                 <img src="https://idi0xw.ch.files.1drv.com/y4mvCfub1M6OAtDCdgVF6jV2svGqgQAgjkLu01PEWU2qycFrBZUf9quCn8pfij1Dudku3MqEP626geagEMMPzdRG7Oco6XgZLXAwn5wgyQqvs_xFKUBgIOu8Nuh_RcPlC31mkvxB3pnLRdKZEuuuLswk2CheAgi0P3801jXuShXu-Z1J-OXlXCKSRufvvy3VbqigeS6Gyg75cSLdEFhLWINig?width=7360&height=4912&cropmode=none" alt="Cote dAzur Luxury Rentals"/>
                             </div>
