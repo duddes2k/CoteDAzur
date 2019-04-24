@@ -240,7 +240,7 @@ header.fixTotop #header-bottom {
 
 .mainmenu ul li a {
     display: block;
-    font-weight: 700;
+    font-weight: normal;
     margin-left: 10px;
     padding: 15px 0;
     /* text-transform: uppercase; */
@@ -261,6 +261,12 @@ header.fixTotop #header-bottom {
     visibility: hidden;
     width: 220px;
     z-index: 9999;
+}
+
+/* Safari Only */
+.mainmenu:not(:root:root) {
+    text-rendering: geometricPrecision;
+    width: 999px;
 }
 
 .mainmenu ul li ul::after {
