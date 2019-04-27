@@ -49,16 +49,16 @@
     <![endif]-->
 </head>
 
-<body class="loader-active">
+<body>
 
     <!--== Preloader Area Start ==-->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="preloader-spinner">
             <div class="loader-content">
                 <img src="{{ asset('img/logo/about-logo.png') }}" alt="JSOFT">
             </div>
         </div>
-    </div>
+    </div> -->
     <!--== Preloader Area End ==-->
 
     <!--== Header Area Start ==-->
