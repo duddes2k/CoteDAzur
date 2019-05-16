@@ -6,9 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Cote d'Azur Luxury Rentals" />
+    <meta name="google-site-verification" content="cj6ccynNPOi3xD_PyBqvYBeBiURZZvEGaoUvaeG8sBs" />
+    <meta name="keywords" content="luxury yacht rentals,yacht rentals,luxury car rental,boat rental,car rentals,yacht charter,boat charter" />
     <meta name="description" content="Whether it's a family holiday, romantic getaway, corporate event or an adventure of a lifetime, Côte d’Azur Luxury Rentals can give you an exceptional charter experience in the French Riviera." />
-    <meta property="og:title" content="French Riviera (Cote d'Azur) | Luxury Rentals" />
+    <meta property="og:title" content="French Riviera (Cote d'Azur) | Luxury Yacht and Car Rentals" />
     <meta property="og:image" content="http://cotedazurluxuryrentals.com/img/logo/about-logo.png" />
     <meta property="og:site_name" content="Cote d'Azur Luxury Rentals" />
     <!--=== Favicon ===-->
@@ -70,7 +71,7 @@
                     <!--== Logo Start ==-->
                     <div class="col-lg-3">
                         <a href="/" class="logo">
-                            <img src="{{ asset('/img/logo/header-logo.png') }}" alt="JSOFT">
+                            <img src="{{ asset('/img/logo/header-logo.png') }}" alt="Cote D'Azur Luxury Rentals">
                             <!-- <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5> -->
                         </a>
                     </div>
