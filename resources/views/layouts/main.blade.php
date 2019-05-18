@@ -18,6 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="cj6ccynNPOi3xD_PyBqvYBeBiURZZvEGaoUvaeG8sBs" />
+    <meta name="msvalidate.01" content="757CE4C4701DB66544085A32F844DDE3" />
     <meta name="keywords" content="luxury yacht rentals,yacht rentals,luxury car rental,boat rental,car rentals,yacht charter,boat charter" />
     <meta name="description" content="Whether it's a family holiday, romantic getaway, corporate event or an adventure of a lifetime, Côte d’Azur Luxury Rentals can give you an exceptional charter experience in the French Riviera." />
     <meta property="og:title" content="French Riviera (Cote d'Azur) | Luxury Yacht and Car Rentals" />
