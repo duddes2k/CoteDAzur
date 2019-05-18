@@ -78,7 +78,7 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 
-                            <a href="/rental/car"><img src="https://uhrjbq.ch.files.1drv.com/y4me2vRmHgbwOjKyrwk-FRZ6wx0dt-AUil7JLmPbBOdYcQdzDesQkQFME_HsyJxykvloCZK5ZecftKv-KxfGBzeDF3hq2T7stgLTTwQdeQq70CsRiIj-fRzfUzvMdmpdgYCT6EAkj95LpLa49Hjb3hJFuZQbb65dWDK3-4NrKlK1LBrg6Fo-y8sF3ZTri4SWiY1bnFON_JeR1s8JgK7UPn64g?width=256&height=171&cropmode=none"/></a>
+                            <a href="/rental/car"><img src="https://uhrjbq.ch.files.1drv.com/y4me2vRmHgbwOjKyrwk-FRZ6wx0dt-AUil7JLmPbBOdYcQdzDesQkQFME_HsyJxykvloCZK5ZecftKv-KxfGBzeDF3hq2T7stgLTTwQdeQq70CsRiIj-fRzfUzvMdmpdgYCT6EAkj95LpLa49Hjb3hJFuZQbb65dWDK3-4NrKlK1LBrg6Fo-y8sF3ZTri4SWiY1bnFON_JeR1s8JgK7UPn64g?width=256&height=171&cropmode=none" alt="rolls-royce rental france, phantom drophead"/></a>
                             
 							<h3>Rolls-Royce<br/>Phantom Drophead</h3>
 							
@@ -88,7 +88,7 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 
-                            <a href="/rental/yacht"><img src="https://v7tfka.ch.files.1drv.com/y4mmAYc6P56fsqtU2c7AEhxI2LH9bpujIbPg0PG39VOMSFWirZ1I4pNmI0Y6CEilYkV17Lr2TE8wLHg_0MBPWMSnWzYJyT0E037Ddc3G-jnp1jVGMsZ96YDpB2tjRdCwLheBbBy4hPJ1JLn32cTIYEnnGriJTcCirhhKvw6jttaySyqKHyNRfEnjdgkTbsmYZsdZqmhhOo2gTDzglTThX9AqA?width=1024&height=683&cropmode=none"/></a>
+                            <a href="/rental/yacht"><img src="https://v7tfka.ch.files.1drv.com/y4mmAYc6P56fsqtU2c7AEhxI2LH9bpujIbPg0PG39VOMSFWirZ1I4pNmI0Y6CEilYkV17Lr2TE8wLHg_0MBPWMSnWzYJyT0E037Ddc3G-jnp1jVGMsZ96YDpB2tjRdCwLheBbBy4hPJ1JLn32cTIYEnnGriJTcCirhhKvw6jttaySyqKHyNRfEnjdgkTbsmYZsdZqmhhOo2gTDzglTThX9AqA?width=1024&height=683&cropmode=none" alt="yacht charter france, hummingbird superyacht"/></a>
 
 							<h3>Hummingbird Superyacht</h3>
 							
@@ -98,7 +98,7 @@
 						<!-- Single Service Start -->
 						<div class="service-item">
 
-                            <a href="/rental/speedboat"><img src="https://jefbaq.ch.files.1drv.com/y4m2mqZDsZlnG24XTWBWKjGKTyg1ZEX58JrO1nbpGbLqalh8GE8_SjA05ggsK0cCmqv5vYocAP3fTRJ2bTTcNnGE9JKpN2bJx0pY8zOdnJWedzJSl2Qy9Uud8EpUeYUvxS00pstqUslJD9lSJ8VPLN4XWMht_L-gLe8vxYSDF-3lEKxrpmGObno3UsiG3Y9g8IYoomHIyCd-EH94yErK0oLPQ?width=256&height=179&cropmode=none"/></a>
+                            <a href="/rental/speedboat"><img src="https://jefbaq.ch.files.1drv.com/y4m2mqZDsZlnG24XTWBWKjGKTyg1ZEX58JrO1nbpGbLqalh8GE8_SjA05ggsK0cCmqv5vYocAP3fTRJ2bTTcNnGE9JKpN2bJx0pY8zOdnJWedzJSl2Qy9Uud8EpUeYUvxS00pstqUslJD9lSJ8VPLN4XWMht_L-gLe8vxYSDF-3lEKxrpmGObno3UsiG3Y9g8IYoomHIyCd-EH94yErK0oLPQ?width=256&height=179&cropmode=none" alt="boat charter france, vandutch 40"/></a>
                             
 							<h3>VanDutch 40 Speedboat</h3>
 							

@@ -171,8 +171,8 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-footer-widget">
                             <div class="widget-body">
-                                <img id="footer-logo" src="{{ asset('/img/logo/footer-logo.png') }}" alt="JSOFT">
-                                <p>Côte d’Azur Luxury Rentals gives you the most luxurious charter experience. Sail and explore the clear blue waters of the French Riviera and nearby places. Cruise around the city and marvel at the breathtaking Côte d’Azur coastline. Get sun-kissed and feel the breeze aboard a super-fast speedboat.</p>
+                                <img id="footer-logo" src="{{ asset('/img/logo/footer-logo.png') }}" alt="cote d'azur luxury rentals">
+                                <p><h1>Côte d’Azur Luxury Rentals</h1> gives you the most luxurious charter experience. Sail and explore the clear blue waters of the French Riviera and nearby places. Cruise around the city and marvel at the breathtaking Côte d’Azur coastline. Get sun-kissed and feel the breeze aboard a super-fast speedboat.</p>
 
                             </div>
                         </div>

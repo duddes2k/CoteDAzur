@@ -3496,3 +3496,8 @@ input#startDate2 {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
 }
+
+.single-footer-widget h1 {
+    font-size: 14px;
+    color: #fff;
+}
