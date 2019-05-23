@@ -38,19 +38,19 @@ Route::get('/', function () {
     return view('home')->with('menu','home');
 });
 
-Route::get('/home', function () {
+Route::name('home')->get('/home', function () {
     return view('home')->with('menu','home');
 });
 
-Route::get('/rental/yacht', function () {
+Route::name('rental.yacht')->get('/rental/yacht', function () {
     return view('yacht')->with('menu','yacht');
 });
 
-Route::get('/rental/car', function () {
+Route::name('rental.car')->get('/rental/car', function () {
     return view('car')->with('menu','car');
 });
 
-Route::get('/rental/speedboat', function () {
+Route::name('rental.speedboat')->get('/rental/speedboat', function () {
     return view('boat')->with('menu','speedboat');
 });
 

@@ -1,5 +1,17 @@
 @extends('layouts.main')
 
+@section('meta')
+    <meta name="keywords" content="luxury yacht rentals france,yacht rentals france,yacht charter france" />
+    <meta name="description" content="Cote d’Azur Luxury Rentals can give you an exceptional charter experience in the French Riviera." />
+    <meta property="og:title" content="French Riviera (Cote d'Azur) | Luxury Yacht and Car Rentals" />
+    <meta property="og:image" content="http://cotedazurluxuryrentals.com/img/logo/about-logo.png" />
+    <meta property="og:site_name" content="Cote d'Azur Luxury Rentals" />
+@endsection
+
+@section('title')
+<title>Côte d'Azur Luxury Rentals | Yacht Charter France</title>
+@endsection
+
 @section('content')
 
     <!--== Car List Area Start ==-->

@@ -19,15 +19,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="cj6ccynNPOi3xD_PyBqvYBeBiURZZvEGaoUvaeG8sBs" />
     <meta name="msvalidate.01" content="757CE4C4701DB66544085A32F844DDE3" />
-    <meta name="keywords" content="luxury yacht rentals france,yacht rentals france,luxury car rental france,boat rental france,car rental france,yacht charter france,boat charter france" />
-    <meta name="description" content="Cote d’Azur Luxury Rentals can give you an exceptional charter experience in the French Riviera." />
-    <meta property="og:title" content="French Riviera (Cote d'Azur) | Luxury Yacht and Car Rentals" />
-    <meta property="og:image" content="http://cotedazurluxuryrentals.com/img/logo/about-logo.png" />
-    <meta property="og:site_name" content="Cote d'Azur Luxury Rentals" />
+
+    @yield('meta')
+    
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
 
-    <title>Côte d'Azur Luxury Rentals</title>
+    @yield('title')
 
     <!--=== Bootstrap CSS ===-->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">

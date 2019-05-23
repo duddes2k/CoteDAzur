@@ -31,7 +31,7 @@ class ReservationController extends Controller
         switch ($request->rental)
         {
             case 1:
-                    $rental = "Luxury Mega Yacht";
+                    $rental = "Hummingbird Superyacht";
                     $menu = 'yacht';
                     $rate = 45000;
                     $rate2 = 43000;
@@ -51,7 +51,7 @@ class ReservationController extends Controller
                     $total = $days * (float)$rate_per_day;
                     break;
             case 2:
-                    $rental = "VanDutch 40 Superfast Luxury Speedboat";
+                    $rental = "VanDutch 40 Superfast Boat";
                     $menu = 'speedboat';
                     $rate_per_day = 2950;
                     $total = $days * (float)$rate_per_day;

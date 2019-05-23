@@ -1,5 +1,17 @@
 @extends('layouts.main')
 
+@section('meta')
+    <meta name="keywords" content="luxury car rental france, luxury car rental cannes, private car rental france, private car rental cannes" />
+    <meta name="description" content="Cote d’Azur Luxury Rentals can give you an exceptional charter experience in the French Riviera." />
+    <meta property="og:title" content="French Riviera (Cote d'Azur) | Luxury Yacht and Car Rentals" />
+    <meta property="og:image" content="http://cotedazurluxuryrentals.com/img/logo/about-logo.png" />
+    <meta property="og:site_name" content="Cote d'Azur Luxury Rentals | Car Rental France" />
+@endsection
+
+@section('title')
+<title>Côte d'Azur Luxury Rentals | Car Rental France</title>
+@endsection
+
 @section('content')
 
     <!--== Car List Area Start ==-->
