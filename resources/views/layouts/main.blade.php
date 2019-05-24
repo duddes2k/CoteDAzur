@@ -58,6 +58,22 @@
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "06130 GRASSE",
+            "addressRegion": "FR",
+            "streetAddress": "40 Chemin de la Source"
+        },
+        "description": "Experience a luxury yachting in the blue water of French Riviera",
+        "name": "Cote d'Azur Luxury Rentals",
+        "telephone": "8+33 6 07 51  82 83"
+    }
+    </script>
 </head>
 
 <body>
