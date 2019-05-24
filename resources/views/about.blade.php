@@ -33,7 +33,7 @@
 
                     <img src="/img/logo/about-logo.png" width="130"/>
 
-                    <p><h1>Côte d’Azur Luxury Rentals</h1> is located in the city where the ocean view is as spectacular as the film festival, Cannes is just one of the glamorous cities to be explored in Côte d’Azur or the French Riviera. Home to <a href="{{ route('home') }}">Côte d’Azur Luxury Rentals</a>, this city has more to offer as well as nearby places.</p>
+                    <p>Côte d’Azur Luxury Rentals is located in the city where the ocean view is as spectacular as the film festival, Cannes is just one of the glamorous cities to be explored in Côte d’Azur or the French Riviera. Home to <a href="{{ route('home') }}">Côte d’Azur Luxury Rentals</a>, this city has more to offer as well as nearby places.</p>
             
                     <p>Explore Côte d’Azur and bask in the sun in our spectacular 31-meter long <a href="{{ route('rental.yacht') }}">Mega Yacht</a> spacious enough for parties with friends or a family trip.</p>
 

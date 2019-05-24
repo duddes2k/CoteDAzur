@@ -150,16 +150,18 @@
                             <div class="widget-body">
                                 <h2>Contact Us</h2>
                                 <p>We would love to hear from you!</p>
-
-                                <ul class="get-touch">
-                                    <li><i class="fa fa-user"></i> Jean Paul Reinaud<br><small style="margin-left:20px">General Manager</small></li>
-                                    <li><i class="fa fa-mobile"></i> Local: 06 07 51  82 83</li>
-                                    <li><i class="fa fa-mobile"></i> International: +33 6 07 51  82 83</li>
-                                    <li><i class="fa fa-mobile"></i> WhatsApp: +63 917 522 9797</li>
-                                    <li><i class="fa fa-envelope"></i> aernout@pldtdsl.net</li>
-                                    <li><i class="fa fa-envelope"></i> jean-paul.reinaud@wanadoo.fr</li>
-                                </ul><br/>
-                                <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="btn btn-warning" target="_blank">Show Location</a>
+                                
+                                <div itemscope itemtype="http://schema.org/Person">
+                                    <ul class="get-touch">
+                                        <li><i class="fa fa-user"></i> <span itemprop="name">Jean Paul Reinaud</span><br><small style="margin-left:20px" itemprop="JobTitle">General Manager</small></li>
+                                        <li><i class="fa fa-mobile"></i> <span itemprop="telephone">Local: 06 07 51  82 83</span></li>
+                                        <li><i class="fa fa-mobile"></i> <span itemprop="telephone">International: +33 6 07 51  82 83</span></li>
+                                        <li><i class="fa fa-mobile"></i> WhatsApp: +63 917 522 9797</li>
+                                        <li><i class="fa fa-envelope"></i> <span itemprop="email">aernout@pldtdsl.net</span></li>
+                                        <li><i class="fa fa-envelope"></i> <span itemprop="email">jean-paul.reinaud@wanadoo.fr</span></li>
+                                    </ul><br/>
+                                    <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="btn btn-warning" target="_blank">Show Location</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -169,8 +171,10 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-footer-widget">
                             <div class="widget-body">
-                                <img id="footer-logo" src="{{ asset('/img/logo/footer-logo.png') }}" alt="cote d'azur luxury rentals">
-                                <p><h1>Côte d’Azur Luxury Rentals</h1> gives you the most luxurious charter experience. Sail and explore the clear blue waters of the French Riviera and nearby places. Cruise around the city and marvel at the breathtaking Côte d’Azur coastline. Get sun-kissed and feel the breeze aboard a super-fast speedboat.</p>
+                                <div itemscope itemtype="http://schema.org/LocalBusiness">
+                                    <img itemprop="logo" id="footer-logo" src="{{ asset('/img/logo/footer-logo.png') }}" alt="cote d'azur luxury rentals">
+                                    <p><h1><span itemprop="name">Côte d’Azur Luxury Rentals</span></h1> <span itemprop="description">gives you the most luxurious charter experience. Sail and explore the clear blue waters of the French Riviera and nearby places. Cruise around the city and marvel at the breathtaking Côte d’Azur coastline. Get sun-kissed and feel the breeze aboard a super-fast speedboat.</span></p>
+                                </div>
 
                             </div>
                         </div>
