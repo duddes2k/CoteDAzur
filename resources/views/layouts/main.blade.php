@@ -69,7 +69,7 @@
             "addressRegion": "FR",
             "streetAddress": "40 Chemin de la Source"
         },
-        "image":"{{ asset('/img/logo/cdalr.ico') }}"
+        "image":"{{ asset('/img/logo/cdalr.ico') }}",
         "description": "Experience a luxury yachting in the blue water of French Riviera",
         "name": "Cote d'Azur Luxury Rentals",
         "telephone": "8+33 6 07 51  82 83",
