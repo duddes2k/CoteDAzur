@@ -23,7 +23,7 @@
     @yield('meta')
     
     <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ asset('/img/logo/cdalr.ico') }}" type="image/x-icon" />
 
     @yield('title')
 
@@ -69,9 +69,11 @@
             "addressRegion": "FR",
             "streetAddress": "40 Chemin de la Source"
         },
+        "image":"{{ asset('/img/logo/cdalr.ico') }}"
         "description": "Experience a luxury yachting in the blue water of French Riviera",
         "name": "Cote d'Azur Luxury Rentals",
-        "telephone": "8+33 6 07 51  82 83"
+        "telephone": "8+33 6 07 51  82 83",
+        "priceRange": "$$$"
     }
     </script>
 </head>
