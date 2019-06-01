@@ -9,7 +9,7 @@
 @endsection
 
 @section('title')
-<title>Côte d'Azur Luxury Rentals</title>
+<title>French Riviera (Cote d'Azur) | Luxury Yacht and Car Rentals</title>
 @endsection
 
 @section('content')
