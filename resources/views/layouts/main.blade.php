@@ -177,6 +177,7 @@
                                         <li><i class="fa fa-mobile"></i> WhatsApp: +63 917 522 9797</li>
                                         <li><i class="fa fa-envelope"></i> <span itemprop="email">aernout@pldtdsl.net</span></li>
                                         <li><i class="fa fa-envelope"></i> <span itemprop="email">jean-paul.reinaud@wanadoo.fr</span></li>
+                                        <li><i class="fa fa-globe"></i> <span itemprop="url">https://www.cotedazurluxuryrentals.com</span></li>
                                     </ul><br/>
                                     <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="btn btn-warning" target="_blank">Show Location</a>
                                 </div>
