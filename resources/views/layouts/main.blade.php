@@ -267,8 +267,26 @@
                             <a href="#">Terms and Condition</a>
                         </p>
                         <p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
-</p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+                        </p>
+                        <p>
+                        <!-- Default Statcounter code for Cote d'Azur Luxury Rentals
+                        https://www.cotedazurluxuryrentals.com -->
+                        <script type="text/javascript">
+                        var sc_project=12023542; 
+                        var sc_invisible=0; 
+                        var sc_security="e01f9c86"; 
+                        var sc_https=1; 
+                        var sc_remove_link=1; 
+                        var scJsHost = "https://";
+                        document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+                        "statcounter.com/counter/counter.js'></"+"script>");
+                        </script>
+                        <noscript><div class="statcounter"><img class="statcounter"
+                        src="https://c.statcounter.com/12023542/0/e01f9c86/0/" alt="Web Analytics Made
+                        Easy - StatCounter"></div></noscript>
+                        <!-- End of Statcounter Code -->
+                        </p>
                     </div>
                 </div>
             </div>
@@ -319,6 +337,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="{{ asset('/js/main.js') }}"></script>
 
     <!--=== Custom JS ===-->
+    
     
 </body>
 
