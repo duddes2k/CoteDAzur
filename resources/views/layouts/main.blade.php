@@ -274,12 +274,12 @@
                         https://www.cotedazurluxuryrentals.com -->
                         <script type="text/javascript">
                         var sc_project=12023542; 
-                        var sc_invisible=0; 
+                        var sc_invisible=0;
                         var sc_security="e01f9c86"; 
                         var sc_https=1; 
                         var sc_remove_link=1; 
                         var scJsHost = "https://";
-                        document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+                        document.write("Web Visitor Counter: <sc"+"ript type='text/javascript' src='" + scJsHost+
                         "statcounter.com/counter/counter.js'></"+"script>");
                         </script>
                         <noscript><div class="statcounter"><img class="statcounter"
