@@ -270,22 +270,10 @@
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
                         </p>
                         <p>
-                        <!-- Default Statcounter code for Cote d'Azur Luxury Rentals
-                        https://www.cotedazurluxuryrentals.com -->
-                        <script type="text/javascript">
-                        var sc_project=12023542; 
-                        var sc_invisible=0;
-                        var sc_security="e01f9c86"; 
-                        var sc_https=1; 
-                        var sc_remove_link=1; 
-                        var scJsHost = "https://";
-                        document.write("Web Visitor Counter: <sc"+"ript type='text/javascript' src='" + scJsHost+
-                        "statcounter.com/counter/counter.js'></"+"script>");
-                        </script>
-                        <noscript><div class="statcounter"><img class="statcounter"
-                        src="https://c.statcounter.com/12023542/0/e01f9c86/0/" alt="Web Analytics Made
-                        Easy - StatCounter"></div></noscript>
-                        <!-- End of Statcounter Code -->
+                        <a href="https://smallseotools.com/visitor-hit-counter/" target="_blank" title="Visitor Hit Counter">
+<img src="https://smallseotools.com/counterDisplay?code=ba2a6756b8f8bf1fcfb7165ade951dc0&style=0007&pad=5&type=page&initCount=33"  title="Visitor Hit Counter" Alt="Visitor Hit Counter" border="0">
+</a>
+                        
                         </p>
                     </div>
                 </div>
