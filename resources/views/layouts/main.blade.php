@@ -270,9 +270,7 @@
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
                         </p>
                         <p>
-                        <a href="https://smallseotools.com/visitor-hit-counter/" target="_blank" title="Visitor Hit Counter">
-<img src="https://smallseotools.com/counterDisplay?code=ba2a6756b8f8bf1fcfb7165ade951dc0&style=0007&pad=5&type=page&initCount=33"  title="Visitor Hit Counter" Alt="Visitor Hit Counter" border="0">
-</a>
+                        <script type="text/javascript" src="//counter.websiteout.net/js/22/6/33/1"></script>
                         
                         </p>
                     </div>
