@@ -147,6 +147,7 @@
                             </div>
                             
                         </div>
+                       
                         <div class="car-details-info">
                             <p>Our 30.33-meter spacious superyacht can take you as fast as 32kn with a maximum cruising range of 1000.0nm at 25.0kn. Designed with exquisite interiors, the yacht can accommodate 7 to 8 guests with 4 professionally-trained crew members.</p><br/>
 

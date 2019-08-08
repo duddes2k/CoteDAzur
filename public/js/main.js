@@ -377,8 +377,9 @@
             autoplay: true,
             autoplayHoverPause: true,
             autoplayTimeout: 2000,
-            nav: false,
-            dots: true,
+            nav: true,
+            navText: ["", ""],
+            dots: false,
             animateOut: "fadeOut",
             animateIn: "fadeIn"
         });

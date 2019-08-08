@@ -2731,6 +2731,29 @@ input#startDate2 {
     background-color: #ffd000;
 }
 
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    font-family: "fontAwesome";
+    width: 100px !important;
+    background-color: transparent;
+    display: inline-block;
+}
+.owl-carousel .owl-nav .owl-next {
+    float: right;
+    text-align: right;
+    margin-right: 0;
+}
+.owl-carousel .owl-nav .owl-prev:before {
+    /* fa-chevron-left */
+    content: "\f053   Previous";
+    margin-right: 10px;
+}
+.owl-carousel .owl-nav .owl-next:after {
+    /* fa-chevron-right */
+    content: "Next \f054";
+    margin-right: 10px;
+}
+
 .single-car-preview img {
     /* height: 516px; */
     height: 100%;
