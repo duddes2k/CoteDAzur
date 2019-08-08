@@ -2731,12 +2731,17 @@ input#startDate2 {
     background-color: #ffd000;
 }
 
+.owl-carousel .owl-nav {
+    background: rgba(3, 3, 3, 0.034);
+}
+
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next {
     font-family: "fontAwesome";
     width: 100px !important;
     background-color: transparent;
     display: inline-block;
+    color: #09357c;
 }
 .owl-carousel .owl-nav .owl-next {
     float: right;
