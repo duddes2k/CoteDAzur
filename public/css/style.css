@@ -2743,11 +2743,13 @@ input#startDate2 {
     display: inline-block;
     color: #09357c;
 }
+
 .owl-carousel .owl-nav .owl-next {
     float: right;
     text-align: right;
     margin-right: 0;
 }
+
 .owl-carousel .owl-nav .owl-prev:before {
     /* fa-chevron-left */
     content: "\f053   Previous";
