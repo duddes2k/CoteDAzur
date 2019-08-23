@@ -160,7 +160,7 @@
                             <p>This superyacht is powered by twin MTU 16V 2000 M93 Diesel engines that take you cruising at 25 knots and takes you as fast as 32 knots.</p><br/>
 
                             <p>
-                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/fFeACqRemck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/agQ3_-QyU6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </p>
                         </div>
                     </div>
