@@ -11,10 +11,63 @@
 |
 */
 
+/*
+|---------------------------------------------
+| Admin Routes
+|---------------------------------------------
+*/
+
+Route::name('admin')->get('/admin', 'Admin\AdminController@index');
+
+Route::name('admin.login')->get('/admin/login', 'Auth\LoginController@showLoginForm');
+
+Route::name('admin.logout')->get('/admin/logout', 'Auth\LoginController@logout');
+
+Route::name('admin.bookings')->get('/admin/bookings', 'Admin\AdminController@index');
+
+Route::name('admin.bookings.get')->post('/admin/bookings/details', 'Admin\AdminController@details');
+
+Route::name('admin.bookings.type')->get('/admin/bookings/{type}', 'Admin\AdminController@rentals');
+
+Route::name('admin.bookings.calendar')->get('/admin/calendar', 'Admin\AdminController@calendar');
+
+
+// Front-end routes
+
 Route::get('/', function () {
-    return view('home');
+    return view('home')->with('menu','home');
 });
+
+Route::name('home')->get('/home', function () {
+    return view('home')->with('menu','home');
+});
+
+Route::name('rental.yacht')->get('/rental/yacht', function () {
+    return view('yacht')->with('menu','yacht');
+});
+
+Route::name('rental.car')->get('/rental/car', function () {
+    return view('car')->with('menu','car');
+});
+
+Route::name('rental.speedboat')->get('/rental/speedboat', function () {
+    return view('boat')->with('menu','speedboat');
+});
+
+Route::get('/aboutus', function () {
+    return view('about')->with('menu','aboutus');
+});
+
+Route::get('/thankyou', function () {
+    return view('thankyou')->with('menu','home');
+});
+
+//Auth::routes();
+
+Route::get('/reservation', 'ReservationController@index')->name('reservation');
+Route::post('/reservation/send', 'ReservationController@mailBooking')->name('reservation.sendmail');
+Route::post('/inquiry/send', 'ReservationController@mailInquiry')->name('inquiry.sendmail');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+

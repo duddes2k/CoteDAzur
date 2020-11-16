@@ -3,13 +3,29 @@
 <html class="no-js" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98173352-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-98173352-2');
+    </script>
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
+    <meta name="google-site-verification" content="cj6ccynNPOi3xD_PyBqvYBeBiURZZvEGaoUvaeG8sBs" />
+    <meta name="msvalidate.01" content="757CE4C4701DB66544085A32F844DDE3" />
 
-    <title>{{ config('app.name','Cannes Luxe Rental') }}</title>
+    @yield('meta')
+    
+    <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="{{ asset('/img/logo/cdalr.ico') }}" type="image/x-icon" />
+
+    @yield('title')
 
     <!--=== Bootstrap CSS ===-->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -31,93 +47,100 @@
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
     <!--=== Responsive CSS ===-->
     <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
+    <!--=== PickADate ===-->
+    <link href="{{ asset('/js/plugins/pickadate/themes/default.date.css') }}" rel="stylesheet">
+    <link href="{{ asset('/js/plugins/pickadate/themes/default.css') }}" rel="stylesheet">
+    <!--=== Google Fonts ===-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Tangerine" rel="stylesheet">
 
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "06130 GRASSE",
+            "addressRegion": "FR",
+            "streetAddress": "40 Chemin de la Source"
+        },
+        "image":"{{ asset('/img/logo/cdalr.ico') }}",
+        "description": "Experience a luxury yachting in the blue water of French Riviera",
+        "name": "Cote d'Azur Luxury Rentals",
+        "telephone": "8+33 6 07 51  82 83",
+        "priceRange": "$$$"
+    }
+    </script>
 </head>
 
-<body class="loader-active">
+<body>
 
     <!--== Preloader Area Start ==-->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="preloader-spinner">
             <div class="loader-content">
-                <img src="{{ asset('/img/preloader.gif') }}" alt="JSOFT">
+                <img src="{{ asset('img/logo/about-logo.png') }}" alt="JSOFT">
             </div>
         </div>
-    </div>
+    </div> -->
     <!--== Preloader Area End ==-->
 
     <!--== Header Area Start ==-->
     <header id="header-area" class="fixed-top">
-        <!--== Header Top Start ==-->
-        <div id="header-top" class="d-none d-xl-block">
-            <div class="container">
-                <div class="row">
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-left">
-                        <i class="fa fa-map-marker"></i> 802/2, Mirpur, Dhaka
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-center">
-                        <i class="fa fa-mobile"></i> +1 800 345 678
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-center">
-                        <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00
-                    </div>
-                    <!--== Single HeaderTop End ==-->
-
-                    <!--== Social Icons Start ==-->
-                    <div class="col-lg-3 text-right">
-                        <div class="header-social-icons">
-                            <a href="#"><i class="fa fa-behance"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <!--== Social Icons End ==-->
-                </div>
-            </div>
-        </div>
-        <!--== Header Top End ==-->
-
         <!--== Header Bottom Start ==-->
         <div id="header-bottom">
             <div class="container">
                 <div class="row">
                     <!--== Logo Start ==-->
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <a href="/" class="logo">
-                            <img src="{{ asset('/img/logo.png') }}" alt="JSOFT">
+                            <img src="{{ asset('/img/logo/header-logo.png') }}" alt="Cote D'Azur Luxury Rentals">
+                            <!-- <h5 class="bizname">C&#244;te d'Azur Luxury Rentals</h5> -->
                         </a>
                     </div>
                     <!--== Logo End ==-->
 
                     <!--== Main Menu Start ==-->
-                    <div class="col-lg-8 d-none d-xl-block">
-                        <nav class="mainmenu alignright">
+                    <div class="col-lg-9 d-none d-xl-block">
+                        <nav class="mainmenu alignleft mt-4">
                             <ul>
-                                <li class="active"><a href="/">Home</a></li>
-                                <li><a href="#about-area">About</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="#">Cars</a>
+                                <li class="{{ ($menu == 'home' ? 'active' : '') }}"><a href="/">Home</a></li>
+                                <li class="{{ ($menu == 'aboutus' ? 'active' : '') }}"><a href="/aboutus">About</a></li>
+                                <!-- <li class="{{ ($menu == 'yacht' ? 'active' : '') }}"><a href="#">Charter</a>
                                     <ul>
-                                        <li><a href="car-left-sidebar.html">Car Left Sidebar</a></li>
-                                        <li><a href="car-right-sidebar.html">Car Right Sidebar</a></li>
-                                        <li><a href="car-without-sidebar.html">Car Without Sidebar</a></li>
-                                        <li><a href="car-details.html">Car Details</a></li>
+                                        <li><a href="/rental/yacht">Hummingbird Superyacht</a></li>
+                                        <li><a href="/rental/speedboat">VanDutch 40 Speedboat</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li class="{{ ($menu == 'car' ? 'active' : '') }}"><a href="#">Car Rental</a>
+                                    <ul>
+                                        <li><a href="/rental/car">Rolls-Royce Phantom Drophead</a></li>
+                                    </ul>
+                                </li> -->
+
+                                <li class="{{ ($menu == 'yacht' ? 'active' : '') }}">
+                                    <a href="/rental/yacht">Hummingbird Superyacht Charter</a>
+                                </li>
+                                <li class="{{ ($menu == 'boat' ? 'active' : '') }}">
+                                    <a href="/rental/speedboat">VanDucth 40 Speedboat Charter</a>
+                                </li>
+                                <li class="{{ ($menu == 'car' ? 'active' : '') }}">
+                                    <a href="/rental/car">Rolls-Royce Phantom Drophead Rental</a>
+                                </li>
+
+                                <!-- <li class=""><a href="#">Resources</a>
+                                    <ul>
+                                        <li><a href="#">Download Flyer</a></li>
+                                        <li><a href="#">Download Brochure</a></li>
+                                    </ul>
+                                </li> -->
+                               
+                                <li><a class="sliding-link" href="#footer-area">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -128,7 +151,7 @@
         <!--== Header Bottom End ==-->
     </header>
     <!--== Header Area End ==-->
-    
+
     @yield('content')
 
     <!--== Footer Area Start ==-->
@@ -137,19 +160,39 @@
         <div class="footer-widget-area">
             <div class="container">
                 <div class="row">
+
+                    <!-- Single Footer Widget Start -->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-footer-widget-left">
+                            
+                            <div class="widget-body">
+                                <h2>Contact Us</h2>
+                                <p>We would love to hear from you!</p>
+                                
+                                <div itemscope itemtype="http://schema.org/Person">
+                                    <ul class="get-touch">
+                                        <li><i class="fa fa-user"></i> <span itemprop="name">Jean Paul Reinaud</span><br><small style="margin-left:20px" itemprop="JobTitle">General Manager</small></li>
+                                        <li><i class="fa fa-mobile"></i> <span itemprop="telephone">Local: 06 07 51  82 83</span></li>
+                                        <li><i class="fa fa-mobile"></i> <span itemprop="telephone">International: +33 6 07 51  82 83</span></li>
+                                        <li><i class="fa fa-mobile"></i> WhatsApp: +63 917 522 9797</li>
+                                        <li><i class="fa fa-envelope"></i> <span itemprop="email">aernout@pldtdsl.net</span></li>
+                                        <li><i class="fa fa-envelope"></i> <span itemprop="email">jean-paul.reinaud@wanadoo.fr</span></li>
+                                        <li><i class="fa fa-globe"></i> <span itemprop="url">https://www.cotedazurluxuryrentals.com</span></li>
+                                    </ul><br/>
+                                    <a href="https://www.google.com.bd/maps/place/Cannes,+France/@43.5370022,6.97468,13z/data=!3m1!4b1!4m5!3m4!1s0x12ce8180530cffff:0x40819a5fd979e20!8m2!3d43.552847!4d7.017369?hl=en" class="btn btn-warning" target="_blank">Show Location</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget End -->
+
                     <!-- Single Footer Widget Start -->
                     <div class="col-lg-4 col-md-6">
                         <div class="single-footer-widget">
-                            <h2>About Us</h2>
                             <div class="widget-body">
-                                <img src="{{ asset('/img/logo.png') }}" alt="JSOFT">
-                                <p>Lorem ipsum dolored is a sit ameted consectetur adipisicing elit. Nobis magni assumenda distinctio debitis, eum fuga fugiat error reiciendis.</p>
-
-                                <div class="newsletter-area">
-                                    <form action="index.html">
-                                        <input type="email" placeholder="Subscribe Our Newsletter">
-                                        <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>
-                                    </form>
+                                <div itemscope itemtype="http://schema.org/LocalBusiness">
+                                    <img itemprop="logo" id="footer-logo" src="{{ asset('/img/logo/footer-logo.png') }}" alt="cote d'azur luxury rentals">
+                                    <p><h1><span itemprop="name">Côte d’Azur Luxury Rentals</span></h1> <span itemprop="description">gives you the most luxurious charter experience. Sail and explore the clear blue waters of the French Riviera and nearby places. Cruise around the city and marvel at the breathtaking Côte d’Azur coastline. Get sun-kissed and feel the breeze aboard a super-fast speedboat.</span></p>
                                 </div>
 
                             </div>
@@ -158,58 +201,56 @@
                     <!-- Single Footer Widget End -->
 
                     <!-- Single Footer Widget Start -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-footer-widget">
-                            <h2>Recent Posts</h2>
+                    <div class="col-lg-4">
+                        <div class="single-footer-widget-right">
+                            
                             <div class="widget-body">
-                                <ul class="recent-post">
-                                    <li>
-                                        <a href="#">
-                                           Hello Bangladesh! 
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                          Lorem ipsum dolor sit amet
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           Hello Bangladesh! 
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            consectetur adipisicing elit?
-                                           <i class="fa fa-long-arrow-right"></i>
-                                       </a>
-                                    </li>
-                                </ul>
+                                <h2>Send us your inquiries</h2>
+                                <form id="inquiry-form" action="{{ route('inquiry.sendmail') }}" method="POST">
+                                    @csrf
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            @if ($errors->any())
+                                            <div class="form-group">
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        @foreach ($errors->all() as $error)
+                                                            <li>{{ $error }}</li>
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            @endif
+                                            <div class="form-group">
+                                                <input id="fullname" name="fullname" class="form-control" type="text" placeholder="Full Name" value="{{ old('fullname') }}">
+                                            </div>
+                                        
+                                            <div class="form-group">
+                                                <input id="emailadd" name="emailadd" class="form-control" type="email" placeholder="Email Address" value="{{ old('emailadd') }}">
+                                            </div>
+                                        
+                                            <div class="form-group">
+                                                <textarea id="message" class="form-control" name="message" cols="40" placeholder="Message">{{ old('message') }}</textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <script src='https://www.google.com/recaptcha/api.js'></script>
+                                                <div class="g-recaptcha" 
+                                                        data-sitekey="6Lcfqp4UAAAAAGsLpVxyp6FUnj2pEH4v2aNEgBXl">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <button id="submit-inquiry" class="btn btn-warning btn-block input-submit">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
+
                         </div>
                     </div>
                     <!-- Single Footer Widget End -->
 
-                    <!-- Single Footer Widget Start -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-footer-widget">
-                            <h2>get touch</h2>
-                            <div class="widget-body">
-                                <p>Lorem ipsum doloer sited amet, consectetur adipisicing elit. nibh auguea, scelerisque sed</p>
-
-                                <ul class="get-touch">
-                                    <li><i class="fa fa-map-marker"></i> 800/8, Kazipara, Dhaka</li>
-                                    <li><i class="fa fa-mobile"></i> +880 01 86 25 72 43</li>
-                                    <li><i class="fa fa-envelope"></i> kazukamdu83@gmail.com</li>
-                                </ul>
-                                <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Show Location</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Footer Widget End -->
+                    
                 </div>
             </div>
         </div>
@@ -221,8 +262,17 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-</p>
+                            <a href="#">Cookies Policy</a> | 
+                            <a href="#">Privay Policy</a> |
+                            <a href="#">Terms and Condition</a>
+                        </p>
+                        <p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+                        </p>
+                        <p>
+                        <script type="text/javascript" src="//counter.websiteout.net/js/22/6/33/1"></script>
+                        
+                        </p>
                     </div>
                 </div>
             </div>
@@ -233,7 +283,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!--== Scroll Top Area Start ==-->
     <div class="scroll-top">
-        <img src="{{ asset('/img/scroll-top.png') }}" alt="JSOFT">
+        <img src="https://img.icons8.com/metro/50/000000/circled-up-2.png" alt="JSOFT">
     </div>
     <!--== Scroll Top Area End ==-->
 
@@ -264,10 +314,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="{{ asset('/js/plugins/magnific-popup.min.js') }}"></script>
     <!--=== Slicknav Min Js ===-->
     <script src="{{ asset('/js/plugins/slicknav.min.js') }}"></script>
+    <!--=== PickADate ===-->
+    <script src="{{ asset('/js/plugins/pickadate/picker.js') }}"></script>
+    <script src="{{ asset('/js/plugins/pickadate/picker.date.js') }}"></script>
+    <script src="{{ asset('/js/plugins/pickadate/legacy.js') }}"></script>
 
     <!--=== Mian Js ===-->
     <script src="{{ asset('/js/main.js') }}"></script>
 
+    <!--=== Custom JS ===-->
+    
+    
 </body>
 
 </html>

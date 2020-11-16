@@ -15,8 +15,8 @@
 }
 
 .vegas-overlay {
-    opacity: 0.75;
-    background-color: #000;
+    opacity: 0.1;
+    background-color: #fff;
 }
 
 .vegas-timer {
